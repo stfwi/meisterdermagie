@@ -1,0 +1,16 @@
+archive
+*.tmp
+~*
+._*
+.~*
+_*
+.archive
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+.vscode
+.project
