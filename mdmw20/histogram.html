@@ -1,0 +1,235 @@
+<!--
+ | @file histogram.html
+ | @author Stefan Wilhelm (cerbero s@atwillys.de)
+ | @license CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+-->
+<!doctype html><html moznomarginboxes mozdisallowselectionprint><head>
+  <title>MdM - Histogram-Tool</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="res/mdm-icon.png">
+  <link rel="stylesheet" type="text/css" href="res/libs.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-size: 11pt;
+      font-family: "book antiqua";
+    }
+    h2 {
+      font-size: 13pt;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    code {
+      display: inline-block;
+      font-family: monospace;
+      font-weight: bold;
+      background-color: #eee;
+      border: solid 1px #eee;
+      border-radius: 1px;
+      padding: 0 1px 0 1px;
+    }
+    #frame {
+      font-size: 11pt;
+      position:relative;
+      margin: 20px;
+      padding: 10px;
+      border:solid 1px gray;
+      border-radius:5px;
+      width: 1024px;
+      text-align: left;
+    }
+    #help-section {
+      display: none;
+    }
+    #live-histogram-config {
+      position: relative;
+      width: 100%;
+    }
+    #inputs {
+      position: relative;
+      line-height: 20pt;
+      width: 100%;
+      text-align: left;
+      font-size: 10pt;
+    }
+    #error {
+      position: relative;
+      display: block;
+      margin: 10px 0 10px 20px;
+      color: #991111;
+    }
+    #inputs label {
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      margin-left: 20px;
+    }
+    #inputs input[type=text] {
+      width: 640px;
+      height: 20px;
+      border: none;
+      border-bottom: solid 1px gray;
+      margin-bottom: 3px;
+      vertical-align: middle;
+      padding: 2px;
+      font-family: monospace;
+      font-size: 10pt;
+    }
+    #inputs input[type=checkbox] {
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+    #inputs input#live-histogram-threshold, #inputs input#live-histogram-deviation {
+      width: 20pt;
+    }
+    #live-histogram-graph {
+      margin-top: 20px;
+      position: relative;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+    #live-histogram {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      margin: 0;
+    }
+    #live-histogram-graph #tracklabel {
+      background-color: rgba(180, 180, 180, 0.2);
+      text-align: center;
+      font-weight: bold;
+      border-radius: 2px;
+    }
+  </style>
+  <script type="text/javascript" src="js/libs.js"></script>
+  <script type="text/javascript" src="js/mdm.base.js"></script>
+  <script type="text/javascript" src="js/mdm.development.js"></script>
+  <script type="text/javascript" src="js/mdm.lang.de.js"></script>
+  <script type="text/javascript" src="js/histogram.js"></script>
+</head><body>
+  <div id="frame">
+    <h2>Dice Expression Histogram</h2>
+    <div id="live-histogram-config">
+      <div id="inputs">
+        <label for="live-histogram-diceexpr">Term</label>
+        <input type="text" id="live-histogram-diceexpr" value="4w6" title="'w20', '4w6+2', '(w20+KR)>=18', '3#(w6>4)', '1d20+(GW|KR|GS)=>20'"/><br/>
+        <label for="live-histogram-substitutions">Data:</label>
+        <input type="text" id="live-histogram-substitutions" value="" /><br/>
+        <label for="live-histogram-accumulated">Accumulate:</label>
+        <input type="checkbox" id="live-histogram-accumulated" checked="checked" /> (Probability for "values up to N")<br/>
+        <label for="live-histogram-threshold">Threshold:</label>
+        <input type="text" id="live-histogram-threshold" value="" />% (Y probability range below is marked red)<br/>
+        <label for="live-histogram-deviation">Deviation:</label>
+        <input type="text" id="live-histogram-deviation" value="" />% (of X value range of highest frequencies is marked green)<br/>
+      </div>
+      <div id="error"></div>
+    </div>
+    <div id="live-histogram-graph">
+      <div id="live-histogram"></div>
+      (Rolled <span id="count"></span> times)
+    </div>
+    <a id="help-link" href="#help">help</a>
+    <div id="help-section">
+      <p><strong><em>Fields</em></strong>:</p>
+      <ul>
+        <li>
+          <p><strong>Term</strong> terms are math expressions with some special format/operation tags.</p>
+        </li>
+        <li>
+          <p><strong>Data</strong> is a list of key-value pairs, where the keys are used as constants in during the calculations. The format is JSON-like, but the quotes fir the keys are not needed. Normally the character attributes and skills are placed here. Example: <code>K:5, KR:5, GW:9, WI:4, sneak:1, naturemagic:3</code>. The keys are always interpreted as lowercase (case insensitive), and only letters are allowed. Values are always numbers. During calculation, missing keys are assumed <code>0</code>.</p>
+        </li>
+        <li>
+          <p><strong>Accumulate</strong> integrates the calculated relative frequency histogram, so that the rolled values (x-axis) are interpreted as &quot;to roll N or less&quot;. Useful for Dungeon Masters and Devs to estimate/grasp where the limitations for checks are roughly located.</p>
+        </li>
+        <li>
+          <p><strong>Threshold</strong>: Shows a threshold line at the y-axis for better visual inspection.</p>
+        </li>
+        <li>
+          <p><strong>Deviation</strong>: Shows green areas of relative frequencies that are within the <code>deviation</code>% highest results. For simple dice rolls with a lot of dice (say <code>30w6</code>), it is roughly comparable with the standard deviation of a normal distribution, so 68% is about 1 sigma.</p>
+        </li>
+      </ul>
+      <p><strong><em>Expressions and functionality:</em></strong></p>
+      <ul>
+        <li>
+          <p>The engine repeatedly calculates the given expression and records the absolute frequencies of the results by filling a histogram. After several iterations it calculates the relative frequencies and updates the histogram graph. It stops computing when the relative frequencies have tuned in (i.e. practically do not change anymore).</p>
+        </li>
+        <li>
+          <p><code>d</code> or <code>w</code> represents a dice roll (Laplace distributed). <code>d20</code>: Rolls one D20, <code>5w6</code> rolls five D6 and sums up values of all faces. Generalized: <code>dF</code> or <code>wF</code> is interpreted as a dice with <code>F</code> faces, and the with the preceding number, <code>NdF</code> or <code>NwF</code> rolls <code>N</code> such dice and sums up the value of all faces.</p>
+        </li>
+        <li>
+          <p>The keys in the <code>data</code> field are constants.</p>
+        </li>
+        <li>
+          <p>Use paranthesis to group terms as in math, also definitely for expressions like <code>(4+5)d6</code>, <code>(K+G)d6</code>, tenery (see below), or max-constant-selection <code>(K|G|I)</code>.</p>
+        </li>
+        <li>
+          <p>Use comparison operators to formualte checks:</p>
+          <ul>
+            <li>
+              <p><code>(w20 + MN + trading) &gt;= 18</code>: Trading/haggling check. The boolean results is interpreted numerically. Means the histogram will show two bars (<code>0=x, 1=100%-x</code>).</p>
+            </li>
+            <li>
+              <p>Also accepted: <code>&lt;=</code>, <code>&lt;</code>, <code>&gt;</code>.</p>
+            </li>
+            <li>
+              <p>Implicitly replaced: <code>=&gt;</code> is the same as <code>&gt;=</code>, and <code>=&lt;</code> the same as <code>&lt;=</code>.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Logical operators <code>AND</code> (<code>&amp;</code>) and <code>OR</code> (<code>|</code>) can be used:</p>
+          <ul>
+            <li>
+              <p><code>((w20+kr)&gt;20) | ((w20+gw)&gt;20)</code> means that either the first or the second check (or both) must succeed. If so, the value <code>1</code> is counted in the histogram, a <code>0</code> if both fail.</p>
+            </li>
+            <li>
+              <p><code>((w20+kr)&gt;20) &amp; ((w20+gw)&gt;20)</code> means that both checks must succeed to count a <code>1</code> in the histogram, otherwise a <code>0</code> is counted.</p>
+            </li>
+            <li>
+              <p>Special use (feature) of <code>|</code>: If multiple constants are surrounded with parenthesis and separated with <code>|</code>, the greatest value in the list is selected. E.g. a check where the player can choose <code>(w20 + (GW|KR|GS)) &gt;= 20</code>.</p>
+            </li>
+            <li>
+              <p>For programmers: <code>&amp;</code> is the same as <code>&amp;&amp;</code>, <code>|</code> is <code>||</code>.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Tenery operator <code>(condition) ? (yes-value) : (no-value)</code>:</p>
+          <ul>
+            <li>Damage when succeeded, no damage otherwise: <code>(d20+KR&gt;18) ? 4w6 : 0</code>.</li>
+            <li>The <code>: (no-value)</code> can be omitted. Equivalent to the above: <code>(d20+KR&gt;18) ? 4w6</code>.</li>
+          </ul>
+        </li>
+        <li>
+          <p>Success count operator/tag <code>#</code>:</p>
+          <ul>
+            <li>
+              <p>Success counting is to roll a &quot;condition&quot; (term with comparison operators) multiple times during one calculation and count the number of resulting <code>1</code> (<code>true</code>) values; e.g. to count the number of rolled dices that show a 5 or 6. To formulate this, place parenthesis around the condition term and prefix the number of rolls followed by a hash: <code>S#(condition)</code>.</p>
+            </li>
+            <li>
+              <p>E.g. <code>5#(w6&gt;4)</code> rolls 5 dice per calculation and adds <code>1</code> to the result for each dice showing a 5 or 6. <code>(GW)#(d6&gt;=5)</code> rolls <code>GW</code> dice, condition as before.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong><em>URL arguments:</em></strong></p>
+      <p>During page initialization, URL parameters can be used to start the histogram calculation directly with given arguments. These simply are URL encoded, e.g.</p>
+      <ul>
+        <li><code>histogram.html?debug=0&amp;expression=3w6&amp;accumulate=1&amp;threshold=50</code></li>
+      </ul>
+      <p>Keys are named after the visible fields. If a key is not given, the fiels is unchanged, that means initially the default value, or the last used value loaded from the browser local storage.</p>
+      <ul>
+        <li><code>expression</code> (<code>string</code>): Text placed in the expression field.</li>
+        <li><code>data</code> (<code>string</code>): Text placed in the data field.</li>
+        <li><code>accumulate</code> (<code>int</code>): Accumulate field, <code>0</code> or <code>1</code>.</li>
+        <li><code>threshold</code> (<code>int</code>): Threshold field, <code>0</code> to <code>100</code>.</li>
+        <li><code>debug</code> (<code>int</code>): Enable console log debug, values <code>0</code> (default) or <code>1</code>.</li>
+      </ul>
+      <p><code>---</code></p>
+      <em>Trace level: <input type="number" min="0" max="5" maxlength="1" id="tracelevel" value="0"/> Calculation details: <input id="tracecalc" type="checkbox"></em>
+    </div>
+  </div>
+</body></html>

@@ -1,0 +1,172 @@
+@import url("common.css");
+
+* {
+  font-size: 12pt;
+  line-height: 16pt;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 5pt;
+}
+h1 {
+  font-size: 24pt;
+  line-height: 26pt;
+  text-align: center;
+  width: 100%;
+  border-bottom: double 2px #333;
+  margin-bottom: 10pt;
+  margin-top: 0pt;
+}
+h1 * {
+  font-size: 24pt;
+  line-height: 26pt;
+}
+h2 {
+  text-align: center;
+  font-size: 18pt;
+  line-height: 20pt;
+  border-bottom: groove 1px #333;
+  margin-bottom: 30pt;
+  margin-right: 5mm;
+  margin-left: 5mm;
+}
+h2 * {
+  font-size: 18pt;
+  line-height: 20pt;
+}
+h3 {
+  font-size: 15pt;
+  line-height: 17pt;
+  width: 100%;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+h3 * {
+  font-size: 15pt;
+  line-height: 17pt;
+}
+
+h4 {
+  font-size: 14pt;
+  width: 100%;
+  margin-top: 5pt;
+  font-style: italic;
+}
+h5 {
+  font-size: 12pt;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: justify;
+}
+p+p {
+  text-indent: 12pt;
+}
+li > p {
+  text-indent: 0pt;
+}
+
+ul {
+  padding-left: 18pt;
+}
+ul > li {
+  list-style-image: url("li.png");
+}
+
+table {
+  margin-left: 20pt;
+}
+th {
+  text-align: left;
+  padding-left: 3pt;
+  padding-right: 3pt;
+  border-bottom: solid 1px #666;
+}
+td {
+  text-align: left;
+  padding-left: 3pt;
+  padding-right: 3pt;
+}
+
+
+code {
+  display: inline-block;
+  text-align: center;
+  text-indent: 0;
+  padding: 0 2pt 0 2pt;
+  background-color: #ddd;
+  border-radius: 3pt;
+}
+
+h1+p,h2+p,h3+p,h4+p,h5+p,h6+p {
+  margin-top: 2pt;
+}
+
+pre {
+  font-family: monospace;
+}
+
+input[type=text], select {
+  background: transparent;
+}
+
+.noselect {
+  user-select: none; -khtml-user-select: none; -o-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none;
+}
+
+/* ***************************************************** */
+
+@page {
+  size: A4 !important;
+  margin: 10mm 0mm 10mm 0mm !important;
+  background: transparent;
+}
+@media print {
+  body, html {
+    padding-top: 0mm !important;
+    padding-bottom: 0mm !important;
+    margin-top: 0mm !important;
+    margin-bottom: 0mm !important;
+  }
+  .entry {
+    page-break-inside: avoid;
+  }
+}
+div.page {
+  padding-left: 25mm !important;
+  padding-right: 15mm !important;
+}
+
+
+@media screen and (max-width: 1023px) {
+  div.page > div.page-frame {
+    border: none !important;
+    padding: 20pt 20pt 20pt 20pt !important;
+    margin: 0 0 0 0 !important;
+  }
+  div.page {
+    box-shadow: none !important;
+    width: 99% !important;
+    margin: 0 0 0 0.5% !important;
+    padding: 0 0 0 0 !important;
+  }
+  body {
+    width: 100% !important;
+    padding: 10mm 0 0 0 !important;
+  }
+  div#head-controls {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 2pt;
+    padding-right: 2pt;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+  }
+}

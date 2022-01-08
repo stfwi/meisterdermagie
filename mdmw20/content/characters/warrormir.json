@@ -1,0 +1,1874 @@
+{
+  "name": "Warrormir",
+  "race": "human-midland",
+  "values": {
+    "xp": 20,
+    "k": 13,
+    "m": 9,
+    "b": 7,
+    "g": 4,
+    "i": 4,
+    "c": 6,
+    "kr": 15,
+    "gw": 13,
+    "gs": 7,
+    "re": 9,
+    "wa": 7,
+    "in": 6,
+    "ma": 3,
+    "ke": 4,
+    "wi": 6,
+    "mn": 3,
+    "wk": 6,
+    "au": 6,
+    "lp": 89,
+    "rlp": 30,
+    "mp": 68,
+    "rmp": 26,
+    "ap": 12,
+    "rf": 5,
+    "mr": 6,
+    "mu": 11,
+    "ns": 19,
+    "ff": 6,
+    "nm": 11,
+    "nl": 10,
+    "nw": 11,
+    "pa": 11,
+    "melee-heavy": 5,
+    "shields": 5,
+    "athletics": 4,
+    "gambling": 2,
+    "wildlife": 3,
+    "forging": 3,
+    "self-control": 3,
+    "sneak": 2,
+    "orientation": 2,
+    "instinct": 2,
+    "acrobatics": 2,
+    "traps": 1
+  },
+  "progression": [
+    {
+      "values": {
+        "xp": 0,
+        "k": 4,
+        "m": 3,
+        "b": 1,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 5,
+        "gw": 3,
+        "gs": 1,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 1,
+        "athletics": 2,
+        "gambling": 1,
+        "wildlife": 1,
+        "forging": 1,
+        "self-control": 1,
+        "sneak": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 1,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 2,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 1,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 1,
+        "k": 4,
+        "m": 3,
+        "b": 1,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 5,
+        "gw": 3,
+        "gs": 1,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 1,
+        "athletics": 2,
+        "gambling": 1,
+        "wildlife": 1,
+        "forging": 1,
+        "self-control": 1,
+        "sneak": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 1,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 2,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 1,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 2,
+        "k": 5,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 6,
+        "gw": 4,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 1,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 2,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 2,
+        "sneak": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 2,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 3,
+        "k": 5,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 6,
+        "gw": 4,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 1,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 2,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 2,
+        "sneak": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 2,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 4,
+        "k": 6,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 7,
+        "gw": 5,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 2,
+        "sneak": 2,
+        "orientation": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 5,
+        "k": 6,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 7,
+        "gw": 5,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 0,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 2,
+        "sneak": 2,
+        "orientation": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 6,
+        "k": 7,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 8,
+        "gw": 6,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 1,
+        "instinct": 1,
+        "acrobatics": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 7,
+        "k": 7,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 8,
+        "gw": 6,
+        "gs": 2,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 2,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 1,
+        "instinct": 1,
+        "acrobatics": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 8,
+        "k": 8,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 9,
+        "gw": 6,
+        "gs": 2,
+        "re": 4,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 3,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 1,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 9,
+        "k": 8,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 9,
+        "gw": 6,
+        "gs": 2,
+        "re": 4,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 3,
+        "shields": 3,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 1,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 1,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 10,
+        "k": 8,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 6,
+        "gs": 2,
+        "re": 5,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 4,
+        "shields": 3,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 11,
+        "k": 8,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 6,
+        "gs": 2,
+        "re": 5,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 1,
+        "melee-heavy": 4,
+        "shields": 3,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 12,
+        "k": 8,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 7,
+        "gs": 2,
+        "re": 5,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 4,
+        "shields": 4,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 13,
+        "k": 8,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 7,
+        "gs": 2,
+        "re": 5,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 4,
+        "shields": 4,
+        "athletics": 3,
+        "gambling": 1,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 3,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 14,
+        "k": 9,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 8,
+        "gs": 2,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 4,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 15,
+        "k": 9,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 8,
+        "gs": 2,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 4,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 16,
+        "k": 9,
+        "m": 6,
+        "b": 3,
+        "g": 1,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 9,
+        "gs": 3,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 5,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 17,
+        "k": 9,
+        "m": 6,
+        "b": 3,
+        "g": 1,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 9,
+        "gs": 3,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 1,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 5,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 2,
+        "forging": 2,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 18,
+        "k": 9,
+        "m": 6,
+        "b": 3,
+        "g": 1,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 10,
+        "gs": 4,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 2,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 5,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 3,
+        "forging": 3,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 19,
+        "k": 9,
+        "m": 6,
+        "b": 3,
+        "g": 1,
+        "i": 0,
+        "c": 2,
+        "kr": 10,
+        "gw": 10,
+        "gs": 4,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 2,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 5,
+        "shields": 4,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 3,
+        "forging": 3,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 4,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 20,
+        "k": 10,
+        "m": 6,
+        "b": 4,
+        "g": 1,
+        "i": 0,
+        "c": 2,
+        "kr": 11,
+        "gw": 10,
+        "gs": 4,
+        "re": 6,
+        "wa": 4,
+        "in": 3,
+        "ma": 0,
+        "ke": 0,
+        "wi": 2,
+        "mn": 0,
+        "wk": 2,
+        "au": 2,
+        "melee-heavy": 5,
+        "shields": 5,
+        "athletics": 4,
+        "gambling": 2,
+        "wildlife": 3,
+        "forging": 3,
+        "self-control": 3,
+        "sneak": 2,
+        "orientation": 2,
+        "instinct": 2,
+        "acrobatics": 2,
+        "traps": 1
+      },
+      "skills": {
+        "melee-heavy": {
+          "name": "Schwere Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 5,
+          "slot": 1
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 4,
+          "slot": 3
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 7
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 3,
+          "slot": 4
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 2,
+          "slot": 8
+        },
+        "orientation": {
+          "name": "Orientierung",
+          "value": 2,
+          "slot": 9
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 10
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 11
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 1,
+          "slot": 12
+        }
+      }
+    }
+  ]
+}

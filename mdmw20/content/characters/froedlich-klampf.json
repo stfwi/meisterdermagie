@@ -1,0 +1,2137 @@
+{
+  "name": "Frödlich Klampf",
+  "race": "human-midland",
+  "values": {
+    "xp": 20,
+    "k": 8,
+    "m": 9,
+    "b": 7,
+    "g": 3,
+    "i": 9,
+    "c": 11,
+    "kr": 8,
+    "gw": 7,
+    "gs": 9,
+    "re": 7,
+    "wa": 6,
+    "in": 7,
+    "ma": 3,
+    "ke": 9,
+    "wi": 9,
+    "mn": 8,
+    "wk": 8,
+    "au": 14,
+    "lp": 69,
+    "rlp": 16,
+    "mp": 73,
+    "rmp": 26,
+    "ap": 19,
+    "rf": 4,
+    "mr": 8,
+    "mu": 11,
+    "ns": 7,
+    "ff": 6,
+    "nm": 8,
+    "nl": 12,
+    "nw": 7,
+    "pa": 7,
+    "melee-light": 4,
+    "shields": 3,
+    "acrobatics": 3,
+    "gambling": 2,
+    "culture": 2,
+    "rites": 2,
+    "languages": 2,
+    "entertainment": 5,
+    "humanities": 2,
+    "cooking": 2,
+    "instinct": 2,
+    "self-control": 2,
+    "locks": 2,
+    "crafting": 2,
+    "trading": 2,
+    "athletics": 2,
+    "traps": 2
+  },
+  "progression": [
+    {
+      "values": {
+        "xp": 0,
+        "k": 2,
+        "m": 1,
+        "b": 1,
+        "g": 0,
+        "i": 2,
+        "c": 4,
+        "kr": 2,
+        "gw": 2,
+        "gs": 1,
+        "re": 1,
+        "wa": 1,
+        "in": 2,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 3,
+        "wk": 1,
+        "au": 4,
+        "melee-light": 2,
+        "shields": 2,
+        "acrobatics": 1,
+        "gambling": 1,
+        "culture": 1,
+        "rites": 1,
+        "languages": 1,
+        "entertainment": 2,
+        "humanities": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 2,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 1,
+        "k": 2,
+        "m": 1,
+        "b": 1,
+        "g": 0,
+        "i": 2,
+        "c": 4,
+        "kr": 2,
+        "gw": 2,
+        "gs": 1,
+        "re": 1,
+        "wa": 1,
+        "in": 2,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 3,
+        "wk": 1,
+        "au": 4,
+        "melee-light": 2,
+        "shields": 2,
+        "acrobatics": 1,
+        "gambling": 1,
+        "culture": 1,
+        "rites": 1,
+        "languages": 1,
+        "entertainment": 2,
+        "humanities": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 2,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 2,
+        "k": 2,
+        "m": 2,
+        "b": 1,
+        "g": 0,
+        "i": 2,
+        "c": 5,
+        "kr": 2,
+        "gw": 3,
+        "gs": 2,
+        "re": 1,
+        "wa": 1,
+        "in": 2,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 4,
+        "wk": 1,
+        "au": 4,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 1,
+        "gambling": 1,
+        "culture": 1,
+        "rites": 1,
+        "languages": 1,
+        "entertainment": 3,
+        "humanities": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 3,
+        "k": 2,
+        "m": 2,
+        "b": 1,
+        "g": 0,
+        "i": 2,
+        "c": 5,
+        "kr": 2,
+        "gw": 3,
+        "gs": 2,
+        "re": 1,
+        "wa": 1,
+        "in": 2,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 4,
+        "wk": 1,
+        "au": 4,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 1,
+        "gambling": 1,
+        "culture": 1,
+        "rites": 1,
+        "languages": 1,
+        "entertainment": 3,
+        "humanities": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 4,
+        "k": 2,
+        "m": 2,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 2,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 4,
+        "wk": 2,
+        "au": 5,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 2,
+        "gambling": 1,
+        "culture": 2,
+        "rites": 1,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 5,
+        "k": 2,
+        "m": 2,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 2,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 4,
+        "wk": 2,
+        "au": 5,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 2,
+        "gambling": 1,
+        "culture": 2,
+        "rites": 1,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 6,
+        "k": 2,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 3,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 3,
+        "mn": 4,
+        "wk": 2,
+        "au": 6,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 2,
+        "gambling": 1,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 1,
+        "self-control": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 7,
+        "k": 2,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 3,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 3,
+        "mn": 4,
+        "wk": 2,
+        "au": 6,
+        "melee-light": 3,
+        "shields": 2,
+        "acrobatics": 2,
+        "gambling": 1,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 1,
+        "self-control": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 8,
+        "k": 3,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 4,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 6,
+        "melee-light": 3,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 2,
+        "self-control": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 9,
+        "k": 3,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 2,
+        "gw": 4,
+        "gs": 4,
+        "re": 3,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 6,
+        "melee-light": 3,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 2,
+        "self-control": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 1,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 10,
+        "k": 4,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 3,
+        "gw": 4,
+        "gs": 4,
+        "re": 4,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 7,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 2,
+        "self-control": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 11,
+        "k": 4,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 3,
+        "gw": 4,
+        "gs": 4,
+        "re": 4,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 7,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 1,
+        "instinct": 2,
+        "self-control": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 12,
+        "k": 4,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 4,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 8,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 13,
+        "k": 4,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 4,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 4,
+        "wk": 2,
+        "au": 8,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 2,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 3,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 3,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 14,
+        "k": 5,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 4,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 5,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 8,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 4,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 4,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 15,
+        "k": 5,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 4,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 5,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 8,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 4,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 4,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 16,
+        "k": 5,
+        "m": 5,
+        "b": 4,
+        "g": 0,
+        "i": 4,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 9,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 5,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 5,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 17,
+        "k": 5,
+        "m": 5,
+        "b": 4,
+        "g": 0,
+        "i": 4,
+        "c": 6,
+        "kr": 4,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 9,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 5,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 1,
+        "crafting": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 5,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 1,
+          "slot": 14
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 18,
+        "k": 5,
+        "m": 5,
+        "b": 4,
+        "g": 0,
+        "i": 4,
+        "c": 7,
+        "kr": 4,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 3,
+        "in": 4,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 10,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 5,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 2,
+        "crafting": 2,
+        "trading": 1,
+        "athletics": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 5,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 2,
+          "slot": 14
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 15
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 1,
+          "slot": 3
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 19,
+        "k": 5,
+        "m": 5,
+        "b": 4,
+        "g": 0,
+        "i": 4,
+        "c": 7,
+        "kr": 4,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 3,
+        "in": 4,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 4,
+        "wk": 3,
+        "au": 10,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 5,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 2,
+        "crafting": 2,
+        "trading": 1,
+        "athletics": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 5,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 2,
+          "slot": 14
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 15
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 1,
+          "slot": 3
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 20,
+        "k": 5,
+        "m": 6,
+        "b": 4,
+        "g": 0,
+        "i": 5,
+        "c": 7,
+        "kr": 4,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 3,
+        "in": 4,
+        "ma": 0,
+        "ke": 5,
+        "wi": 5,
+        "mn": 5,
+        "wk": 4,
+        "au": 10,
+        "melee-light": 4,
+        "shields": 3,
+        "acrobatics": 3,
+        "gambling": 2,
+        "culture": 2,
+        "rites": 2,
+        "languages": 2,
+        "entertainment": 5,
+        "humanities": 2,
+        "cooking": 2,
+        "instinct": 2,
+        "self-control": 2,
+        "locks": 2,
+        "crafting": 2,
+        "trading": 2,
+        "athletics": 2,
+        "traps": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "shields": {
+          "name": "Schilde",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 8
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 5
+        },
+        "entertainment": {
+          "name": "Unterhaltung",
+          "value": 5,
+          "slot": 4
+        },
+        "humanities": {
+          "name": "Menschenkenntnis",
+          "value": 2,
+          "slot": 9
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 2,
+          "slot": 10
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 11
+        },
+        "self-control": {
+          "name": "Selbstbeherrschung",
+          "value": 2,
+          "slot": 12
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 13
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 2,
+          "slot": 14
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 15
+        },
+        "athletics": {
+          "name": "Athletik",
+          "value": 2,
+          "slot": 3
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 16
+        }
+      }
+    }
+  ]
+}

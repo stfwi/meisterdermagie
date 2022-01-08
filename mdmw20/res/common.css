@@ -1,0 +1,191 @@
+@import url("libs.css");
+
+* {
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  font-family: "book antiqua";
+  cursor: default;
+  font-size: 12pt;
+}
+
+h2 {
+  font-size: 13pt;
+  font-weight: bold;
+  margin: 0 0 10pt 0;
+  padding: 0 0 0 0;
+}
+
+img { position: relative; max-width: 100%; max-height: 287mm; }
+img[src*="#right-half"] { margin: 10pt 0 10pt 10pt; float: right; width: 50%; }
+img[src*="#right-3rd"]  { margin: 10pt 0 10pt 10pt; float: right; width: 33%; }
+img[src*="#left-half"]  { margin: 10pt 10pt 10pt 0; float: left;  width: 50%; }
+img[src*="#left-3rd"]   { margin: 10pt 10pt 10pt 0; float: left;  width: 33%; }
+img[src*="#left-4th"]   { margin: 10pt 10pt 10pt 0; float: left;  width: 25%; }
+
+pre {
+  font-family: monospace;
+}
+
+a:link, a:visited, a:link:hover {
+  color: #118;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-bottom: solid 1px #999;
+  margin-left: 1mm;
+  margin-right: 1mm;
+}
+
+input, select {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #999;
+  cursor: auto;
+}
+textarea {
+  background: transparent;
+  outline: none;
+  cursor: auto;
+}
+datalist, samp, .inline-data-source {
+  display: none !important;
+}
+
+.noselect, img {
+  user-select: none !important; -khtml-user-select: none !important; -o-user-select: none !important; -moz-user-select: -moz-none !important; -webkit-user-select: none !important;
+  cursor: default;
+}
+
+abbr {
+  text-decoration: unset;
+}
+
+.highlight {
+  background-color: #FFFF88;
+}
+
+/* ***************************************************** */
+
+@page {
+  size: A4 !important;
+  margin: 0mm 0mm 0mm 0mm !important;
+  background: transparent;
+}
+
+html, body {
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  background: transparent;
+  min-height: 297mm !important;
+}
+div.page {
+  display: block;
+  position: relative;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: transparent;
+  height: 297mm;
+  width: 210mm !important;
+  padding: 10mm !important;
+}
+div.infinite-page {
+  height: auto !important;
+  overflow-y: visible !important;
+}
+div.unframed-page {
+  height: auto !important;
+  overflow-y: visible !important;
+  padding-top: 0mm !important;
+  padding-bottom: 0mm !important;
+}
+div.page > div.page-frame {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media print {
+  .noprint, .noprint * { visibility: hidden !important; display: none !important; }
+  ::-webkit-input-placeholder { color: transparent; }
+  :-moz-placeholder { color: transparent; }
+  ::-moz-placeholder { color: transparent; }
+  :-ms-input-placeholder { color: transparent; }
+  div.page {
+    margin: 0 0 0 0 !important;
+  }
+  div.page-frame {
+    height:auto !important;
+  }
+  div.single-page {
+    min-height: 295mm !important;
+    height: 295mm !important;
+  }
+  html, body {
+    height:auto !important;
+    min-height:auto !important;
+  }
+  .ui-helper-hidden-accessible {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+@media screen {
+  body {
+    padding: 10mm 0mm 1mm 5mm !important;
+  }
+  div.page > div.page-frame {
+    border: dotted 1pt #f2f2f2;
+  }
+  div.page {
+    box-shadow: 1px 1px rgb(51, 49, 47), -1px 0 2px rgb(34, 31, 26) !important;
+    margin-bottom: 3mm !important;
+  }
+  div.unframed-page {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  div.unframed-page > div.page-frame {
+    border: none !important;
+  }
+}
+
+/* ***************************************************** */
+
+div#head-controls {
+  position: fixed;
+  left:7mm;
+  top:0mm;
+  width: 196mm;
+  z-index:10;
+  background-color:#fafafa;
+  box-shadow: 1px 1px rgb(240, 234, 227), -1px 0 2px rgb(236, 229, 219);
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+div#head-controls input[type=text] {
+  position: relative;
+  min-width: 80% !important;
+  width: 95%;
+  border: none;
+  border-bottom: solid 1px #aaa;
+  margin: 0;
+  outline: none;
+  background-image: url("search.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 13pt 13pt;
+  padding-left: 15pt;
+}

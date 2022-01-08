@@ -1,0 +1,15 @@
+{
+  "name": "mdmw20",
+  "main": "index.html",
+  "single-instance": true,
+  "inject_js_end":"js/local/nwjs.js",
+  "nodejs": true,
+  "window":{
+    "id": "mdmw20-main-window",
+    "icon": "res/mdm-icon.png",
+    "width": 1024,
+    "height": 978,
+    "min_width": 600,
+    "min_height": 600
+  }
+}

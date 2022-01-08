@@ -1,0 +1,116 @@
+<!--
+ | @file names.html
+ | @author Stefan Wilhelm (cerbero s@atwillys.de)
+ | @license CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+-->
+<!doctype html><html moznomarginboxes mozdisallowselectionprint><head>
+  <title>MdM - Charakter Namesgenerator</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="res/mdm-icon.png">
+  <link rel="stylesheet" type="text/css" href="res/page.css" />
+  <style>
+    #inputs {
+      position: relative;
+      padding: 10pt;
+      line-height: 20pt;
+      width: 100%;
+      text-align: left;
+    }
+    #inputs label {
+      margin-left: 10pt;
+    }
+    #inputs #max-syllables {
+      width: 20pt;
+    }
+    #names {
+      position: relative;
+      display: block;
+      overflow: auto;
+      line-height: 20pt;
+      padding-left: 10pt;
+      width: 100%;
+      text-align: justify;
+      font-size: 10pt;
+    }
+  </style>
+  <script type="text/javascript" src="js/libs.js"></script>
+  <script type="text/javascript" src="js/mdm.base.js"></script>
+  <script type="text/javascript" src="js/mdm.lang.de.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      MdM.initialize();
+      const namegen_list = {
+        'elf' : {
+          's' : ["Al","An","Ar","Ber","Bo","Di","Do","Ef","Em","En","Fa","Fae","Fe","Fen","Ga","Gar","Ge","Is","Kra","Li","Lin","Ma","Mir","Ne","Nem","Noh","Oth","Phe","Ra","Re","Rei","So","Ta","Ta","Te","Tho"],
+          'm' : ["d","an","la","do","dr","ga","lu","mo","na","ra"],
+          'e' : ["iel","wen","uen","en","en","en","ir","a","ül","el","mil","el","las","sa"]
+        },
+        'dwarf' : {
+          's' : ["Gor","Da","Bri","Mo","Tho","Thro","Mog","Tung","Xo","Xa","Gol"],
+          'm' : ["m","t","nd","b","d","d","l","r","lo","g"],
+          'e' : ["osch","or","asch","ri","on","at","`dra"]
+        },
+        'goblin' : {
+          's' : ["Ix","Xi","Vil","Vork","Voc","Fum","Byr","Bolp","Dip","Do","Ef","Ems","Fa","Fors","Gar","Geok","Li","Lin","Ni","Tik","Tu","Cun","Irr","I","Tep","Nass","Off","O"],
+          'm' : ["d","an","bo","do","lo","ok","ye","yj","m","la","rul","woy","ni","`","d","li","ri"],
+          'e' : ["ik","ok","ox","oct","mm","go","ipl","ik","ok","iog","ag","if","lip","lop"]
+        },
+        'halfling' : {
+          's' : ["E","Ig","Lud","Ka","Bor","Sam","Go","Fro","Me","Bör","Wa","Xa","Ba","Bol"],
+          'm' : ["da","de","le","la","lu","st","do","ld","ger","ra"],
+          'e' : ["sch","old","bold","mir","mann","schie","berg","lker","bert","stein","ger"]
+        },
+        'orc' : {
+          's' : ["Ug","Dir","Gal","Jurl","Kras","Ligh","Marf","Mor","Oth","Raz","Rae","Rer","Sod","Suk","Ta","Talm","Teb","Tho","Thu","Wun","Gar","For`","Yak`","Tok`","Ya","Wa"],
+          'm' : ["sch","o","ch","tul","ta","r`","mog`","ul","ol","i"],
+          'e' : ["ak","th","uk","ok","tur","ru","ros","por","al","uk"]
+        },
+        'oger' : {
+          's' : ["Ma","Mor","Ne","Ner","Noh","Oth","Thu","Wun","Ugh","Jaeh","Xor","Xul","Kof","Pur","Gor","Bog"],
+          'm' : ["d","do","mo","mor","knos","gor","qur","ung","qor"],
+          'e' : ["olg","`Rr","rl","gol","murl","golgh","som","bolg","tolk"]
+        }
+      };
+      const max_num_names = 200;
+      var race = Object.keys(namegen_list)[0];
+      var syllables = 5;
+      const regenerate = function() {
+        if(!race || !namegen_list[race]) race = Object.keys(namegen_list)[0];
+        const pick = (list)=>list[Math.min(list.length-1, Math.floor(Math.random() * list.length))];
+        const name = ()=>{
+          var s = pick(namegen_list[race].s);
+          for(var i=syllables-2; i>0 && (Math.random()*syllables)>=1; --i) s += pick(namegen_list[race].m);
+          s += pick(namegen_list[race].e);
+          return s;
+        }
+        const $names = $("#names");
+        $names.children().remove();
+        for(var i=0; i<max_num_names; ++i) $names.append(' <span>' + MdM.util.html(name()) + '</span>');
+      };
+      Object.keys(namegen_list).map((key)=>{
+        $("#race-buttons").append('<button class="race-sel" value="'+key+'">'+MdM.lang.translate(key)+'</button>');
+      });
+      $("#max-syllables").keypress(function(){
+        syllables = Math.max(0, Math.min(9, parseInt($(this).val())||5));
+        $("#max-syllables").val(syllables);
+        regenerate();
+      });
+      $("button.race-sel").click(function(){
+        race = $(this).val();
+        regenerate();
+      });
+      $("#max-syllables").keypress();
+    });
+  </script>
+</head><body>
+  <div class="page infinite-page"><div class="page-frame">
+    <h2>Namesgenerator</h2>
+    <div id="inputs">
+      <label>Max. Silben: </label><input type="text" id="max-syllables" value="5" maxlength="1" title="Maximale Anzahl an Silben der Namen" />
+      <label>Rasse: </label><span id="race-buttons"></span>
+    </div>
+    <hr/>
+    <div id="names"></div>
+  </div></div>
+</body></html>

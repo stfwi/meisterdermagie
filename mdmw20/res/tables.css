@@ -1,0 +1,167 @@
+@import url("page.css");
+
+/* ***************************************************** */
+
+#editing-controls {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 10mm;
+  left: 220mm;
+  right: 0;
+  bottom: 0;
+  padding: 2pt;
+}
+#editor-box {
+  width: 100%;
+  height: 100%;
+}
+
+/* ***************************************************** */
+
+h3 {
+  width: 60%;
+  border-bottom: solid 1px #333;
+}
+
+h1,h2,h3 {
+  user-select: none; -khtml-user-select: none; -o-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none;
+}
+
+/* ***************************************************** */
+
+.entry {
+  position: relative;
+  display: block;
+  margin: 0 0 10pt 2mm;
+}
+.entry-head {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.entry-data {
+  position: relative;
+  display: block;
+  margin: 0 0 0 0;
+  left: 10pt;
+  right: 0;
+  margin-top: 2pt;
+}
+.entry-head span {
+  padding-left: 2pt;
+  font-style: italic;
+}
+.entry-name {
+  font-style: normal !important;
+  font-size: 14pt;
+  font-weight: bold;
+  float: none;
+}
+.entry-desc {
+  position: relative;
+  display: block;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 2pt;
+  width: 100%;
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+.entry-data tr td {
+  vertical-align: top;
+}
+.entry-data tr td:first-child {
+  font-weight: bold;
+  vertical-align: top;
+  min-width: 10mm;
+}
+
+.entry p, .entry h4, .entry h5, .entry h6, .entry li, .entry ul {
+  margin-top: 4pt;
+  margin-bottom: 2pt;
+}
+.entry p, .entry ul {
+  padding-left: 8pt;
+}
+
+.entry div:empty,
+.entry span:empty {
+  display: none;
+}
+
+/* ***************************************************** */
+
+.race-entry-key {
+  color: #aaa;
+  font-size: 9pt;
+  vertical-align:sub;
+  margin: 0 3pt 0 3pt;
+}
+.race-entry-refs {
+  float: right;
+  color: #222;
+}
+.race-entry-data tr td:first-child {
+  min-width: 6mm;
+}
+
+/* ***************************************************** */
+
+.skill-entry-key {
+  color: #aaa;
+  font-size: 9pt;
+  vertical-align:sub;
+  margin: 0 3pt 0 0;
+}
+.skill-entry-cat {
+  color: #aaa;
+  font-size: 9pt;
+  font-style: italic;
+  vertical-align:sub;
+  margin: 0 3pt 0 0;
+}
+
+.skill-entry-refs, .skill-entry-effects {
+  vertical-align: top;
+}
+.skill-entry-refs-key, .skill-entry-effects-key {
+  font-weight: bold;
+  vertical-align: top;
+  width: 15mm;
+}
+
+/* ***************************************************** */
+
+.spell-entry-cat {
+  color: #aaa;
+  font-size: 9pt;
+  vertical-align:sub;
+  margin: 0 3pt 0 3pt;
+}
+.spell-entry-level {
+  float: right;
+  color: #222;
+  font-size: 10pt;
+  margin: 0 3pt 0 0;
+}
+
+/* ***************************************************** */
+
+.bestiary-entry-level {
+  float: right;
+  color: #222;
+  font-size: 10pt;
+  margin: 0 3pt 0 0;
+}
+
+/* ***************************************************** */
+
+.race-entry-key, .skill-entry-key, .spell-entry-cat, .skill-entry-cat {
+  user-select: none; -khtml-user-select: none; -o-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none;
+}
+@media print {
+  .race-entry-key, .skill-entry-key, .spell-entry-cat, .skill-entry-cat {
+    visibility: hidden !important;
+  }
+}

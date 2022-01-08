@@ -1,0 +1,632 @@
+@import url("common.css");
+
+/* ***************************************************** */
+
+div.page {
+  background-image: url("page-frame.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  background-clip: border-box;
+}
+
+#progression-page h2,
+#action-page h2 {
+  font-size: 11pt;
+  height: 12pt;
+  padding: 0;
+  width: 100%;
+  margin: 0 0 10pt 0;
+  border-bottom: solid 1px #444;
+  vertical-align: bottom;
+}
+
+#progression-page h2 span.progression-points-left {
+  color: gray;
+  font-size: 8pt;
+  margin-left: 10pt;
+}
+
+#progression-general {
+  position: absolute;
+  top: 2mm;
+  height: 40mm;
+  left: 0;
+  right: 0;
+}
+
+#char-name-race {
+  position: absolute;
+  font-size: 12pt;
+  top: 6mm;
+  left: 3mm;
+  width: 80mm;
+  height: 42mm;
+}
+#char-name-race tr td:first-child {
+  font-size: 15pt;
+  font-weight: bold;
+  padding-right: 5mm;
+}
+
+#char-name-race input#character-name {
+  border: none;
+  width: 65mm;
+  font-size: 15pt;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0 0 0 5pt;
+  border: none;
+  border-bottom: solid 1px #999;
+}
+#char-name-race select#character-race {
+  border: none;
+  width: 65mm;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0 0 0 5pt;
+  border-bottom: solid 1px #999;
+}
+
+#char-name-race span#character-experience {
+  display: inline-block;
+  width: 20mm;
+  vertical-align: bottom;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 1px #999;
+}
+
+#char-description {
+  position: absolute;
+  top: 2mm;
+  left: 83mm;
+  right: 0mm;
+  height: 29mm;
+}
+#character-prism {
+  position: absolute;
+  display: block;
+  top: 5mm;
+  right: 10mm;
+  width: 40mm;
+}
+
+#skill-progression {
+  position: absolute;
+  top: 54mm;
+  height: 130mm;
+  left: 108mm;
+  right: 0;
+}
+
+#pm-progression {
+  position: absolute;
+  top: 54mm;
+  width: 100mm;
+  height: 49mm;
+  left: 3mm;
+}
+
+#es-progression {
+  position: absolute;
+  top: 104mm;
+  width: 100mm;
+  height: 80mm;
+  left: 3mm;
+}
+
+#at-progression {
+  position: absolute;
+  height: 90mm;
+  top: 185mm;
+  left: 3mm;
+  right: 0;
+}
+
+/* ***************************************************** */
+
+table.progression-table {
+  position: relative !important;
+  border-collapse: collapse;
+  margin-left: 2pt;
+}
+table.progression-table * {
+  font-weight: normal;
+  vertical-align: middle;
+}
+table.progression-table td.ro,
+table.progression-table td.pg {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  text-align: center;
+}
+table.progression-table .pg-spaced img {
+  padding-left: 2pt;
+}
+table.progression-table th {
+  font-size: 10pt;
+}
+table.progression-table td.name {
+  width: 75pt !important;
+  font-size: 10pt;
+}
+table.progression-table td.abbrev {
+  width: 25pt !important;
+  font-weight: bold;
+  font-size: 9pt;
+  text-align: center;
+}
+table.progression-table td.x {
+  background-color: transparent;
+}
+table.progression-table td.na {
+  background-color: transparent;
+}
+table.progression-table td img {
+  height: 9pt;
+  margin: 0 0 3pt 0;
+}
+table.progression-table td.sum {
+  width: 20pt;
+  font-size: 10pt;
+  height: 10pt;
+  text-align: center;
+  /* border-bottom: solid 1px #666; */
+}
+
+/* ***************************************************** */
+
+div.progression-at-container {
+  display: block;
+  position: relative;
+  width: 49%;
+  height: 10mm;
+  float: left;
+  padding: 0;
+  margin-bottom: 5pt;
+  margin-left: 2pt;
+}
+div.progression-at-container div {
+  display: inline-block;
+  vertical-align: top;
+  height: 6mm;
+  line-height: 6mm;
+  margin: 0;
+}
+div.progression-at-container div.name {
+  font-size: 11pt;
+  width: 55mm;
+}
+div.progression-at-container div.plus {
+  color: #666;
+  font-size: 11pt;
+  text-align: center;
+  width: 3mm;
+}
+div.progression-at-container div.offset {
+  color: #666;
+  width: 11mm;
+  font-size: 10pt;
+  text-align: center;
+}
+div.progression-at-container div.equals {
+  color: #666;
+  font-size: 11pt;
+  text-align: center;
+  width: 5mm;
+}
+div.progression-at-container div.value {
+  width: 15mm;
+  text-align: center;
+}
+div.progression-at-container div.at-diceexpr {
+  color: #444;
+  height: 4mm;
+  line-height: 4mm;
+  width: 55mm;
+  font-size: 8pt;
+}
+div.progression-at-container div.plus-space {
+  color: #666;
+  height: 4mm;
+  line-height: 4mm;
+  width: 3mm;
+}
+div.progression-at-container div.offset-space {
+  color: #666;
+  height: 4mm;
+  line-height: 4mm;
+  width: 11mm;
+  border-top: solid 1px #eee;
+}
+div.progression-at-container div.equals-space {
+  color: #666;
+  height: 4mm;
+  line-height: 4mm;
+  width: 5mm;
+}
+div.progression-at-container div.abbrev {
+  color: #444;
+  width: 15mm;
+  height: 4mm;
+  line-height: 4mm;
+  font-size: 9pt;
+  text-align: center;
+  border-top: solid 1px #999;
+}
+
+/* ***************************************************** */
+
+#skill-progression td.skill-name {
+  padding: 0 10pt 0 0;
+  height: 20pt;
+  vertical-align: bottom;
+}
+#skill-progression td.skill-name input {
+  width: 55mm;
+  font-size: 10pt;
+  vertical-align: bottom;
+  margin: 0 0 0 0;
+  padding: 0;
+  border: none;
+  border-bottom: solid 1px #999;
+}
+
+/* ***************************************************** */
+
+div.ui-widget-content span.tooltip-caption {
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: underline;
+}
+div.ui-widget-content span.tooltip-desc {
+  font-size: 10pt;
+  font-style: italic;
+}
+.ui-menu .ui-menu-item {
+  width: 100%;
+}
+.ui-menu .ui-menu-item span {
+  font-size: 10pt;
+}
+.ui-menu .ui-menu-item .skill-autocomplete {
+  font-weight: bold;
+}
+.ui-menu .ui-menu-item .skill-autocomplete-stdname {
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* ***************************************************** */
+
+#progression-page h2, #progression-page img, #progression-page .name, #progression-page .gap,
+#progression-page th, #progression-page td, #progression-page .at-diceexpr, #progression-page .abbrev,
+#progression-skill-row * {
+  user-select: none;
+ -khtml-user-select: none;
+ -o-user-select: none;
+ -moz-user-select: -moz-none;
+ -webkit-user-select: none;
+}
+
+/* ***************************************************** */
+
+#equipment-armor {
+  padding: 6mm 5mm 0 5mm;
+}
+#equipment-armor * {
+  font-size: 11pt;
+}
+#equipment-armor > table {
+  width: 100%;
+}
+#equipment-armor table tr td {
+  height: 8mm;
+  vertical-align: bottom;
+}
+#equipment-armor table tr td img {
+  height: 6mm;
+}
+#equipment-armor input {
+  width: 100%;
+}
+#equipment-armor table th:nth-child(2) {
+  font-size: 13pt;
+  padding-bottom: 2mm;
+  font-weight: bold;
+}
+#equipment-armor table tr td:nth-child(1) {
+  text-align: center;
+  width: 8mm;
+  height: 8mm;
+}
+#equipment-armor table tr td:nth-child(2) {
+  padding-left: 5mm;
+}
+#equipment-armor table tr td:nth-child(3) {
+  width: 15mm;
+}
+#equipment-armor table tr td:nth-child(3) input {
+  text-align: center;
+}
+#equipment-armor table tr td:nth-child(4) {
+  width: 15mm;
+  text-align: center;
+}
+#equipment-armor table tr td:nth-child(4) input {
+  text-align: center;
+}
+#equipment-armor table tr:nth-child(7) td:nth-child(2) {
+  text-align: right;
+  padding-right: 2mm;
+}
+#equipment-armor table tr:nth-child(8) td:nth-child(2) {
+  text-align: right;
+  padding-right: 2mm;
+}
+#equipment-armor table tr:nth-child(8) td input {
+  text-align: center;
+  font-size: 12pt;
+}
+#equipment-armor #armor-mods-hints {
+  font-size: 8pt;
+  color: #999;
+  font-style: italic;
+  margin-right: 5pt;
+}
+
+/* ***************************************************** */
+
+#equipment-weapons {
+  position: relative;
+  padding: 6mm 6mm 0 7mm;
+}
+#equipment-weapons * {
+  font-size: 11pt;
+}
+#equipment-weapons .weapon {
+  position: relative;
+  width: 100%;
+  margin-top: 5mm;
+  height: 25mm;
+}
+#equipment-weapons .weapon-icon {
+  position: absolute;
+  top: 2mm;
+  left: 0;
+  height: 12mm;
+}
+#equipment-weapons .weapon-data {
+  position: absolute;
+  top: 0;
+  left: 12mm;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
+  row-gap: 10pt;
+  column-gap: 10pt;
+}
+#equipment-weapons .weapon-data > div {
+  flex: 'flex-grow';
+  vertical-align: bottom;
+}
+#equipment-weapons .weapon-data input {
+  text-align: center;
+}
+#equipment-weapons .weapon-data select {
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#equipment-weapons .weapon-data .weapon-label {
+  margin: 0 1mm 0 1mm;
+}
+#equipment-weapons .weapon-name .weapon-label {
+  display: none;
+}
+#equipment-weapons .weapon-name input {
+  text-align: left;
+  width: 140mm;
+}
+#equipment-weapons .weapon-type select {
+  width: 11mm;
+}
+#equipment-weapons .weapon-ap input {
+  width: 8mm;
+}
+#equipment-weapons .weapon-at input {
+  width: 12mm;
+}
+#equipment-weapons .weapon-pa input {
+  width: 12mm;
+}
+#equipment-weapons .weapon-crit input {
+  width: 8mm;
+}
+#equipment-weapons .weapon-gs input {
+  width: 25mm;
+}
+#equipment-weapons .weapon-ks input {
+  width: 12mm;
+}
+#equipment-weapons .weapon-zs input {
+  width: 12mm;
+}
+#equipment-weapons .weapon-extra input {
+  text-align: left;
+  margin-left: 6mm;
+  width: 156mm;
+}
+
+/* ***************************************************** */
+
+#current-values {
+  position: relative;
+  padding: 6mm 6mm 0 7mm;
+}
+
+#current-values .current-ap,
+#current-values .current-lp,
+#current-values .current-mp {
+}
+
+/* ***************************************************** */
+
+#progression-page .sum.noprint, .progression-at-container .value.noprint {
+  color: #bbb;
+}
+
+#char-name-race button {
+  background-color: #fff;
+  border: solid 1px #444;
+  box-shadow: 1px 1px rgb(51, 49, 47), -1px 0 1px rgb(34, 31, 26) !important;
+  border-radius: 12px;
+  width: 8mm;
+  padding: 1px;
+}
+
+/* ***************************************************** */
+
+#head-controls {
+  position: fixed;
+  left:5mm;
+  top:0mm;
+  width: 210mm;
+  right: 0mm;
+  z-index:10;
+  background-color:whitesmoke;
+  box-shadow: 1px 1px rgb(51, 49, 47), -1px 0 2px rgb(34, 31, 26) !important;
+  padding: 2px 5mm 2px 5mm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#head-controls-progression-controls {
+  min-width: 75mm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#head-controls-links {
+  margin-left: 2mm;
+  line-height: 20pt;
+}
+
+#head-controls button {
+  position: relative;
+  margin: 0;
+}
+#head-controls select {
+  position: relative;
+  min-width: 150px !important;
+  width: 150px;
+  margin: 0;
+}
+
+/* ***************************************************** */
+
+#statistics-view {
+  position: fixed;
+  z-index: 1;
+  display: none;
+  padding: 3pt;
+  top:11mm !important;
+  left: 210mm !important;
+  right: 0mm !important;
+  min-height: 300mm !important;
+  background-color: #fefefe;
+  overflow-x:scroll;
+  box-shadow: 1px 1px rgb(51, 49, 47), -1px 0 2px rgb(34, 31, 26) !important;
+}
+
+#statistics-view #progression-tracing-table {
+  margin-top:2mm;
+  border-collapse: collapse;
+}
+#statistics-view #progression-tracing-table td,
+#statistics-view #progression-tracing-table th {
+  font: 11pt monospace;
+  text-align: center;
+  min-width: 20pt;
+  border: dotted 1px #ccc;
+}
+#statistics-view #progression-tracing-table th {
+  border: none;
+  border-bottom: solid 2px #444;
+}
+#statistics-view #progression-tracing-table .spacing {
+  min-width: 5pt;
+  border: none;
+}
+#statistics-view #progression-tracing-table .changed {
+}
+#statistics-view #progression-tracing-table .unchanged {
+  color: #bbb;
+}
+#statistics-view #progression-tracing-table .marked {
+  font-weight: bold;
+}
+
+/* ***************************************************** */
+
+#config-tuning {
+  position: fixed;
+  display: none;
+  z-index: 10;
+  top:11mm !important;
+  left: 210mm !important;
+  right: 0mm !important;
+  bottom: 0mm !important;
+  border: solid 1px #444;
+  border-left: solid 2px #444;
+  padding: 1mm;
+  margin: 0;
+  background: white;
+  box-shadow: 1px 1px rgb(51, 49, 47), -1px 0 2px rgb(34, 31, 26) !important;
+}
+#config-tuning div {
+  height: 28px;
+}
+#config-tuning textarea {
+  position: absolute;
+  margin: 0;
+  padding: 2mm 2mm 2mm 2mm;
+  top:10mm;
+  bottom: 0;
+  width: 99%;
+  font-family:monospace;
+  font-size:12pt;
+}
+
+/* ***************************************************** */
+
+@media print {
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  #head-controls, #head-controls *,
+  #config-tuning, #config-tuning *,
+  #statistics-view, #statistics-view * {
+    display: none !important;
+    width: 0px;
+    height: 0px;
+  }
+  div.page {
+    margin: 0 0 0 0 !important;
+  }
+}
+
+/* #pm-progression, #es-progression, #at-progression, #skill-progression, #progression-general { border: dashed 1px red; } */

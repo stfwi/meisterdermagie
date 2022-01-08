@@ -1,0 +1,1958 @@
+{
+  "name": "Heilrich Gänsien",
+  "race": "human-midland",
+  "values": {
+    "xp": 20,
+    "k": 9,
+    "m": 5,
+    "b": 5,
+    "g": 12,
+    "i": 9,
+    "c": 6,
+    "kr": 8,
+    "gw": 8,
+    "gs": 4,
+    "re": 7,
+    "wa": 7,
+    "in": 6,
+    "ma": 14,
+    "ke": 6,
+    "wi": 11,
+    "mn": 6,
+    "wk": 9,
+    "au": 6,
+    "lp": 61,
+    "rlp": 16,
+    "mp": 118,
+    "rmp": 48,
+    "ap": 15,
+    "rf": 4,
+    "mr": 11,
+    "mu": 13,
+    "ns": 8,
+    "ff": 6,
+    "nm": 6,
+    "nl": 6,
+    "nw": 7,
+    "pa": 7,
+    "magic-life": 5,
+    "magic-neutral": 5,
+    "medicine": 4,
+    "meditation": 3,
+    "botany": 3,
+    "alchemy": 3,
+    "languages": 2,
+    "culture": 2,
+    "cooking": 1,
+    "rites": 2,
+    "lexis": 2,
+    "wildlife": 2
+  },
+  "progression": [
+    {
+      "values": {
+        "xp": 0,
+        "k": 2,
+        "m": 0,
+        "b": 1,
+        "g": 4,
+        "i": 2,
+        "c": 1,
+        "kr": 2,
+        "gw": 3,
+        "gs": 0,
+        "re": 1,
+        "wa": 1,
+        "in": 1,
+        "ma": 5,
+        "ke": 0,
+        "wi": 3,
+        "mn": 0,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 2,
+        "medicine": 1,
+        "meditation": 1,
+        "botany": 1,
+        "alchemy": 1,
+        "languages": 1,
+        "culture": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 2,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 1,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 1,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 1,
+        "k": 2,
+        "m": 0,
+        "b": 1,
+        "g": 4,
+        "i": 2,
+        "c": 1,
+        "kr": 2,
+        "gw": 3,
+        "gs": 0,
+        "re": 1,
+        "wa": 1,
+        "in": 1,
+        "ma": 5,
+        "ke": 0,
+        "wi": 3,
+        "mn": 0,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 2,
+        "medicine": 1,
+        "meditation": 1,
+        "botany": 1,
+        "alchemy": 1,
+        "languages": 1,
+        "culture": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 2,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 1,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 1,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 2,
+        "k": 2,
+        "m": 0,
+        "b": 2,
+        "g": 5,
+        "i": 2,
+        "c": 1,
+        "kr": 2,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 1,
+        "in": 2,
+        "ma": 6,
+        "ke": 0,
+        "wi": 3,
+        "mn": 1,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 2,
+        "medicine": 1,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 1,
+        "culture": 1,
+        "cooking": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 2,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 3,
+        "k": 2,
+        "m": 0,
+        "b": 2,
+        "g": 5,
+        "i": 2,
+        "c": 1,
+        "kr": 2,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 1,
+        "in": 2,
+        "ma": 6,
+        "ke": 0,
+        "wi": 3,
+        "mn": 1,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 2,
+        "medicine": 1,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 1,
+        "culture": 1,
+        "cooking": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 2,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 4,
+        "k": 3,
+        "m": 0,
+        "b": 2,
+        "g": 5,
+        "i": 3,
+        "c": 1,
+        "kr": 2,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 7,
+        "ke": 1,
+        "wi": 4,
+        "mn": 1,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 2,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 5,
+        "k": 3,
+        "m": 0,
+        "b": 2,
+        "g": 5,
+        "i": 3,
+        "c": 1,
+        "kr": 2,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 2,
+        "ma": 7,
+        "ke": 1,
+        "wi": 4,
+        "mn": 1,
+        "wk": 2,
+        "au": 0,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 2,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 6,
+        "k": 3,
+        "m": 0,
+        "b": 2,
+        "g": 6,
+        "i": 3,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 7,
+        "ke": 1,
+        "wi": 5,
+        "mn": 1,
+        "wk": 2,
+        "au": 1,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 1,
+        "lexis": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 7,
+        "k": 3,
+        "m": 0,
+        "b": 2,
+        "g": 6,
+        "i": 3,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 7,
+        "ke": 1,
+        "wi": 5,
+        "mn": 1,
+        "wk": 2,
+        "au": 1,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 2,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 1,
+        "lexis": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 1,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 8,
+        "k": 4,
+        "m": 0,
+        "b": 2,
+        "g": 6,
+        "i": 4,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 8,
+        "ke": 2,
+        "wi": 5,
+        "mn": 1,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 1,
+        "wildlife": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 1,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 9,
+        "k": 4,
+        "m": 0,
+        "b": 2,
+        "g": 6,
+        "i": 4,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 0,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 8,
+        "ke": 2,
+        "wi": 5,
+        "mn": 1,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 3,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 1,
+        "wildlife": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 3,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 1,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 10,
+        "k": 4,
+        "m": 0,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 9,
+        "ke": 2,
+        "wi": 5,
+        "mn": 1,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 11,
+        "k": 4,
+        "m": 0,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 2,
+        "wa": 2,
+        "in": 3,
+        "ma": 9,
+        "ke": 2,
+        "wi": 5,
+        "mn": 1,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 3,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 1
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 3,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 1,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 12,
+        "k": 5,
+        "m": 1,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 3,
+        "wa": 3,
+        "in": 3,
+        "ma": 9,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 13,
+        "k": 5,
+        "m": 1,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 3,
+        "wa": 3,
+        "in": 3,
+        "ma": 9,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 2,
+        "botany": 2,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 2,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 14,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 10,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 15,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 7,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 10,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 4,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 4,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 16,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 8,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 11,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 5,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 5,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 17,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 8,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 11,
+        "ke": 2,
+        "wi": 6,
+        "mn": 2,
+        "wk": 3,
+        "au": 2,
+        "magic-life": 5,
+        "magic-neutral": 4,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 5,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 4,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 18,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 9,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 11,
+        "ke": 2,
+        "wi": 7,
+        "mn": 3,
+        "wk": 4,
+        "au": 2,
+        "magic-life": 5,
+        "magic-neutral": 5,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 5,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 5,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 19,
+        "k": 6,
+        "m": 1,
+        "b": 2,
+        "g": 9,
+        "i": 4,
+        "c": 2,
+        "kr": 4,
+        "gw": 4,
+        "gs": 1,
+        "re": 4,
+        "wa": 3,
+        "in": 3,
+        "ma": 11,
+        "ke": 2,
+        "wi": 7,
+        "mn": 3,
+        "wk": 4,
+        "au": 2,
+        "magic-life": 5,
+        "magic-neutral": 5,
+        "medicine": 3,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 1,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 5,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 5,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 20,
+        "k": 6,
+        "m": 2,
+        "b": 2,
+        "g": 9,
+        "i": 5,
+        "c": 2,
+        "kr": 4,
+        "gw": 5,
+        "gs": 1,
+        "re": 4,
+        "wa": 4,
+        "in": 3,
+        "ma": 11,
+        "ke": 2,
+        "wi": 7,
+        "mn": 3,
+        "wk": 5,
+        "au": 2,
+        "magic-life": 5,
+        "magic-neutral": 5,
+        "medicine": 4,
+        "meditation": 3,
+        "botany": 3,
+        "alchemy": 3,
+        "languages": 2,
+        "culture": 2,
+        "cooking": 1,
+        "rites": 2,
+        "lexis": 2,
+        "wildlife": 2
+      },
+      "skills": {
+        "magic-life": {
+          "name": "Lebensmagie",
+          "value": 5,
+          "slot": 0
+        },
+        "magic-neutral": {
+          "name": "Neutralmagie",
+          "value": 5,
+          "slot": 1
+        },
+        "medicine": {
+          "name": "Heilkunde",
+          "value": 4,
+          "slot": 2
+        },
+        "meditation": {
+          "name": "Meditation",
+          "value": 3,
+          "slot": 3
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 5
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 2,
+          "slot": 6
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 7
+        },
+        "cooking": {
+          "name": "Kochen",
+          "value": 1,
+          "slot": 8
+        },
+        "rites": {
+          "name": "Riten & Religion",
+          "value": 2,
+          "slot": 9
+        },
+        "lexis": {
+          "name": "Schriften & Runen",
+          "value": 2,
+          "slot": 10
+        },
+        "wildlife": {
+          "name": "Naturkunde",
+          "value": 2,
+          "slot": 11
+        }
+      }
+    }
+  ]
+}

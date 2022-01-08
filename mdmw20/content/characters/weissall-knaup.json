@@ -1,0 +1,1773 @@
+{
+  "name": "Weisall Knaup",
+  "race": "human-midland",
+  "values": {
+    "xp": 20,
+    "k": 8,
+    "m": 10,
+    "b": 10,
+    "g": 4,
+    "i": 8,
+    "c": 7,
+    "kr": 9,
+    "gw": 12,
+    "gs": 11,
+    "re": 8,
+    "wa": 9,
+    "in": 6,
+    "ma": 3,
+    "ke": 9,
+    "wi": 8,
+    "mn": 6,
+    "wk": 6,
+    "au": 7,
+    "lp": 67,
+    "rlp": 18,
+    "mp": 76,
+    "rmp": 26,
+    "ap": 13,
+    "rf": 4,
+    "mr": 8,
+    "mu": 9,
+    "ns": 10,
+    "ff": 11,
+    "nm": 14,
+    "nl": 11,
+    "nw": 9,
+    "pa": 10,
+    "melee-medium": 4,
+    "bows": 4,
+    "acrobatics": 3,
+    "alchemy": 4,
+    "culture": 2,
+    "trading": 3,
+    "crafting": 4,
+    "botany": 3,
+    "engineering": 3,
+    "locks": 2,
+    "camouflage": 1,
+    "languages": 1,
+    "forging": 2
+  },
+  "progression": [
+    {
+      "values": {
+        "xp": 0,
+        "k": 2,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 2,
+        "kr": 2,
+        "gw": 3,
+        "gs": 4,
+        "re": 1,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 1,
+        "melee-medium": 2,
+        "bows": 1,
+        "acrobatics": 1,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 2,
+        "botany": 1,
+        "engineering": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 1,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 1,
+        "k": 2,
+        "m": 3,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 2,
+        "kr": 2,
+        "gw": 3,
+        "gs": 4,
+        "re": 1,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 1,
+        "melee-medium": 2,
+        "bows": 1,
+        "acrobatics": 1,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 2,
+        "botany": 1,
+        "engineering": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 1,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 2,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 2,
+        "k": 3,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 5,
+        "re": 2,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 1,
+        "melee-medium": 2,
+        "bows": 2,
+        "acrobatics": 2,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 1,
+        "engineering": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 3,
+        "k": 3,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 2,
+        "c": 2,
+        "kr": 3,
+        "gw": 4,
+        "gs": 5,
+        "re": 2,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 2,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 1,
+        "melee-medium": 2,
+        "bows": 2,
+        "acrobatics": 2,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 1,
+        "engineering": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 2,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 1,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 1,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 4,
+        "k": 4,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 3,
+        "gw": 5,
+        "gs": 5,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 2,
+        "bows": 3,
+        "acrobatics": 2,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 2,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 5,
+        "k": 4,
+        "m": 4,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 3,
+        "gw": 5,
+        "gs": 5,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 3,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 2,
+        "bows": 3,
+        "acrobatics": 2,
+        "alchemy": 2,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 2,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 2,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 6,
+        "k": 4,
+        "m": 5,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 4,
+        "gw": 5,
+        "gs": 5,
+        "re": 3,
+        "wa": 4,
+        "in": 1,
+        "ma": 0,
+        "ke": 3,
+        "wi": 3,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 3,
+        "bows": 3,
+        "acrobatics": 2,
+        "alchemy": 3,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 2,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 7,
+        "k": 4,
+        "m": 5,
+        "b": 2,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 4,
+        "gw": 5,
+        "gs": 5,
+        "re": 3,
+        "wa": 4,
+        "in": 1,
+        "ma": 0,
+        "ke": 3,
+        "wi": 3,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 3,
+        "bows": 3,
+        "acrobatics": 2,
+        "alchemy": 3,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 2,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 2,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 8,
+        "k": 4,
+        "m": 6,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 4,
+        "gw": 6,
+        "gs": 5,
+        "re": 4,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 3,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 3,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 9,
+        "k": 4,
+        "m": 6,
+        "b": 3,
+        "g": 0,
+        "i": 3,
+        "c": 2,
+        "kr": 4,
+        "gw": 6,
+        "gs": 5,
+        "re": 4,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 3,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 3,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 1,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 10,
+        "k": 4,
+        "m": 6,
+        "b": 4,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 7,
+        "gs": 5,
+        "re": 4,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 2,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 11,
+        "k": 4,
+        "m": 6,
+        "b": 4,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 7,
+        "gs": 5,
+        "re": 4,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 1,
+        "au": 2,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 2,
+        "trading": 1,
+        "crafting": 3,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 3,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 12,
+        "k": 4,
+        "m": 6,
+        "b": 5,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 7,
+        "gs": 6,
+        "re": 4,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 2,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 2,
+        "trading": 2,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 13,
+        "k": 4,
+        "m": 6,
+        "b": 5,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 7,
+        "gs": 6,
+        "re": 4,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 2,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 3,
+        "culture": 2,
+        "trading": 2,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 3,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 14,
+        "k": 4,
+        "m": 6,
+        "b": 6,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 8,
+        "gs": 6,
+        "re": 4,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 2,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 2,
+        "locks": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 15,
+        "k": 4,
+        "m": 7,
+        "b": 6,
+        "g": 0,
+        "i": 3,
+        "c": 3,
+        "kr": 4,
+        "gw": 8,
+        "gs": 6,
+        "re": 5,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 2,
+        "locks": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 2,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 16,
+        "k": 4,
+        "m": 7,
+        "b": 6,
+        "g": 0,
+        "i": 4,
+        "c": 3,
+        "kr": 4,
+        "gw": 8,
+        "gs": 7,
+        "re": 5,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 3,
+        "locks": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 3,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 17,
+        "k": 4,
+        "m": 7,
+        "b": 6,
+        "g": 0,
+        "i": 4,
+        "c": 3,
+        "kr": 4,
+        "gw": 8,
+        "gs": 7,
+        "re": 5,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 4,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 3,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 3,
+        "locks": 1
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 3,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 3,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 18,
+        "k": 5,
+        "m": 7,
+        "b": 6,
+        "g": 0,
+        "i": 4,
+        "c": 3,
+        "kr": 4,
+        "gw": 9,
+        "gs": 7,
+        "re": 5,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 4,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 3,
+        "locks": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 4,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 3,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 19,
+        "k": 5,
+        "m": 7,
+        "b": 6,
+        "g": 0,
+        "i": 4,
+        "c": 3,
+        "kr": 4,
+        "gw": 9,
+        "gs": 7,
+        "re": 5,
+        "wa": 6,
+        "in": 2,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 4,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 3,
+        "locks": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 4,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 3,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 20,
+        "k": 5,
+        "m": 7,
+        "b": 7,
+        "g": 1,
+        "i": 4,
+        "c": 3,
+        "kr": 5,
+        "gw": 9,
+        "gs": 8,
+        "re": 5,
+        "wa": 6,
+        "in": 3,
+        "ma": 0,
+        "ke": 5,
+        "wi": 4,
+        "mn": 3,
+        "wk": 2,
+        "au": 3,
+        "melee-medium": 4,
+        "bows": 4,
+        "acrobatics": 3,
+        "alchemy": 4,
+        "culture": 2,
+        "trading": 3,
+        "crafting": 4,
+        "botany": 3,
+        "engineering": 3,
+        "locks": 2,
+        "camouflage": 1,
+        "languages": 1,
+        "forging": 2
+      },
+      "skills": {
+        "melee-medium": {
+          "name": "Mittlere Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "bows": {
+          "name": "Fernkampfwaffen",
+          "value": 4,
+          "slot": 1
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 2
+        },
+        "alchemy": {
+          "name": "Alchemie",
+          "value": 4,
+          "slot": 4
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 2,
+          "slot": 9
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 8
+        },
+        "crafting": {
+          "name": "Kunst & Feinhandwerk",
+          "value": 4,
+          "slot": 5
+        },
+        "botany": {
+          "name": "Pflanzenkunde",
+          "value": 3,
+          "slot": 6
+        },
+        "engineering": {
+          "name": "Ingenieurskunst",
+          "value": 3,
+          "slot": 7
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 10
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 11
+        },
+        "languages": {
+          "name": "Sprachen",
+          "value": 1,
+          "slot": 12
+        },
+        "forging": {
+          "name": "Schmieden & Grobhandwerk",
+          "value": 2,
+          "slot": 13
+        }
+      }
+    }
+  ]
+}

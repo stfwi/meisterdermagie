@@ -1,0 +1,1783 @@
+{
+  "name": "Bied Kotzal",
+  "race": "human-midland",
+  "values": {
+    "xp": 20,
+    "k": 7,
+    "m": 12,
+    "b": 10,
+    "g": 4,
+    "i": 6,
+    "c": 6,
+    "kr": 7,
+    "gw": 12,
+    "gs": 14,
+    "re": 9,
+    "wa": 8,
+    "in": 6,
+    "ma": 3,
+    "ke": 5,
+    "wi": 6,
+    "mn": 5,
+    "wk": 6,
+    "au": 7,
+    "lp": 65,
+    "rlp": 14,
+    "mp": 72,
+    "rmp": 26,
+    "ap": 12,
+    "rf": 5,
+    "mr": 7,
+    "mu": 8,
+    "ns": 9,
+    "ff": 7,
+    "nm": 11,
+    "nl": 18,
+    "nw": 8,
+    "pa": 10,
+    "melee-light": 5,
+    "acrobatics": 3,
+    "traps": 4,
+    "trading": 3,
+    "sneak": 4,
+    "locks": 4,
+    "pickpocket": 3,
+    "camouflage": 2,
+    "instinct": 3,
+    "culture": 1,
+    "gambling": 1
+  },
+  "progression": [
+    {
+      "values": {
+        "xp": 0,
+        "k": 1,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 1,
+        "gw": 3,
+        "gs": 5,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 0,
+        "mn": 1,
+        "wk": 0,
+        "au": 1,
+        "melee-light": 2,
+        "acrobatics": 1,
+        "traps": 1,
+        "trading": 1,
+        "sneak": 3,
+        "locks": 1,
+        "pickpocket": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 2,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 1,
+        "k": 1,
+        "m": 4,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 1,
+        "gw": 3,
+        "gs": 5,
+        "re": 3,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 0,
+        "mn": 1,
+        "wk": 0,
+        "au": 1,
+        "melee-light": 2,
+        "acrobatics": 1,
+        "traps": 1,
+        "trading": 1,
+        "sneak": 3,
+        "locks": 1,
+        "pickpocket": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 2,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 1,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 1,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 2,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 2,
+        "k": 2,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 1,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 0,
+        "mn": 1,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 1,
+        "trading": 1,
+        "sneak": 3,
+        "locks": 2,
+        "pickpocket": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 2,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 3,
+        "k": 2,
+        "m": 5,
+        "b": 3,
+        "g": 0,
+        "i": 0,
+        "c": 1,
+        "kr": 1,
+        "gw": 4,
+        "gs": 6,
+        "re": 4,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 0,
+        "mn": 1,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 1,
+        "trading": 1,
+        "sneak": 3,
+        "locks": 2,
+        "pickpocket": 2
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 1,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 1,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 2,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 4,
+        "k": 2,
+        "m": 6,
+        "b": 3,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 2,
+        "gw": 5,
+        "gs": 6,
+        "re": 5,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 1,
+        "mn": 1,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 2,
+        "pickpocket": 3
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 5,
+        "k": 2,
+        "m": 6,
+        "b": 3,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 2,
+        "gw": 5,
+        "gs": 6,
+        "re": 5,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 1,
+        "mn": 1,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 2,
+        "pickpocket": 3
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 2,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 6,
+        "k": 2,
+        "m": 7,
+        "b": 3,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 2,
+        "gw": 6,
+        "gs": 7,
+        "re": 5,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 1,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 7,
+        "k": 2,
+        "m": 7,
+        "b": 3,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 2,
+        "gw": 6,
+        "gs": 7,
+        "re": 5,
+        "wa": 2,
+        "in": 1,
+        "ma": 0,
+        "ke": 1,
+        "wi": 1,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 2,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 2,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 1,
+          "slot": 8
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 8,
+        "k": 3,
+        "m": 7,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 8,
+        "re": 5,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 2,
+        "culture": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 9,
+        "k": 3,
+        "m": 7,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 8,
+        "re": 5,
+        "wa": 2,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 3,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 2,
+        "culture": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 3,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 10,
+        "k": 3,
+        "m": 8,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 9,
+        "re": 5,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 11,
+        "k": 3,
+        "m": 8,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 9,
+        "re": 5,
+        "wa": 3,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 0,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 3,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 1,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 3,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 1,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 12,
+        "k": 3,
+        "m": 8,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 10,
+        "re": 5,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 13,
+        "k": 3,
+        "m": 8,
+        "b": 4,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 6,
+        "gs": 10,
+        "re": 5,
+        "wa": 4,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 1,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 2,
+        "trading": 2,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 2,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 2,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 14,
+        "k": 3,
+        "m": 9,
+        "b": 5,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 7,
+        "gs": 10,
+        "re": 5,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 15,
+        "k": 3,
+        "m": 9,
+        "b": 5,
+        "g": 0,
+        "i": 1,
+        "c": 1,
+        "kr": 3,
+        "gw": 7,
+        "gs": 10,
+        "re": 5,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 2,
+        "melee-light": 4,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 4,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 16,
+        "k": 3,
+        "m": 9,
+        "b": 6,
+        "g": 0,
+        "i": 2,
+        "c": 1,
+        "kr": 3,
+        "gw": 7,
+        "gs": 11,
+        "re": 5,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 2,
+        "melee-light": 5,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 17,
+        "k": 3,
+        "m": 9,
+        "b": 6,
+        "g": 0,
+        "i": 2,
+        "c": 1,
+        "kr": 3,
+        "gw": 7,
+        "gs": 11,
+        "re": 5,
+        "wa": 5,
+        "in": 2,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 2,
+        "melee-light": 5,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 18,
+        "k": 3,
+        "m": 9,
+        "b": 7,
+        "g": 0,
+        "i": 2,
+        "c": 1,
+        "kr": 3,
+        "gw": 8,
+        "gs": 11,
+        "re": 5,
+        "wa": 5,
+        "in": 3,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 3,
+        "melee-light": 5,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 19,
+        "k": 3,
+        "m": 9,
+        "b": 7,
+        "g": 0,
+        "i": 2,
+        "c": 1,
+        "kr": 3,
+        "gw": 8,
+        "gs": 11,
+        "re": 5,
+        "wa": 5,
+        "in": 3,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 3,
+        "melee-light": 5,
+        "acrobatics": 3,
+        "traps": 3,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 3,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 2,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 3,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 3,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 2,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    },
+    {
+      "values": {
+        "xp": 20,
+        "k": 4,
+        "m": 9,
+        "b": 7,
+        "g": 1,
+        "i": 2,
+        "c": 2,
+        "kr": 3,
+        "gw": 9,
+        "gs": 11,
+        "re": 6,
+        "wa": 5,
+        "in": 3,
+        "ma": 0,
+        "ke": 1,
+        "wi": 2,
+        "mn": 2,
+        "wk": 2,
+        "au": 3,
+        "melee-light": 5,
+        "acrobatics": 3,
+        "traps": 4,
+        "trading": 3,
+        "sneak": 4,
+        "locks": 4,
+        "pickpocket": 3,
+        "camouflage": 2,
+        "instinct": 3,
+        "culture": 1,
+        "gambling": 1
+      },
+      "skills": {
+        "melee-light": {
+          "name": "Leichte Nahkampfwaffen",
+          "value": 5,
+          "slot": 0
+        },
+        "acrobatics": {
+          "name": "Akrobatik",
+          "value": 3,
+          "slot": 1
+        },
+        "traps": {
+          "name": "Fallenkunde",
+          "value": 4,
+          "slot": 2
+        },
+        "trading": {
+          "name": "Handeln",
+          "value": 3,
+          "slot": 7
+        },
+        "sneak": {
+          "name": "Schleichen",
+          "value": 4,
+          "slot": 3
+        },
+        "locks": {
+          "name": "Schlösserkunde",
+          "value": 4,
+          "slot": 4
+        },
+        "pickpocket": {
+          "name": "Taschendiebstahl",
+          "value": 3,
+          "slot": 5
+        },
+        "camouflage": {
+          "name": "Tarnen",
+          "value": 2,
+          "slot": 6
+        },
+        "instinct": {
+          "name": "Instinkt",
+          "value": 3,
+          "slot": 8
+        },
+        "culture": {
+          "name": "Gesellschaftswissen",
+          "value": 1,
+          "slot": 9
+        },
+        "gambling": {
+          "name": "Glückspiel & Zechen",
+          "value": 1,
+          "slot": 10
+        }
+      }
+    }
+  ]
+}
