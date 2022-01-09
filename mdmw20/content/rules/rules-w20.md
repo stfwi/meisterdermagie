@@ -562,10 +562,10 @@ Für einen Angriff ist folgender Handlungsablauf festgelegt:
    eingetragen.
 
 3. **Schadenswurf**: War der Angriff erfolgreich, so würfelt der Angreifer den Schaden mit sechsseitigen
-   Würfeln aus. Dieser *Grundschaden* ist bei der Waffe unter `GS` eingetragen. Beispiel: Für
+   Würfeln aus. Dieser *Basisschaden* ist bei der Waffe unter `BS` eingetragen. Beispiel: Für
    `2W6+3` würfelt er mit zwei sechsseitigen Würfeln, bildet die Summe der Augenzahlen und addiert 3
    hinzu. Für perfekte Angriffe und Kritschäden ist die Rechenreihenfolge zu beachten:
-   `Gesamtschaden = ((GS o KS) o ZS)`, denn die Operatoren "`O`" können ein Plus oder ein Mal sein.
+   `Gesamtschaden = ((BS o KS) o ZS)`, denn die Operatoren "`O`" können ein Plus oder ein Mal sein.
    Die Klammerung bedeutet, dass zuerst der Krit-Schaden hinzukommt, und danach der Zusatzschaden. Bei
    "plus" ist die Reihenfolge egal, wenn aber der `ZS` oder `KS` "mal" gerechnet wird, dann ist
    die Reihenfolge wichtig.

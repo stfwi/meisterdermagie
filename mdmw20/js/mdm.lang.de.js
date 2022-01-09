@@ -16,7 +16,7 @@
     "ns": "Schwere Waffen", "nm": "Mittelschwere Waffen", "nl": "Leichte Waffen", "nw": "Waffenloser Kampf",
     "ff": "Fernkampfwaffen", "xp": "Erfahrung", "at": "Attacke", "pa": "Parade", "rs": "Rüstungsschutz",
     "be": "Behinderung", "fk": "Fertigkeit", "kt": "Kampftechnik", "ms": "Magieschule", "kd": "Kampfdisziplin",
-    "pm": "Persönlichkeitsmerkmal", "es": "Eigenschaft", "gs": "Grundschaden", "ks": "Krit-Schaden", "zs": "Zusatz-Schaden"
+    "pm": "Persönlichkeitsmerkmal", "es": "Eigenschaft", "bs": "Basisschaden", "ks": "Krit-Schaden", "zs": "Zusatz-Schaden"
   },
 
   // Word/key based translation

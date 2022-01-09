@@ -319,12 +319,12 @@ Der Charakter würfelt Attacke/KRIT zweimal. Der höhere Wert zählt. Patzer bee
 #### Kraftattacke
 @weapons NS NM
 @ap 2
-@effect AT-2 KRIT+3 GS+1W6
+@effect AT-2 KRIT+3 BS+1W6
 
 #### Sprungattacke
 @weapons NS NM NL NW
 @condition Am Laufen oder erhöhte Position.
-@effect AT-5 KRIT+8 GS+1W6
+@effect AT-5 KRIT+8 BS+1W6
 @ap 3
 
 Der Charakter führt eine erschwerte Attacke mit extremer Wucht/Akrobatik aus. Dabei erhöhen sich KRIT-Wert und Schaden.
@@ -431,85 +431,85 @@ Schweres Metall-Turmschild.
 ## Leichte Waffen
 
 #### Dolch
-@at AP:1 KRIT:17 GS:1W6+2 KS:x3 ZS:5
+@at AP:1 KRIT:17 BS:1W6+2 KS:x3 ZS:5
 @alias Messer
 
 #### Schwerer Dolch
-@at AP:1 KRIT:17 GS:1W6+4 KS:x3 ZS:5
+@at AP:1 KRIT:17 BS:1W6+4 KS:x3 ZS:5
 @alias Langdolch
 
 #### Degen
-@at AP:1 KRIT:17 GS:1W6+5 KS:x3 ZS:5
+@at AP:1 KRIT:17 BS:1W6+5 KS:x3 ZS:5
 
 #### Sichel
-@at AP:1 KRIT:17 GS:1W6+0 KS:x3 ZS:4
+@at AP:1 KRIT:17 BS:1W6+0 KS:x3 ZS:4
 @alias Kriegssichel
 
 #### Kettenholz
-@at AP:1 KRIT:17 GS:1W6+0 KS:x2 ZS:x2
+@at AP:1 KRIT:17 BS:1W6+0 KS:x2 ZS:x2
 
 ## Mittelschwere Waffen
 
 #### Kurzschwert
-@at AP:2 KRIT:17 GS:2W6+2 KS:5 ZS:10
+@at AP:2 KRIT:17 BS:2W6+2 KS:5 ZS:10
 
 #### Axt
-@at AP:2 KRIT:17 GS:2W6+4 KS:8 ZS:x2
+@at AP:2 KRIT:17 BS:2W6+4 KS:8 ZS:x2
 @alias Beil, Kriegsbeil, Hammer
 
 #### Rapier
-@at AP:2 KRIT:17 GS:2W6+1 KS:x3 ZS:6
+@at AP:2 KRIT:17 BS:2W6+1 KS:x3 ZS:6
 @alias Säbel, Sichelklinge, Doppelsichel
 
 #### Sense
-@at AP:2 KRIT:17 GS:2W6+0 KS:x3 ZS:10
+@at AP:2 KRIT:17 BS:2W6+0 KS:x3 ZS:10
 @alias Kriegssense
 
 #### Kampfstab
-@at AP:2 KRIT:17 GS:2W6+0 KS:5 ZS:5
+@at AP:2 KRIT:17 BS:2W6+0 KS:5 ZS:5
 
 #### Klingenstab
-@at AP:2 KRIT:17 GS:2W6+4 KS:5 ZS:5
+@at AP:2 KRIT:17 BS:2W6+4 KS:5 ZS:5
 
 
 ## Schwere Waffen
 
 #### Breitschwert
-@at AP:3 KRIT:17 GS:3W6+0 KS:+2W6 ZS:+2W6
+@at AP:3 KRIT:17 BS:3W6+0 KS:+2W6 ZS:+2W6
 @alias Bastardschwert
 
 #### Zweihänder
-@at AP:3 KRIT:17 GS:3W6+2 KS:+2W6 ZS:+2W6
+@at AP:3 KRIT:17 BS:3W6+2 KS:+2W6 ZS:+2W6
 @alias Langschwert
 
 #### Schwere Axt
-@at AP:3 KRIT:17 GS:3W6+4 KS:+2W6 ZS:+2W6
+@at AP:3 KRIT:17 BS:3W6+4 KS:+2W6 ZS:+2W6
 @alias Doppelaxt, Langaxt
 
 #### Morgenstern
-@at AP:3 KRIT:17 GS:3W6+2 KS:+2W6 ZS:+2W6
+@at AP:3 KRIT:17 BS:3W6+2 KS:+2W6 ZS:+2W6
 @alias Doppelstern
 
 ## Fernkampfwaffen
 
 #### Kurzbogen
-@at AP:2 KRIT:17 GS:1W6+1 KS:+2W6 ZS:+2
+@at AP:2 KRIT:17 BS:1W6+1 KS:+2W6 ZS:+2
 @alias Handarmbust, Leichte Armbrust
 
 #### Langbogen
-@at AP:2 KRIT:17 GS:1W6+4 KS:+2W6 ZS:+3
+@at AP:2 KRIT:17 BS:1W6+4 KS:+2W6 ZS:+3
 @alias Kriegsbogen, Schwere Armbrust
 
 ## Waffenlos
 
 #### Schlagring
-@at AP:2 KRIT:17 GS:1W6+1 KS:x4 ZS:x2
+@at AP:2 KRIT:17 BS:1W6+1 KS:x4 ZS:x2
 
 #### Panzerhandschuh
-@at AP:2 KRIT:17 GS:1W6+1 KS:x4 ZS:x2
+@at AP:2 KRIT:17 BS:1W6+1 KS:x4 ZS:x2
 
 #### Stahlkappen
-@at AP:2 KRIT:17 GS:1W6+1 KS:x4 ZS:x2
+@at AP:2 KRIT:17 BS:1W6+1 KS:x4 ZS:x2
 
 
 
@@ -2938,8 +2938,8 @@ Wirkung      Schwach: In trockenem Zustand bei Reibung leicht entzündlich. Mitt
 @presence Einzeln/Rudel - Tu/Ge/Tr
 @attributes LP:20 AP:8 MR:3 PA:7 RS:2 B:6
 @capabilities Schnell: Läuft 2 Schritt pro Bewegung
-@attack1 Biss: AP:2 AT:10 GS:2W6-1 KRIT:20 KS:x2 ZS:0
-@attack2 Biss: AP:1 AT:8 GS:1W6+1 KRIT:15 KS:fesseln ZS:+3
+@attack1 Biss: AP:2 AT:10 BS:2W6-1 KRIT:20 KS:x2 ZS:0
+@attack2 Biss: AP:1 AT:8 BS:1W6+1 KRIT:15 KS:fesseln ZS:+3
 
 - *Fesseln:* Festbeißen bis befreit, Ziel hat -2 auf alle Aktionen, Wolf `PA-2`, Befreien für 1AP Probe auf `(KR|GW)>15` oder Töten des Wolfes.
 
@@ -2948,8 +2948,8 @@ Wirkung      Schwach: In trockenem Zustand bei Reibung leicht entzündlich. Mitt
 @presence Einzeln/Mehrere
 @attributes LP:18 AP:5 MR:8 PA:6 RS:1 B:4
 @capabilities Untot, Gerippe
-@attack1 Hieb: AP:2 AT:9 GS:1W6+2 KRIT:18 KS:x2 ZS:+4
-@attack2 Stich: AP:1 AT:8 GS:1W6+1 KRIT:17 KS:x2 ZS:+2
+@attack1 Hieb: AP:2 AT:9 BS:1W6+2 KRIT:18 KS:x2 ZS:+4
+@attack2 Stich: AP:1 AT:8 BS:1W6+1 KRIT:17 KS:x2 ZS:+2
 
 - *Untot:* Immun gegen Gift, ermüdet nicht, ein Angriff pro Kampfrunde, kann immer parrieren.
 - *Gerippe:* PA:+2 gegen Projektilwaffen.
@@ -2959,9 +2959,9 @@ Wirkung      Schwach: In trockenem Zustand bei Reibung leicht entzündlich. Mitt
 @presence Einzeln/Mehrere
 @attributes LP:52 AP:5 MR:6 PA:1 RS:0 B:2
 @capabilities Untot, Fäulnis
-@attack1 Hieb: AP:3 AT:9 GS:2W6 KRIT:19 KS:+4 ZS:+4
-@attack2 Biss: AP:1 AT:8 GS:1W6 KRIT:19 KS:Krankheit ZS:+5
-@attack3 Griff: AP:1 AT:8 GS:1W6+1 KRIT:17 KS:Festhalten ZS:+2
+@attack1 Hieb: AP:3 AT:9 BS:2W6 KRIT:19 KS:+4 ZS:+4
+@attack2 Biss: AP:1 AT:8 BS:1W6 KRIT:19 KS:Krankheit ZS:+5
+@attack3 Griff: AP:1 AT:8 BS:1W6+1 KRIT:17 KS:Festhalten ZS:+2
 
 - *Untot:* Immun gegen Gift, ermüdet nicht, ein Angriff pro Kampfrunde, kann immer parrieren.
 - *Fäulnis:* kann Krankheiten übertragen.
