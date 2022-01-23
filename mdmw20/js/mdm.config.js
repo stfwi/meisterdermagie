@@ -15,7 +15,7 @@
     mr: "(2*G+2*I+C+B)/3",
     mu: "(K+G+C)/2",
     ns: "(GW+KR)/2",
-    nm: "(GW+KR+GS)/3",
+    nm: "(GW+IN)/2",
     nl: "(GW+GS)/2",
     nw: "(GW+KR+IN)/3",
     ff: "(WA+IN)/2",
