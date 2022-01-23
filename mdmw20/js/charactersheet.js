@@ -323,6 +323,7 @@
         const json = $("#character-copy-text").val().trim();
         if(json=="" || json.substr(0,1)!="{") return;
         characterSheet.update(new MdM.Character(JSON.parse(json)));
+        $("#save-storage").click();
       });
       $("img").attr("draggable", false);
     }());
