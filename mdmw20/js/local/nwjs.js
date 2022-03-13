@@ -96,4 +96,17 @@
     Object.freeze(window.util.resource);
   }
 
+  // Zoom
+  {
+    const win = nw.Window.get();
+    window.addEventListener('wheel', function (evt) {
+      if(!evt.ctrlKey) return;
+      win.zoomLevel = Math.min(2.5, Math.max(-3.0, win.zoomLevel + ((evt.deltaY<0) ? 0.5 : (-0.5))));
+      localStorage.window_zoom_level = win.zoomLevel;
+    });
+    if(localStorage.window_zoom_level) {
+      win.zoomLevel = parseFloat(localStorage.window_zoom_level);
+    }
+  }
+
 })();
