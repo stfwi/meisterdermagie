@@ -519,10 +519,11 @@ Schweres Metall-Turmschild.
 
 #### Lichtzauber
 @level 1
-@check 20
+@check 15
 @casttime 1AP
-@cost 1MP/4m
-@duration 1h
+@cost 1MP / 4m
+@range Berührung
+@duration 1 h
 
 In der nach oben gerichteten Handfläche des Magiers erscheint eine faustgroße Lichtkugel, die beliebiger Farbe leuchtet und einem Umkreis von 4 Schritt gleichmäßig erhellt. Durch Investition zusätzlicher MP kann dieser Radius bis auf 40 Schritt ausgeweitet werden. Der Magier kann Leuchtstärke der Kugel nach Belieben verringern.
 
@@ -532,168 +533,163 @@ In der nach oben gerichteten Handfläche des Magiers erscheint eine faustgroße 
 @casttime 1AP
 @cost 3MP
 @range Sichtweite
+@duration Direkt
 @damage 1W6+3
 
 Der Magier deutet mit seinem Finger auf eine Zielkreatur. Ein kleiner weißer Ball aus gebündelter Magie schießt daraufhin auf ein Wesen und verursacht 1W6+3 SP.
 
-#### Illusion
-@level 1
-@check 20
-@casttime 1AP
-@cost 4MP * Sinnestäuschungen * Detailgrad
-@range Sichtweite
-@duration 1h
-
-Der Magier erschafft die Illusion eines Gegenstandes und täuscht somit einen oder mehrere Sinne aller Wesen in Reichweite. Die Illusion wird mit zunehmender Entfernung ungenauer, und wird beim Ertasten immer zerstört. Ansonsten bleibt sie erhalten bis sie durch Magie aufgehoben wird. Die Spruchkosten ergeben sich gemäß (4MP * Sinnestäuschungen * Detailgrad). Sinnestäuschungen wertet 1 pro Sinn (Sicht, Gehör, Geruch). Detailgrad wertet 1 pro Detailerhöhung: (leicht zu erkennen, anspruchsvoll, schwer, sehr schwer, fast unmöglich). Spezielle Extrema werden mit dem Spielleiter abgestimmt (Lebensgroßer Drache, Übelkeit erzeugender Geruch, usw.).
-
-#### Illusion zerstören
-@level 1
-@check 20
-@casttime 1AP
-@cost 2MP * Radius
-@range Sichtweite
-
-Beendet sämtliche Illusionen einem gewünschten Umkreis um den Magier und erlischt. Pro Schritt Radius fallen 2MP Spruchkosten an, auch dann, wenn keine Illusionen vorhanden sind.
-
 #### Reparieren
 @level 1
 @check 20
-@casttime 1AP
-@cost (variabel)
-@range 0
+@casttime 2 Min. pro MP, nicht im Kampf
+@cost Variabel, abhängig von Material und Masse
+@range Berührung
 
 Durch den Spruch können nicht-magische Gegenstände repariert werden. Die entstehenden Spruchkosten sind Objektspezifisch und werden im Voraus mit dem Spielleiter abgestimmt. Die Reparaturwirkung reicht maximal 1 Schritt in das Material hinein.
 
 #### Alarmzauber
-@level 2
+@level 1
 @check 20
-@casttime 2AP
-@cost 10MP
+@casttime 1 min, nicht im Kampf
+@cost 2MP pro h Wirkungsdauer
 @range Sichtweite
-@duration 12h
+@duration 1 h
 
 Der Magier legt einen Erfassungsbereich und eine Auslösebedingung für den Zauber fest. Der Alarm löst aus und informiert den Magier, wenn die Bedingung im Erfassungsbereich zutrifft. Der Erfassungsbereich hat einen maximalen Radius von 4 Schritt. Die Auslösebedingung kann mechanische Einwirkung, die Anwesenheit von bestimmten Lebewesen, oder die Aura einer Magierichtung sein.
+
+#### Zauberschrift
+@level 1
+@check 20
+@casttime 1 min, nicht im Kampf
+@cost 3MP + 3 weitere pro Grad der Verschlüsselung
+@range Berührung
+@duration permanent bis gebrochen
+
+Der Spruch chiffriert einen Text, der durch ein korrektes Zauberwort für kurze Zeit (10min) wieder lesbar gemacht werden kann. Der Magier kann die Chiffrierung durch zusätzlichen Machteinsatz verstärken, was die Probe pro Stufe um 1 erschwert. Der Text kann auch ohne das Zauberwort entschlüsselt werden, wofür die dreifachen Kosten des Chiffrierungs-Zaubers anfallen. Der Text kann auch zusätzlich für 3MP abgesichert werden, dass er sich bei fehlgeschlagener Entschlüsselung selbst zerstört.
 
 #### Blenden
 @level 2
 @check 20
-@casttime 2AP
-@cost 15MP
+@casttime 1AP
+@cost 6MP
 @range Sichtweite
-@duration 1rd
-@effect AT-4/PA-4
+@duration 1 rd
+@damage AT-4/PA-4/RF-4
 
-Eine Zielkreatur ist für eine Kampfrunde geblendet und erhält AT-4/PA-4.
+Eine Zielkreatur ist für eine Kampfrunde geblendet und erhält AT-4/PA-4/RF-4.
 
-#### Kampfzauber stören
+#### Kampfzauber neutralisieren
+@level 2
+@check 20 + Stufe des Zaubers
+@casttime 2AP
+@cost 8MP pro Stufe des Zaubers
+@range Sichtweite
+@duration Direkt
+
+Ein silberner Pfeil schießt einem Kampfzauber entgegen, um ihn zu neutralisieren. Der verteidigende Zauberer muss wahrnehmen, dass der zu neutralisierende Zauberspruch gesprochen wird. Lange vorbereitete, rituelle oder Fokus-Zauber können nicht neutralisiert werden.
+
+#### Illusion zerstören
 @level 2
 @check 20
 @casttime 2AP
-@cost 20MP
-@range Sichtweite
-@effect MK-(1W6+1)
+@cost 6MP+ 2MP pro Meter
+@range Umkreis um Zauberer
 
-Ein silberner Pfeil schießt einem Kampfzauber entgegen, schwächt ihn ab, und erlischt. Der Kampfzauber verliert magische Kraft und ist entsprechen leichter zu widerstehen: MK-(1W6+1).
+Beendet sämtliche Illusionen in einem Schritt um den Magier herum. Pro weiteren Schritt Radius fallen 2MP Spruchkosten an. Der Spruch kostet immer die veranschlagten MP, auch dann, wenn keine Illusionen vorhanden sind.
 
 #### Magische Maske
 @level 2
 @check 20
-@casttime 2AP
-@cost 8MP * Detailgrad
-@range 0
-@duration 12h
+@casttime nicht im Kampf
+@cost 8MP pro Detail
+@range Berührung
+@duration 8h
 
 Die verzauberte Person nimmt visuell die Gestalt einer gewählten humanoiden Spezies an. Die Täuschung wirkt auf alle Wesen in Sichtweite des Verzauberten. Der Zauber wirkt nicht auf andere Sinne, sodass eine Entdeckung durch Gerüche oder Berührungen möglich ist. Die Erscheinung des Verzauberten hängt von der Kreativität des Magiern ab, da auch Ausrüstung, Kleidung, etc. vom Magiern bestimmt werden. Benutzt der Verzauberte eigene Ausrüstung, ohne dass diese im Trugbild vorhanden ist, erlischt der Zauber. Die Machtkosten ergeben sich gemäß (8MP * Detailgrad), dabei ist wird er Detailgrad von 1 bis 5 gewertet (leicht zu entdecken, anspruchsvoll, schwer, sehr schwer, fast unmöglich).
+
+#### Verwandlung (Totem-Tier)
+@level 2
+@check 20
+@casttime 2AP
+@cost Je nach gewähltem Totem-Tier vom SL bestimmt. Min. 6MP
+@range Selbst
+@duration 4 h
+
+Erlaubt es dem Magier, sich zeitweilig in anderes Lebewesen zu verwandeln. Dafür muss der Zauberer die gewählte Spezies für den Spruch speziell studiert haben (z.B. in eine Katze, ein Huhn, einen Wolf oder Bären). Dabei darf das Gewicht der Spezies nicht zu stark vom Gewicht des Zaubernden abweichen (1/40 bis x8). Eine Selbstverwandlung kann vom Magier jederzeit beendet werden. Während der Verwandlung besitzt die verzauberte Person alle Fähigkeiten des gewählten Lebewesens, und ihre eigenen geistigen Eigenschaften bleiben erhalten. Es ist nicht möglich, sich in magische Lebewesen zu verwandeln, ebenso ist die Anwendung von Magie während der Verwandlung nicht möglich. Die Kleidung und Ausrüstung verwandelt sich nicht mit!
 
 #### Persönlichkeit lesen
 @level 2
 @check 20
 @casttime 2AP
-@cost 20MP
-@range 0
+@cost 6MP
+@range Sichtweite
 
 Der Magier erhält Einblick in die Persönlichkeitsmerkmale und die herausragenden Fertigkeiten einer Kreatur. Der Spielleiter bestimmt die Genauigkeit der erhaltenen Informationen anhand der Zauberprobe.
 
-#### Verwandlung
-@level 2
+#### Illusion erschaffen
+@level 3
 @check 20
-@casttime 2AP
-@cost 5MP..64MP
-@range 0
-@duration 1d
+@casttime 3AP
+@cost 6MP * Sinn * Detail
+@range Sichtweite
+@duration 1 h
 
-Erlaubt es dem Magier, sich oder eine Kreatur zeitweilig in anderes Lebewesen zu verwandeln. Für jede Spezies muss der Spruch speziell studiert werden. Dabei kann darf das Gewicht der Spezies nicht zu stark von seinem eigenen abweichen (1/40 bis x8). Eine Selbstverwandlung kann vom Magier jederzeit beendet werden, verzauberte Kreaturen können nur durch eine Entzauberung vorzeitig in ihre eigene Gestalt zurückkehren. Während der Verwandlung besitzt die verzauberte Person alle Fähigkeiten des gewählten Lebewesens, und ihre eigenen geistigen Eigenschaften bleiben erhalten. Es ist nicht möglich, sich in magische Lebewesen zu verwandeln, ebenso wie die Anwendung von Magie während der Verwandlung. Die Kosten für die Selbstverwandlung in leichtere Spezies betragen 5MP, in schwerere Spezies: (2x→8MP, 4x→16MP, 8x→32MP). Verwandlung anderer verdoppelt die Kosten.
+Der Magier erschafft die Illusion eines Gegenstandes und täuscht somit einen oder mehrere Sinne aller Wesen in Reichweite. Die Illusion wird mit zunehmender Entfernung ungenauer, und wird beim Ertasten immer zerstört. Ansonsten bleibt sie erhalten bis sie durch Magie aufgehoben wird. Die Spruchkosten ergeben sich gemäß (6MP * Sinnestäuschungen * Detailgrad). Sinnestäuschungen wertet 1 pro Sinn (Sicht, Gehör, Geruch). Detailgrad wertet 1 pro Detailerhöhung: (leicht zu erkennen, anspruchsvoll, schwer, sehr schwer, fast unmöglich). Spezielle Extrema werden mit dem Spielleiter abgestimmt (Lebensgroßer Drache, Übelkeit erzeugender Geruch, usw.).
 
 #### Entzaubern
 @level 3
 @check 20
 @casttime 3AP
-@cost 150%
-@range 0
+@cost 12MP + Kosten der Verzauberung
+@range Berührung
 
-Der Zauber hebt eine Verzauberung auf. Die Kosten betragen 50% mehr als die Kosten der Verzauberung. Der Zauber wirkt nicht auf Chimären und Wer-Phänomene.
-
-#### Flammenaura
-@level 3
-@check 20
-@casttime 3AP
-@cost 50MP
-@range 0
-@duration 1h
-
-Der Verzauberte samt Kleidung und Ausrüstung wird von magischen Flammen umgeben und so vor den Auswirkungen von Hitze und Feuer geschützt. Jedes Wesen, das mit einem Verzauberten in Kontakt kommt, erleidet 1W6 SP Flammenschaden; die Flammen breiten sich aber nicht aus.
+Der Zauber hebt eine Verzauberung auf. Der Zauber wirkt nicht auf Chimären und Wer-Phänomene.
 
 #### Flug
 @level 3
 @check 20
 @casttime 3AP
 @cost 12MP
-@range 0
-@duration 1h
+@range Berührung
+@duration 1 h
 
-Der Verzauberte erhält für eine Stunde die Fähigkeit zu fliegen. Seine maximale Flughöhe (Entfernung zum nächstliegenden Boden) beträgt MA Schritt.
+Die verzauberte Person erhält die Fähigkeit zu fliegen. Ihre maximale Flughöhe (Entfernung zum nächstliegenden Boden) beträgt MA Schritt, die Geschwindigkeit ((MA/2 Meilen) / Stunde).
 
 #### Gegenstände befragen
 @level 3
 @check 20
-@casttime 3AP
-@cost 15MP
-@range Hörweite
+@casttime nicht im Kampf
+@cost variabel (SL)
+@range Berührung
+@duration 15 Min
 
 Verzaubert einen beliebigen Gegenstand, welcher dann dem Magier eine beliebige Frage wahrheitsgemäß beantwortet. Die Spruchkosten entstehen auch dann wenn das Objekt die Antwort nicht kennt. Was der Gegenstand wissen kann liegt im Ermessen des Spielleiters.
 
-#### Haltbarkeit
+#### Magischen Gegenstand aufladen
 @level 3
 @check 20
-@casttime 3AP
-@cost 20MP/kg
-@range 0
+@casttime nicht im Kampf
+@cost 6MP + XW6 Aufladungs-Würfel
+@range Berührung
 
-Verleiht einem Objekt unbegrenzte Haltbarkeit. Lebensmittel werden dadurch unverdaulich. Pro kg kostet dies 20MP.
-
-#### Machtentzug
-@level 3
-@check 20
-@casttime 3AP
-@cost 20MP
-@range 0
-
-Mit dem Spruch werden aus Magie speichernden Gegenständen 10W6 MP entzogen. Davon erhält der Magier MP in Höhe der 5 höchsten Würfelergebnisse. Diese MP können auch zum Regenerieren von magischen Gegenständen und Artefakten verwendet werden.
+Der Zauber ist auf einen magischen Gegenstand oder ein Artefakt zu sprechen, dessen MP verbraucht worden sind. Um diese verlorenen MP wieder aufzuladen, bestimmt der Zauberer eine Menge X. Dann würfelt der Zauberer XW6. Dies sind die zusätzlichen Kosten für die Aufladung. Die ausgegebenen MP für die Aufladung können auch aus einem Machtspeicher entnommen werden. Dann erhält der verzauberte Gegenstand (XW6)/2MP dazu ,welche neu ausgewürfelt werden. Überschüssige MP gehen verloren. Der Zauber kann auch benutzt werden, um MP statt aus einem Machtspeicher aus einem aufgeladenen magischen Gegenstand/Artefakt zu entziehen.
 
 #### Magischer Schild
 @level 3
 @check 20
 @casttime 3AP
-@cost 15MP
-@duration 5rd
+@cost 12MP
+@range Selbst
+@duration 4rd
 
-Der Magier erhält einen leuchtend goldenen Schild aus reiner Magie, ihm PA+5/RS+5 verleiht und ihn nicht behindert. Der Schild schützt auch vor Magie-Angriffen in Schildrichtung.
+Der Magier erhält einen leuchtend goldenen Schild aus reiner Magie, der ihm PA+3 und RS+2 verleiht und ihn nicht behindert. Der Schild schützt auch vor Magie-Angriffen in Schildrichtung mit MR+2. Kann ohne neue Probe und ohne weitere AP für die Spruchkosten erneuert und somit aufrecht gehalten werden.
 
 #### Reflexion
 @level 3
 @check 20
 @casttime 3AP
-@cost 35MP
+@cost 12MP
+@range Selbst
 @duration 4rd
 
 Auf den Magier gerichtete Angriffszauber werden reflektiert. Dabei wirft der Magier eine Widerstandsprobe. Gelingt diese, so wirkt der reflektierte Zauber direkt gegen seinen Urheber, ansonsten verpufft er wirkungslos.
@@ -702,80 +698,86 @@ Auf den Magier gerichtete Angriffszauber werden reflektiert. Dabei wirft der Mag
 @level 3
 @check 20
 @casttime 3AP
-@cost 25MP
+@cost 12MP
+@range Selbst
 @duration 4rd
 
-Der Magier wird samt seiner Ausrüstung von einem schimmernden Film eingehüllt, welcher einschlagende Kampfzauber abfangen kann, bevor sie den Magier treffen. Der Schutz hat widersteht mit MR=12. Misslingt die Widerstandsprobe, so durchdringt der Zauber den Schutz, und der Magier muss selbst widerstehen.
+Der Magier wird samt seiner Ausrüstung von einem schimmernden Film eingehüllt, welcher einschlagende Kampfzauber abfangen kann, bevor sie den Magier treffen. Der Schutz verteidigt mit MR=15. Misslingt die Widerstandsprobe, so durchdringt der Zauber den Schutz, und der Magier muss selbst widerstehen.
 
 #### Schutz vor Nichtmagischen Angriffen
 @level 3
 @check 20
 @casttime 3AP
-@cost 25MP
-@duration 5rd
+@cost 12MP
+@range Selbst
+@duration 4rd
 
-Der Magier wird von einer glasähnlichen Energiekugel mit einer Haltbarkeit von 40LP umgeben, die von innen durchlässig ist, und nur für ihn selbst Platz bietet. Die Kugel wird durch Angriffe beschädigt und zerspringt in unzählige Stücke wenn ihre LP auf 0 sinken. Magische Waffen beschädigen sie 3-fach.
-
-#### Teleportation
-@level 3
-@check 20
-@casttime 3AP
-@cost 0.1MP * Meilen * Personen
-@range 0
-
-Der Magier und gewählte Mitreisende werden an einen Ort teleportiert, zu dem er vorher eine magische Bindung hergestellt hat. Die Kosten betragen 1MP pro Person und 10 Meilen. Die magische Bindung wird hergestellt, indem sich der Zauberer an dem gewünschten Ort kurze Zeit konzentriert und einen permanenten MP investiert. Die Anzahl solcher Bindungen ist theoretisch unbegrenzt, die Bindung an einen Ort kann jederzeit aufgehoben werden, unabhängig vom Aufenthaltsort des Zauberers.
+Der Magier wird von einer glasähnlichen Energiekugel mit einer Haltbarkeit von 30LP umgeben, die von innen durchlässig ist, und nur für ihn selbst Platz bietet. Die Kugel wird durch Angriffe beschädigt und zerspringt in unzählige Stücke wenn ihre LP auf 0 sinken. Magische Waffen beschädigen sie 3-fach.
 
 #### Verständigung
 @level 3
 @check 20
-@casttime 3AP
-@cost 20MP
+@casttime nicht im Kampf
+@cost 12MP
 @range Sichtweite
+@duration 15 Min
 
 Der Spruch ermöglicht eine telepathische Kommunikation des Magiers mit magiebegabten Wesen. Jeder Beteiligte kann das Gespräch beenden, wann er will.
 
-#### Alte Schriften lesen
+#### Teleportation
 @level 4
 @check 20
 @casttime 4AP
-@cost 20MP
-@duration 3h
+@cost 2MP pro Ort permanent, 2MP pro Meile, 2MP pro Person
+@range Berührung
 
-Der Spruch ermöglicht es unverständliche Schriften zu entziffern. Dies hilft auch bei Verwendung von Studierhilfen, deren Sprache man nicht oder nur unzureichend versteht.
+Der Magier und gewählte Mitreisende werden an einen Ort teleportiert, zu dem er vorher eine magische Bindung hergestellt hat. Die Kosten betragen 2MP pro Person und pro Meile. Die magische Bindung wird hergestellt, indem sich der Zauberer an dem gewünschten Ort kurze Zeit konzentriert und 2 permanente MP investiert. Die Anzahl solcher Bindungen ist theoretisch unbegrenzt, die Bindung an einen Ort kann jederzeit aufgehoben werden, unabhängig vom Aufenthaltsort des Zauberers.
+
+#### Alte Schriften lesen
+@level 4
+@check
+@casttime 4AP
+@cost 24MP
+@range Selbst
+@duration 4 h
+
+Der Spruch ermöglicht es, unverständliche Schriften zu entziffern. Dies hilft auch bei Verwendung von Studierhilfen, deren Sprache man nicht oder nur unzureichend versteht.
 
 #### Artefakt zerstören
 @level 4
 @check 20
-@casttime 4AP
-@cost 220+ MP
-@range 0
+@casttime 1 h pro Stufe der gespeicherten Zauber, nicht im Kampf
+@cost 12MP pro Stufe der gespeicherten Zauber
+@range Berührung
+@duration permanent
 
-Der Spruch zerstört einen magischen Gegenstand oder ein Artefakt. Magische Materialien bleiben dabei erhalten. Bei magischen Gegenständen wird auch der Trägergegenstand zerstört. Der Zaubervorgang dauert je nach Komplexität des Zielobjekts mindestens eine Stunde.
+Der Spruch zerstört einen magischen Gegenstand oder ein Artefakt. Bei magischen Gegenständen wird auch der Trägergegenstand zerstört. Magische Materialien bleiben dabei erhalten. Der Zaubervorgang dauert je nach Komplexität des Zielobjekts mindestens eine Stunde.
 
 #### Bannkreis
 @level 4
 @check 20
 @casttime 4AP
-@cost 110MP
+@cost 24MP
+@range Umkreis um Zauberer
 @duration 2rd
 
-Der Magier erschafft eine Kuppel aus einer glasartigen Substanz, in die magisch herbeigerufene Wesen bis zum IV. Grad nicht eindringen können. Die Kuppel bleibt am Ort, an dem sie erschaffen wurde. Ist es nicht möglich, aus der Kuppel heraus zu kämpfen. Die Spruchkosten betragen 40MP. Nach zwei Runden muss der Zauber erneuert werden.
+Der Magier erschafft eine Kuppel aus einer glasartigen Substanz, in die magisch herbeigerufene Wesen bis zum IV. Grad nicht eindringen können. Die Kuppel bleibt an dem Ort, an dem sie erschaffen wurde. Es ist nicht möglich, aus der Kuppel heraus zu kämpfen. Nach zwei Runden kann die Wirkungsdauer des Zaubers ohne weitere Probe oder AP für die zusätzlichen Kosten von 12MP um 2 weitere Runden verlängert werden.
 
 #### Magiestruktur erkennen
 @level 4
 @check 20
 @casttime 4AP
-@cost var.
-@range 0
+@cost 6MP pro Zauber
+@range Sichtweite
 
 Ermöglicht es dem Magier die in einem magischen Gegenstand oder Artefakt gespeicherten Zauber zu erkennen. Dabei sieht er zuerst die einzelnen Zauber und dann die Verbindungen zwischen diesen.
 
 #### Magische Falle
 @level 4
 @check 20
-@casttime 4AP
-@cost 80MP
-@range 0
+@casttime ½ h, nicht im Kampf
+@cost 24MP
+@range Berührung
 
 Der Spruch ermöglicht die Speicherung eines Zaubers in einem Gegenstand oder Artefakt, der bei Eintritt einer bestimmten einfachen Bedingung ausgelöst wird. Für jeden Zauber in einem Gegenstand muss eine eigene Magische Falle angelegt werden. Der Zaubervorgang dauert eine halbe Stunde. Es gelten die Regeln zur Herstellung von magischen Gegenständen.
 
@@ -783,95 +785,81 @@ Der Spruch ermöglicht die Speicherung eines Zaubers in einem Gegenstand oder Ar
 @level 4
 @check 20
 @casttime 4AP
-@cost 45MP
-@duration 3rd
+@cost 24MP
+@range Umkreis um Zauberer
+@duration 4rd
 
-Alle Wesen, die sich in einem Radius von 3 Schritt um den Magier aufhalten, erhalten MR+6.
-
-#### Zauberschrift
-@level 4
-@check 20
-@casttime 4AP
-@cost 20+ MP
-@range 1m
-
-Der Spruch chiffriert einen Text, die durch ein korrektes Zauberwort für kurze Zeit (10min) wieder lesbar gemacht werden kann. Der Magier kann die Chiffrierung durch zusätzlichen Machteinsatz verstärken. Der Text kann auch ohne das Zauberwort entschlüsselt werden, wofür die dreifachen Kosten des Chiffrierungs-Zaubers anfallen.
+Alle Wesen (ggf. auch feindliche), die sich in einem Radius von 3 Schritt um den Magier aufhalten, erhalten MR+6.
 
 #### Zaubermutation
 @level 5
 @check 20
-@casttime 5AP
-@cost 250MP
-@duration 1h
+@casttime nicht im Kampf
+@cost 48MP
+@range Selbst
+@duration 24 h
 
-Der Magier verändert einen beliebigen gelernten Zauber. Vor Zauberbeginn entscheidet sich der Magier, welche der nachstehenden Modifikationen durchgeführt werden sollen.
-- Das Schadensermittlung des Zaubers wird um 50% erhöht (aufgerundet, d.h. 3W6+4 → 5W6+6).
-- Die Wirkungsdauer des Zaubers wird um 100% erhöht.
-- Die Spruchkosten des Zaubers um 25% gesenkt.
-
+Der Magier verändert einen beliebigen gelernten Zauber. Vor Zauberbeginn entscheidet sich der Magier, welche der nachstehenden Modifikationen durchgeführt werden sollen. Das Schadensermittlung des Zaubers wird um 50% erhöht (aufgerundet, d.h. 3W6+4 ? 5W6+6). Die Wirkungsdauer des Zaubers wird um 100% erhöht. Die Spruchkosten des Zaubers um 25% gesenkt.
 
 ## Naturmagie
 
 #### Netz
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 12+ MP
+@cost 3MP
 @range Sichtweite
+@duration 1W6+1
 
-Der Magier erschafft in einer Wurfbewegung ein klebriges Netz, welches sich im Flug entfaltet und an einer Zielkreatur haftet eine Bewegungseinschränkung von HN-(1W6+2) verursacht. Fallen die Handlungen den negativen Bereich, so überträgt sich die Einschränkung durch Verrechnung mit HN in die nächste Kampfrunde.
+Der Magier erschafft in einer Wurfbewegung ein klebriges Netz, welches sich im Flug entfaltet und an einer Zielkreatur haftet. Das Ziel wird für 1W6+1 Runden an seinen Standort gebunden. Es kann als Aktion für 2AP je Runde einmal eine Probe auf MR oder KR gegen den beim Angriff gewürfelten Wert des Zauberspruchs machen, um das Netz zu durchbrechen. Andere Aktionen (z.B. Zaubern, Fernkampf, Parade, Verschnaufen,…) kosten das Ziel 1AP mehr. Proben erhalten einen Malus von -1.
 
 #### Schlamm
 @level 1
 @check 20
 @casttime 1AP
-@cost 18+ MP
+@cost 3MP * Schritt Radius
+@range Umkreis um Zauberer
+@duration 1W6+2
 
-Der Spruch wandelt den Erdboden in einem Radius von drei Schritt um den Magier in zähen, knietiefen Schlamm. Dieser behindert jede Fortbewegung am Boden um -3HN, wobei AP nur mit einer Probe auf (KR|GW) verwendet werden dürfen. Der Zauber funktioniert nur auf natürlichem Untergrund, der schlammig werden kann.
+Der Spruch wandelt für 1W6+2 Runden den Erdboden in einem Radius von 1-3 Schritt um den Magier in zähen, knietiefen Schlamm. Dieser behindert jede Fortbewegung am Boden um 2AP pro Feld. Sich im Bereich befindende Wesen erhalten einen Malus von -1 auf Nahkampfangriffe so wie einen Malus von -1 auf PA und RF. Der Zauber funktioniert nur auf natürlichem Untergrund, der schlammig werden kann. Nach Ende des Zaubers spuckt die Erde die im Schlamm eingesunkenen Wesen an die Oberfläche.
 
 #### Stärke
 @level 1
-@check 20
+@check 18 + Verstärkung
 @casttime 1AP
-@cost 12+ MP
-@range 0
-@duration 8rd
+@cost 3MP * Verstärkung
+@range Sichtweite
+@duration 3 min
 
-Mit dem Zauber wird eine Zielkreatur gestärkt und erhält +2KR für Proben. Attribute/Kampfwerte sind davon unbeeinflusst. Der Spruch kann zur Verstärkung bis zu 3 Mal auf dieselbe Kreatur gesprochen werden.
+Mit dem Zauber wird eine Zielkreatur gestärkt und erhält +2KR für Proben. Attribute/Kampfwerte sind davon unbeeinflusst. Der Spruch kann mit einer Verstärkung bis zu 3 Mal auf max. +8KR erhöht werden. Pro Verstärkung erschwert sich der Zauberspruch um 1.
 
 #### Wasser reinigen
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 10MP
+@cost 3MP
+@range Selbst
+@duration 3 min
 
-Der Magier erzeugt frisches Quellwasser, indem er mit Daumen und Zeigefinger einen Ring formt und Flüssigkeit mit hohem Wasseranteil hindurch gießt. Bei der Flüssigkeit kann es sich nicht nur um unreines oder verseuchtes Wasser handeln, sondern auch Wein oder Säure, o.Ä.
+Der Magier erzeugt frisches Quellwasser, indem er mit Daumen und Zeigefinger einen Ring formt und Flüssigkeit mit hohem Wasseranteil hindurch gießt. Bei der Flüssigkeit kann es sich nicht nur um unreines oder verseuchtes Wasser handeln, sondern auch um Wein, Säure, o.Ä.
 
 #### Zauberpfeil
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 16MP
-@range 0
-@duration 2HN
+@cost 3MP
+@range Berührung
+@duration 3 min
 
 Der Spruch wird durch Berührung mit der Fingerspitze auf einen Pfeil oder Bolzen gelegt. Dieser beginnt schwach grünlich zu leuchten und bewirkt AT+5 für den Schützen. Während des Flugs zieht er eine glitzernde Spur nach sich, die nach einigen Sekunden verblasst.
-
-#### Beherrschung brechen
-@level 2
-@check 20
-@casttime 2AP
-@cost 22 + (Geist des Beherrschers) MP
-@range 0
-
-Ermöglicht es, die Bindung zwischen einer beherrschten Kreatur und deren Herr zu beenden, indem der Magier die Stirn der Kreatur berührt und den Zauber spricht. Dieser wirkt gegen jegliche Art von Beherrschtheit oder Besessenheit.
 
 #### Erdenüberlieferung
 @level 2
 @check 20
-@casttime 2AP
-@cost 25MP
-@duration speziell
+@casttime nicht im Kampf
+@cost 6MP
+@range Selbst
+@duration Bis durch Zauberer beendet
 
 Der Magier sieht durch die Augen von Tieren, die sich in einem Radius von 50xMA Schritt aufhalten. Es steht ihm frei, wann er den Zauber beendet. Der Zauber wirkt nicht nur auf Säugetiere und Vögel, sondern auch auf Reptilien, Fische oder Insekten.
 
@@ -879,39 +867,29 @@ Der Magier sieht durch die Augen von Tieren, die sich in einem Radius von 50xMA 
 @level 2
 @check 20
 @casttime 2AP
-@cost var.
-@range 7m
-@duration speziell
+@cost 6MP
+@range Blickkontakt
+@duration 1 h
 
-Bewirkt, dass ein verzaubertes Tier dem Magier folgt und sich ihm gegenüber zahm verhält. Zum Sprechen des Zaubers richtet eine Hand gegen das Tier und blickt ihm in die Augen. Pro Stunde wird entscheidet ein Zufallswurf (1W6>1) ob der Zauber weiterhin wirkt oder erlischt.
-
-#### König der Tiere
-@level 2
-@check 20
-@casttime 2AP
-@cost var.
-@range Sichtweite
-@duration 1d
-
-Der Magier zeigt auf ein Tier und macht es sich zu Untertan. Abhängig von der Spezies wirkt der Spruch auch auf Schwärme, Rudel oder Insektenvölker. Dabei entstehen entsprechend höhere MA-Kosten.
+Bewirkt, dass ein verzaubertes Tier dem Magier folgt und sich ihm gegenüber zahm verhält. Zum Sprechen des Zaubers richtet eine Hand gegen das Tier und blickt ihm in die Augen. Pro Stunde entscheidet ein Zufallswurf (1W6>1), ob der Zauber weiterhin wirkt oder erlischt.
 
 #### Naturheilung
 @level 2
 @check 20
-@casttime 2AP
-@cost (Körper des Verzauberten) x 4 MP
-@range 0
-@duration speziell
+@casttime 15 Min, nicht im Kampf
+@cost 6MP
+@range Berührung
+@duration 12 h
 
-Durch Bündelung von Natur-Auren spendet dieser Spruch einer Kreatur im Verlauf eines Tages die Menge an LP, die zur vollständigen Gesundheit fehlen. Der Zauber wirkt nur, wenn die Kreatur ruht und sich in der Natur befindet – fernab von bebautem Gelände.
+Durch Bündelung von Natur-Auren spendet dieser Spruch einer Person oder Kreatur im Verlauf der nächsten 12 Stunden die Menge an LP, die zur vollständigen Gesundheit fehlen. Der Zauber wirkt nur, wenn die Kreatur ruht und sich in der Natur befindet – fernab von bebautem Gelände. Wird der Heilprozess vorzeitig abgebrochen, so bestimmt der SL, wieviele LP regeneriert worden sind.
 
 #### Pfadfinder
 @level 2
 @check 20
 @casttime 2AP
-@cost 20MP
-@range 0
-@duration 1d
+@cost 6MP
+@range Berührung
+@duration 1 h
 
 Bewirkt eine anhaltende Erfrischung der Kondition, so dass sich die bezauberte Kreatur in unwegsamen Gelände ähnlich schnell bewegen kann wie auf einer ausgebauten Straße. Spezielle Hindernisse müssen normal überwunden werden. Obgleich der Spruch unter Naturmagiern als "Pfadfinder" bekannt ist, hat er keinen Effekt auf Orientierung, Spurenlesen, oder Sinne.
 
@@ -919,152 +897,176 @@ Bewirkt eine anhaltende Erfrischung der Kondition, so dass sich die bezauberte K
 @level 2
 @check 20
 @casttime 2AP
-@cost 25MP
+@cost 6MP
 @range Sichtweite
-@damage speziell
+@duration Bis repariert
+@damage Waffen SP -2; Rüstung RS -1
 
-Der Spruch manifestiert sich als grüner Schleimball, der während einer Wurfbewegung in der Hand des Magiers entsteht. Metallteile korrodieren beim Auftreffen. Waffen werden dabei stumpfer (SP-2), während sich in Rüstungen Fehlstellen ausbilden (RS-2). Der Zauber kann mehrmals auf das selbe Objekt gewirkt werden, und ist auch gegen magische Waffen effektiv, sofern diese metallisch sind.
+Der Spruch manifestiert sich als grüner Schleimball, der während einer Wurfbewegung in der Hand des Magiers entsteht. Metallteile korrodieren beim Auftreffen. Waffen werden dabei stumpfer (SP-2), während sich in Rüstungen Fehlstellen ausbilden (RS-1). Der Zauber kann mehrmals auf das selbe Objekt gewirkt werden, und ist auch gegen magische Waffen effektiv, sofern diese metallisch sind.
 
 #### Säurepfeil
 @level 2
 @check 20
-@casttime 2AP
-@cost 30MP
-@range 0
-@damage speziell
+@casttime 1AP
+@cost 6MP
+@range Berührung
+@duration 3 min
+@damage + 10 SP
 
-Verzaubert die Spitze eines Pfeils oder Bolzens, welcher zusätzlichen Säureschaden SP+9 verursacht. Da er wie ein kleiner, unregelmäßig geformter grün leuchtender Conus auf der Pfeilspitze sitzt, wirkt er zunächst auf die Rüstung und brennt beim Aufschlag ein kleines Loch, durch dass der Pfeil eindringen kann. Daher wirkt der zusätzliche Schaden bei Säure-unempfindlichen Rüstungen (keramische oder rein magische) erst nach Durchschlagen dieser Rüstungen.
+Verzaubert die Spitze eines Pfeils oder Bolzens, welcher zusätzlichen Säureschaden SP+10 verursacht. Je nach Ziel kann die Säure besondere Effekte hervorrufen. Bei einfacher Rüstung (Nicht magisch, z.B. Leder, Fell oder Eisen) wird 1 RS ignoriert, weil der Schaden sich durchfrisst. Bei Säure-unempfindlichen Rüstungen (keramische oder rein magische) wird stattdessen der Zusatzschaden halbiert. Säureresistente Kreaturen erleiden verringerten oder keinen Zusatzschaden bei Imunität. Effektstärke wird vom SL bestimmt.
 
 #### Scharfsinn
 @level 2
 @check 20
 @casttime 2AP
-@cost 22MP
-@range 0
-@duration 2h
+@cost 6MP
+@range Berührung
+@duration 15 min
 
-Die Sinne der bezauberten Kreatur werden durch den Spruch geschärft, so dass ihre Wahrnehmung sich für Proben verdoppelt (WA*2). Hat keinen Effekt auf die berechneten Attribute.
-
-#### Schnelligkeit
-@level 2
-@check 20
-@casttime 2AP
-@cost 26MP
-@range 0
-@duration 1h
-
-Wird der Spruch durch Berührung auf eine Kreatur gewirkt, so wird deren Ausdauer um +12AD erhöht, wobei die maximale AD der Kreatur überschritten werden darf. Kann nur einmal pro Kampf auf dieselbe Kreatur gesprochen werden. Überschüssige AD versiegt kurz nach dem Kampf.
+Die Sinne der bezauberten Kreatur werden durch den Spruch geschärft, so dass ihre Wahrnehmung sich für Proben verdoppelt (WA*2). Hat keinen Effekt auf die berechneten Attribute. Kann die bezauberte Kreatur auch überempfindlich gegen Sinneseindrücke machen (starker Lärm, Geruch usw.).
 
 #### Steinerne Haut
 @level 2
 @check 20
 @casttime 2AP
-@cost 25MP
-@range 0
-@duration 8rd
+@cost 6MP
+@range Berührung
+@duration 6 rd
 
-Überzieht die Haut einer Kreatur mit einer panzernden aber geschmeidigen Steinschicht. Die Kreatur erhält dadurch erhöhten Schutz und leichte Koordinationseinbußen: RS+6/AT-1/PA-1.
+Überzieht die Haut einer Kreatur mit einer panzernden aber geschmeidigen Steinschicht. Die Kreatur erhält dadurch erhöhten Schutz und leichte Koordinationseinbußen: RS+4/AT-2/PA-1/RF-1.
 
 #### Tiere besänftigen
 @level 2
 @check 20
 @casttime 2AP
-@cost var.
-@range Sichtweite
+@cost 6MP
+@range Blickkontakt
 
 Der Magier mildert durch Blickkontakt den Angriffstrieb eines Tiers. Bei Erfolg dreht es ab und entfernt sich.
+
+#### Beherrschung brechen
+@level 3
+@check 15 + G des Beherrschers
+@casttime 2AP
+@cost 6MP + G des Beherrschers
+@range Berührung
+
+Ermöglicht es, die Bindung zwischen einer beherrschten Kreatur und deren Herr zu beenden, indem der Magier die Stirn der Kreatur berührt und den Zauber spricht. Dieser wirkt gegen jegliche Art von Beherrschtheit oder Besessenheit. Dabei ist die Probe um den Geist des Beherrschenden erschwert.
 
 #### Bote
 @level 3
 @check 20
-@casttime 3AP
-@cost 45MP
+@casttime nicht im Kampf
+@cost 12MP
+@range Sichtweite
 
 Ruft ein zufälliges Tier aus der nahen Umgebung herbei, dem der Magier klare Anweisungen formulieren kann. Dieser Zauber wirkt nur für Aufträge, die das Wesen nicht in Lebensgefahr bringen. Obgleich der Magier seine Konzentration beim Rufen in unterschiedliche Richtungen richten kann (wie in die Luft, den Waldrand, usw.), bestimmt der Spielleiter welches Tier genau auftaucht.
 
 #### Dornenfeld
 @level 3
 @check 20
-@casttime 3AP
-@cost 55MP
-@damage speziell
+@casttime 2AP
+@cost 12MP
+@range Sichtweite
+@damage -2AP / 1W6+5
 
-Der Magier ruft in einem Radius von fünf Schritt ein hüfthohes, dichtes Rankengewebe mit spitzen Dornen aus dem Erdboden. Dieses behindert die Fortbewegung und verletzt, wenn es nicht langsam und vorsichtig durchlaufen wird: HN-1 / 1W6+8 SP. Auch der Magier selbst muss auf seinen Tritt achten. Der Zauber wirkt nur auf Erdboden, den Pflanzen durchstoßen können, nicht jedoch auf Felsen oder Straßen.
+Der Magier ruft auf 12 Feldern, die benachbart sein müssen, ein hüfthohes, dichtes Rankengewebe mit spitzen Dornen aus dem Erdboden. Dieses behindert die Fortbewegung und verletzt, wenn es nicht langsam und vorsichtig durchlaufen wird: -2AP oder 1W6+5 SP pro Feld. Auch der Magier selbst muss auf seinen Tritt achten. Der Zauber wirkt nur auf Erdboden, den Pflanzen durchstoßen können, nicht jedoch auf Felsen oder Straßen.
 
 #### Eisblitz
 @level 3
 @check 20
-@casttime 3AP
-@cost 75MP
+@casttime 2AP
+@cost 12MP
 @range Sichtweite
-@damage 90/+40/+80 SP
+@damage 2W6+8 am Ziel, 1W6+2 um das Ziel herum
 
-Ein eiskalter Blitz schießt vom Himmel auf die Zielposition, gefolgt von Hagelschlag. Der Blitz ignoriert Rüstung (magischer Angriff) und verursacht 2W6+12 SP, der Hagel prasselt als 3 unabhängige 1W6 SP im Radius von einem Schritt nieder und wird von den Rüstungen gedämpft. Bei kälteempfindlichen Wesen ist eine Verminderung der AD nach Ermessen des Spielleiters möglich.
+Ein eiskalter Blitz schießt vom Himmel auf die Zielposition, gefolgt von Hagelschlag. Der Blitz ignoriert Rüstung (magischer Angriff) und verursacht 2W6+8 SP, der Hagel prasselt als 1W6+2 SP im Radius von einem Schritt nieder und wird von den Rüstungen gedämpft. Bei kälteempfindlichen Wesen ist eine Verminderung der AD nach Ermessen des Spielleiters möglich.
 
 #### Elfenblick
 @level 3
 @check 20
-@casttime 3AP
-@cost 55MP
-@range Sichtweite
-@duration speziell
+@casttime 2AP
+@cost 12MP
+@range Blickkontakt
 
-Der Magier stellt Blickkontakt zu einer Zielkreatur her, die daraufhin diesen Blick erwidert und zu keinen weiteren Handlungen mehr fähig ist. Sie empfindet die Verzauberung jedoch nicht als Zwang. Wird der Blickkontakt unterbrochen, so erlischt die Verzauberung.
+Der Magier stellt Blickkontakt zu einer Zielkreatur her, die daraufhin diesen Blick erwidert und zu keinen weiteren Handlungen mehr fähig ist. Sie empfindet die Verzauberung jedoch nicht als Zwang. Wird der Blickkontakt unterbrochen oder erleidet die Zielkreatur Schaden, so erlischt die Verzauberung.
 
 #### Entgiften
 @level 3
 @check 20
-@casttime 3AP
-@cost var.
-@range 0
+@casttime 2AP
+@cost 12MP
+@range Berührung
 
-Der Spruch treibt zuvor aufgenommenes Gift aus dem Körper einer beliebigen Kreatur.
+Der Spruch treibt zuvor aufgenommenes Gift aus dem Körper des Ziels.
 
 #### Erdwanderung
 @level 3
 @check 20
-@casttime 3AP
-@cost 85MP
-@range 0
-@duration 1d
+@casttime 2AP
+@cost 12MP
+@range Berührung
+@duration 1 h
 
 Die Person, auf welche dieser Spruch gewirkt wird, kann sich ungehindert und ohne Atemnot durch Erdreich bewegen. Sie unterliegt zwar der Schwerkraft, kann aber selbst bestimmen ob Hindernisse durchdrungen werden oder nicht. Der Zauber wirkt nur in Erdboden, nicht in Fels.
+
+#### König der Tiere
+@level 3
+@check 20
+@casttime 2AP
+@cost 12MP
+@range Sichtweite
+@duration 1 h
+
+Der Magier zeigt auf ein Tier und macht es sich zu Untertan. Abhängig von der Spezies wirkt der Spruch auch auf Schwärme, Rudel oder Insektenvölker. Dabei entstehen ggf. entsprechend höhere MA-Kosten.
 
 #### Lebendes Holz
 @level 3
 @check 20
-@casttime 3AP
-@cost var.
-@range 0
-@duration speziell
+@casttime 15 Min, nicht im Kampf
+@cost 12MP
+@range Berührung
 
-Mit diesem Spruch lässt sich lebendes Holz permanent und nach Belieben biegen und winden. Daher ist er bei Waldelfen sehr populär für den Hausbau.
+Mit diesem Spruch lässt sich lebendes Holz permanent und nach Belieben biegen und winden. Es wächst später natürlich weiter. Bei Waldelfen ist dies eine sehr populäre Art, Häuser zu bauen. Spruchkosten pro angebrochenen Kubikmeter.
 
 #### Regeneration
 @level 3
 @check 20
-@casttime 3AP
-@cost 85MP
-@range 0
-@duration 8rd
+@casttime 2AP
+@cost 12MP
+@range Berührung
+@duration 4 rd
 
-Verwundungen einer Kreatur werden über eine kurze Zeitspanne hinweg geheilt, in dem diese pro Kampfrunde +10LP erhält. Die LP können ihren Maximalwert durch diesen Zauber nicht überschreiten. Ein vollständig genesener Körper kann außerhalb des Kampfes auch Gliedmaßen regenerieren. Wenn die Kreatur stirbt, so erlischt auch der Zauber.
+Verwundungen einer Kreatur werden über eine kurze Zeitspanne hinweg geheilt, in dem diese pro Kampfrunde +5LP erhält. Die LP können ihren Maximalwert durch diesen Zauber nicht überschreiten. Der Zauber kann um +2 erschwert für die doppelten MP gesprochen werden. In diesem Fall werden für die gleiche Anzahl von Runden stattdessen +10LP regeneriert und ein vollständig genesener Körper kann dann außerhalb des Kampfes auch Gliedmaßen regenerieren. Wenn die Kreatur stirbt, so erlischt auch der Zauber. Tote können damit nicht wiederbelebt werden.
 
 #### Ruf der Risse
 @level 3
 @check 20
 @casttime 3AP
-@cost 60MP
+@cost 12MP
+@range Berührung
+@duration 4 rd
+@damage speziell
 
-Der Magier berührt den Boden mit seiner Hand oder seiner Waffe, wodurch sich bebend eine Erdspalte von seiner Position zu einem gewählten Zielpunkt öffnet (maximal 5 Schritt weit). Kreaturen im Bereich von einem Schritt zum entstandenen Riss müssen durch eine Reflexprobe verhindern dort hineinzufallen, oder durch entsprechende Proben herausklettern. Nach 3 Kampfrunden schließt sich die Erdspalte und zerquetscht alle, die noch darin sind. Der Zauber funktioniert nur auf Erdboden und Fels, nicht jedoch in Gebäuden.
+Der Magier berührt den Boden mit seiner Hand oder seiner Waffe, wodurch sich bebend eine 2 Schritt tiefe Erdspalte von seiner Position zu einem gewählten Zielpunkt öffnet (maximal 5 Schritt weit). Kreaturen im Bereich von einem Schritt zum entstandenen Riss müssen durch eine Reflexprobe verhindern dort hineinzufallen, oder durch entsprechende Proben herausklettern. Nach 4 Kampfrunden schließt sich die Erdspalte und zerquetscht alle, die noch darin sind. Der Zauber funktioniert nur auf natürlichem Erdboden und Fels, nicht jedoch in Gebäuden.
+
+#### Schnelligkeit
+@level 3
+@check 20
+@casttime 2AP
+@cost 12MP
+@range Berührung
+@duration 4 rd
+
+Das Ziel erhält für die nächsten 4 Kampfrunden automatisch jede Runde 3AP. Die maximalen AP des Ziels dürfen dadurch überschritten werden. Der Spruch ist nicht additiv. Überschüssige AP versiegt kurz nach dem Kampf.
 
 #### Spuren verwischen
 @level 3
 @check 20
-@casttime 3AP
-@cost 48+ MP
-@range 0
-@duration 1d
+@casttime 1 h, nicht im Kampf
+@cost 12MP
+@range Berührung
+@duration 1 h
 
 Verhindert, dass eine bezauberte Kreatur bei ihrer Fortbewegung sichtbare Spuren hinterlässt. Gerüche oder magische Auren kann der Spruch jedoch nicht verwischen.
 
@@ -1072,265 +1074,263 @@ Verhindert, dass eine bezauberte Kreatur bei ihrer Fortbewegung sichtbare Spuren
 @level 3
 @check 20
 @casttime 3AP
-@cost 65+ MP
+@cost 12MP
 @range Sichtweite
-@duration speziell
+@duration 2 rd
 
-Der Zauber manifestiert sich als rasend schneller Granitbrocken, der in der Luft nahe der Zielkreatur entsteht, mit dieser kollidiert und verschmilzt. Dabei versteinert die Kreatur für zwei Kampfrunden.
+Der Zauber manifestiert sich als rasend schneller Granitbrocken, der in der Luft nahe der Zielkreatur entsteht, mit dieser kollidiert und verschmilzt. Dabei versteinert die Kreatur für zwei Kampfrunden. Dem Ziel ist in der Zeit nur extrem schwer Schaden zuzufügen.
 
 #### Verwandlung beenden
 @level 3
-@check 20
-@casttime 3AP
-@cost var.
-@range 0
+@check 20 + Stufe der Verwandlung
+@casttime 2AP
+@cost 12MP * Stufe der Verwandlung
+@range Berührung
 
-Sämtliche Wer-Phänomene oder Chimären-artige Veränderungen werden mit diesem Spruch beendet. Meist stirbt ein Teil einer Chimäre bei der Trennung.
+Wer-Phänomene oder Chimären-artige Veränderungen werden mit diesem Spruch beendet. Dies ist um so aufwendiger und schwieriger, je mächtiger die Verwandlung ist. Meist stirbt ein Teil einer Chimäre bei der Trennung. Der SL bestimmt, ob eine Verwandlung auf diese Art aufgehoben werden kann.
 
 #### Eisenhaut
 @level 4
 @check 20
-@casttime 4AP
-@cost 110MP
-@range Sichtweite
-@duration 10rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 8 rd
 
-Der ganze Körper eine Kreatur wird durch den Spruch mit einer eisernen Schicht umgeben, welche ihm RS+12/AT-2 verleiht. Sprechen ist mit Eisenhaut nicht möglich.
+Der ganze Körper des Ziels wird durch den Spruch mit einer eisernen Schicht umgeben, welche zusätzlich RS+8/AT-1 verleiht. Sprechen ist mit Eisenhaut nicht möglich.
 
 #### Eissturm
 @level 4
 @check 20
-@casttime 4AP
-@cost 95MP
+@casttime 3AP
+@cost 24MP
 @range Sichtweite
-@damage speziell
-@duration speziell
+@duration 1-2 rd
+@damage 4W6+10 / weitere 2W6+5 wenn Probe >30
 
-Hagelschlag prasselt mit einem Umkreis von zwei Schritt auf Zielposition nieder. Die Körner entstehen ca. 4 Schritt über dem Ziel aus leerer Luft, sind faustgroß und so schnell, als würden sie aus einer hohen Wolke herabfallen. Alle Kreaturen im Wirkungsbereich erleiden 4W6+16 SP. Rüstungsschutz wird mitbrachtet. Wurde der Zauber mit einem Probeergebnis >30 gesprochen, so hält der Eissturm eine weitere Kampfrunde mit 2W6+8 SP an. Bei kälteempfindlichen Wesen ist eine Verminderung der HN/AP nach Ermessen des Spielleiters möglich.
+Hagelschlag prasselt mit einem Umkreis von zwei Schritt auf Zielposition nieder. Die Körner entstehen ca. 4 Schritt über dem Ziel aus leerer Luft, sind faustgroß und so schnell, als würden sie aus einer hohen Wolke herabfallen. Alle Kreaturen im Wirkungsbereich erleiden 4W6+10 SP. Rüstungsschutz wird mitbrachtet. Wurde der Zauber mit einem Probeergebnis >30 gesprochen, so hält der Eissturm eine weitere Kampfrunde mit 2W6+5 SP an. Bei kälteempfindlichen Wesen ist eine Verminderung der AP nach Ermessen des Spielleiters möglich.
 
 #### Elementarrüstung
 @level 4
 @check 20
-@casttime 4AP
-@cost 100MP
-@range 0
-@duration 9rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 4 rd
 
-Belegt die Kleidung oder Rüstung des Magiers mit einem sowohl magischen als auch natürlichen Schutz: MR+6 / RS+12.
+Belegt die Kleidung oder Rüstung des Magiers mit einem sowohl magischen als auch natürlichen Schutz: MR+8 / RS+4.
 
 #### Erdwall
 @level 4
 @check 20
-@casttime 4AP
-@cost 88+ MP
+@casttime 3AP
+@cost 24MP
+@range Sichtweite
+@duration 20 rd
 
-Der Spruch zieht Erdmaterial aus der Umgebung zu einer drei Schritt hohen und einen Schritt dicken Wand zusammen, die den Magier umgibt. Die Spruchkosten setzen sich zusammen aus einem Grundwert und einem mit dem Radius des Walls quadratisch wachsenden Wert: 10MP + (r*r) MP, wobei r der Radius des Walls in Schritt ist.
+Der Spruch zieht Erdmaterial und Staub aus der Umgebung zu einer drei Schritt hohen und einen Schritt dicken Wand zusammen, welche er frei auf 12 Feldern, die benachbart sein müssen, entstehen lässt. Der Spruch kann beliebig für jeweils 12MP um 12 Felder erweitert werden. Nach Ablauf der Wirkungsdauer zerfällt der Wall wieder zu Staub. Außerhalb des Kampfes kann alternativ mit Hilfe eines einstündigen Rituals auch eine Wand erschaffen werden, die nicht wieder automatisch zerfällt.
 
 #### Gegenstände beleben
 @level 4
 @check 20
-@casttime 4AP
-@cost 82+ MP
-@range 0
+@casttime 3AP
+@cost 24MP +1 pro kg
+@range Berührung
+@duration 1 h
 
-Der Magier haucht einem beliebigen Gegenstand Leben ein. Der Zauber kostet 40MP +1MP pro kg Masse. Es wird im Voraus mit dem Spielleiter abgestimmt welche Werte geschaffene Kreatur hat. Sinken die LP der Kreatur auf 0, so endet die Verzauberung.
+Der Magier haucht einem beliebigen Gegenstand Leben ein. Der Zauber kostet 24MP +1MP pro kg Masse. Es wird im Voraus mit dem Spielleiter abgestimmt, welche Werte die geschaffene Kreatur hat. Sinken die LP der Kreatur auf 0, so endet die Verzauberung. Der Zauberer kann die Belebung auch vorzeitig beenden oder vor Ablauf für weitere 12MP den Effekt um die Wirkungsdauer verlängern.
 
 #### Transmutation
 @level 4
 @check 20
-@casttime 4AP
-@cost 36+ MP
+@casttime 12 h, nicht im Kampf
+@cost 24MP
+@range Sichtweite
+@duration 3 Jahre
 
-Der Spruch verbessert in einem zwölfstündigen Ritual die natürlichen Gegebenheiten und Erträge eines Gebietes ins Bestmögliche. Pro 100x100 Quadratschritt Fläche kostet der Zauber 2MP, die von seinen maximalen MP permanent abgeführt werden. Der Zauber hält mindestens drei Jahre und ist während dieser Zeit irreversibel.
+Der Spruch verbessert in einem zwölfstündigen Ritual die natürlichen Gegebenheiten und Erträge eines Gebietes ins Bestmögliche. Pro 100x100 Quadratschritt Fläche kostet der Zauber zusätzlich 2MP permanent, die von seinen maximalen MP abgeführt werden. Der Zauber hält mindestens drei Jahre und ist während dieser Zeit irreversibel. Nach dieser Zeit erhält der Zauberer seine permanent gebundenen MP zurück.
 
 #### Ruf der Blitze
 @level 5
 @check 20
-@casttime 5AP
-@cost 180MP
-@damage speziell
-@duration 12rd
+@casttime 3AP
+@cost 48MP
+@range Sichtweite
+@duration 4 rd
+@damage 8 SP pro Blitz, Rüstung ignoriert
 
-Der Spruch ruft ein Gewitter herbei, aus dem jede Kampfrunde zufällig Blitze auf Anwesende einschlagen, nicht jedoch den Magier selbst. Dazu wird zu Beginn einer Runde für jede Kreatur durch einen Zufallswurf W6>3 ermittelt ob ein Blitz in die einschlägt. Dieser verursacht 15 SP und ignoriert Rüstungen.
+Der Spruch ruft ein Gewitter herbei, aus dem zu Beginn jeder Kampfrunde zufällig 3 Blitze auf Anwesende einschlagen, nicht jedoch den Magier selbst. Dazu wird zu per Zufallswurf ermittelt, wer von einem Blitz getroffen wird. Mehrfachtreffer pro Runde sind möglich. Ein einzelner Blitz verursacht 8 SP und ignoriert Rüstungen.
 
 #### Verfangen
 @level 5
 @check 20
-@casttime 5AP
-@cost 100+ MP
-@duration 15rd
+@casttime 3AP
+@cost 48MP für bis zu 5 Ziele, jedes weitere Ziel 10MP.
+@range Sichtweite
+@duration 12 rd
 
-Pflanzen schießen aus dem Erdboden und umschlingen alle Angreifer bis zur Bewegungsunfähigkeit. Jeder Betroffene wird von mindestens sechs Pflanzen angegriffen. Pro Kampfphase wird den Verfangenen eine Handlung abgezogen.
-Nach Ermessen des Spielleiters ist es möglich, sich von den Pflanzen zu befreien. Sinken die Handlungen eines Verfangenen auf 0, so kann er sich nicht mehr bewegen oder befreien. Die Kosten betragen 20MP + 10MP pro Gegner. Der Zauber kann nur auf Erdboden gewirkt werden. Pflanzen folgen danach ihrem normalen Lebenslauf.
+Pflanzen schießen aus dem Erdboden und umschlingen alle Angreifer bis zur Bewegungsunfähigkeit. Jeder Betroffene wird von mindestens sechs Pflanzen angegriffen. Pro Kampfphase verlieren die Verfangenen 1AP. Nach Ermessen des Spielleiters ist es möglich, sich von den Pflanzen zu befreien. Die Betroffenen können nicht Verschnaufen, um AP zu regenerieren. Sinken die AP eines Verfangenen auf 0, so kann er sich nicht mehr bewegen oder befreien. Der Zauber kann nur auf Erdboden gewirkt werden. Pflanzen folgen danach ihrem normalen Lebenslauf.
 
 #### Erdentor
 @level 6
 @check 20
-@casttime 6AP
-@cost 450MP
+@casttime 4 rd, nicht im Kampf
+@cost 96MP
+@range Standort und ein Ort aus guter Erinnerung
 
 Der Zauber erschafft zwei bleibende Portale im Erdboden, zwischen denen der Magier ohne Zeitverlust reisen kann. Beide Tore können nur auf Erdboden stehen. Das Erdentor kann maximal sieben Personen gleichzeitig befördern, danach kann es Tage oder gar Wochen dauern, bis es wieder nutzbar ist. 5MP der Zauberkosten sind permanent.
+
+
 
 
 ## Hexermagie
 
 #### Federflug
 @level 1
-@check 20
-@casttime 1AP
-@cost 15MP
-@range 0
+@check 18
+@casttime 0AP (Notfallzauber)
+@cost 6MP
+@range Sichtweite
+@duration bis Bodenkontakt
 
 Lässt eine im Fall befindliche Kreatur langsam zu Boden sinken. Der Zauber erlischt, sobald sie den Boden oder einen mit dem Boden verbundenes Objekt(Baum, Gebäude, Steilwand) berührt.
 
 #### Gedankenfeuer
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 45MP
+@cost 3MP
 @range Sichtweite
-@damage 15/55 SP
+@damage 1W6+1 (RS ign.)
 
-Der Magier drückt sich mit einer Handfläche an die Schläfe. Dadurch lösen sich zwei kleine blaue Energiekugeln aus seinen Augen und schießen in das Gehirn einer Zielkreatur, welche dadurch 1W6+1 SP erleidet.
-Wird das Ziel durch den erlittenen Schaden bewusstlos, so besteht die Möglichkeit, dass nach Ermessen des Spielleiters sein Intellekt vorübergehend oder permanent gesenkt wird.
+Der Magier drückt sich mit einer Handfläche an die Schläfe. Dadurch lösen sich zwei kleine blaue Energiekugeln aus seinen Augen und schießen in das Gehirn einer Zielkreatur, welche dadurch 1W6+1 SP (RS ignoriert) erleidet. Wird das Ziel durch den erlittenen Schaden bewusstlos, so besteht die Möglichkeit, dass nach Ermessen des Spielleiters sein Intellekt vorübergehend oder permanent gesenkt wird.
 
 #### Kälte erschaffen
-@level 1
-@check 20
-@casttime 1AP
-@cost var.
-@duration 7min
+@level 2
+@check 20 + 1 je 4MP
+@casttime 2AP
+@cost 2MP pro 10°C
+@range Selbst
+@duration 10 rd
 
-Kühlt die unmittelbare Umgebung des Magiers um 4°C/MP ab. Er selbst, wie seine am Körper getragene Habe sind davon unbeeinflusst. Die Temperatur gleicht sich pro Schritt Entfernung um 25% wieder an die Umgebungstemperatur an. Temperaturauswirkungen sind zu berücksichtigen, d.h. Wasser beginnt zu frieren, kälteempfindliche Wesen halten sich fern.
+Kühlt die unmittelbare Umgebung des Magiers um 10°C/2MP. Er selbst, wie seine am Körper getragene Habe sind davon unbeeinflusst. Die Kälte nimmt pro Schritt Entfernung um 25% ab. Temperaturauswirkungen sind zu berücksichtigen, d.h. Wasser beginnt zu frieren, kälteempfindliche Wesen halten sich fern. Kältere Temperaturen erfordern eine höhere Konzentration. Außerhalb des Kampfes kann der Spruch mit einem 15 minütigen Ritual auch für die gleichen Kosten mit einer Wirkungsdauer von 1h gesprochen werden.
 
 #### Kälte widerstehen
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
-@range 0
-@duration 12h
+@cost 6MP
+@range Sichtweite
+@duration 1 h
 
-Wird auf eine Kreatur gewirkt, die dann für 12h gegen jegliche Kälteeinwirkung immun ist. Ihre am Körper getragene Habe ist ebenfalls geschützt.
+Ein verzaubertes Wesen und ihr am Körper getragenes Habe ist gegen jegliche Art von nicht-magischer Kälte immun.
 
 #### Laufen auf Wasser
 @level 2
 @check 20
 @casttime 2AP
-@cost 30MP
-@range 0
-@duration 1h
+@cost 6MP
+@range Berührung
+@duration 10 rd
 
-Der Spruch lässt die Wasseroberfläche für eine beliebige Kreatur hart werden, so dass diese darauf laufen oder sich aus dem Wasser an die Oberfläche ziehen kann. Fallen auf die Wasseroberfläche ist gefährlich. Bei unruhigem Gewässer oder starkem Wellenbewegung ist die Fortbewegung erschwert.
+Der Spruch lässt die Wasseroberfläche für eine beliebige Kreatur hart werden, so dass diese darauf laufen oder sich aus dem Wasser an die Oberfläche ziehen kann. Fallen auf die Wasseroberfläche ist gefährlich. Bei unruhigem Gewässer oder starkem Wellenbewegung ist die Fortbewegung erschwert. Außerhalb des Kampfes kann der Spruch mit einer Spruchdauer von 1 Min. gleichzeitig auf mehrere Ziele ( Kosten fallen pro Ziel an) für die Wirkungsdauer einer Stunde gesprochen werden.
 
 #### Wasser atmen
 @level 2
 @check 20
 @casttime 2AP
-@cost 18MP
-@range 0
-@duration 12h
+@cost 6MP
+@range Berührung
+@duration 1 h
 
 Erlaubt es der verzauberten Kreatur Wasser statt Luft zu atmen. Zauberkundige, die den Spruch selbst beherrschen, können den Effekt jederzeit für sich und andere (durch Berührung) beenden. Diese müssen ansonsten warten bis der Zauber erlischt.
 
 #### Gedanken lesen
 @level 3
 @check 20
-@casttime 3AP
-@cost 15 + (5xG des Opfers) MP
-@range 0
+@casttime nicht im Kampf
+@cost 12MP + G des Ziels
+@range Blickkontakt
 
 Der Magier stellt Blickkontakt zu einer Zielperson her, um deren Gedanken zu erahnen. Diese bemerkt die Wirkung des Zaubers als Zwang, an das zu denken, was der Magier wissen will. Zauberprobe und Widerstandsproben geben dem Spielleiter Anhaltspunkte, wie detailliert die Informationen sind.
 
 #### Gedankensturm
 @level 3
 @check 20
-@casttime 3AP
-@cost 55MP
+@casttime 2AP
+@cost 12MP
 @range Sichtweite
-@damage speziell
-@duration 4rd
+@duration 6 rd
 
-Der Magier wirft langsam seinen Kopf hin und her. Eine Zielkreatur erleidet daraufhin starke Kopfschmerzen und ist handlungsunfähig bis der Zauber erlischt oder ihm widerstanden wird. Widerstandsproben werden zu Beginn der folgenden Kampfrunden ermittelt. Die Kopfschmerzen enden abrupt wenn der Zauber erlischt.
+Der Magier konzentriert sich auf sein Ziel und wirft langsam seinen Kopf hin und her. Das Ziel erleidet daraufhin starke Kopfschmerzen und einen Malus von -3 auf alle Zauber-Proben sowie -3 auf alle I/MN/WI/KE-Proben.
 
 #### Gegenstände bewegen
 @level 3
 @check 20
-@casttime 3AP
-@cost 35+ MP
+@casttime nicht im Kampf
+@cost 6MP + 1MP pro kg
 @range Sichtweite
-@duration 1min
+@duration 5 min
 
-Der Magier richtet - je nach Gewicht des Gegenstandes - Finger, Hand oder Arm auf einen leblosen Gegenstand, um diesen langsam zu bewegen. Dies kostet ihn 4MP pro Kg Masse.
+Der Magier richtet - je nach Gewicht des Gegenstandes - Finger, Hand oder Arm auf einen leblosen Gegenstand, um diesen langsam zu bewegen. Dies kostet ihn 6MP +1MP pro kg Masse.
 
 #### Halluzinationen
 @level 3
 @check 20
-@casttime 3AP
-@cost var.
+@casttime 2AP
+@cost 12MP
 @range Sichtweite
-@duration 1h
+@duration 1 h
 
-Der Magier ruft im Geist einer Zielperson den Rahmen ein Trugbild hervor. Dieses wird der von der Person mit eigenen den Erinnerungen, Ängsten, und Eindrücken gefüllt, und wirkt daher auf alle Sinne real. Es kann gemäß Kampfsystem als virtueller Gegner der Zielperson Schaden zufügen, sie wird jedoch nicht wirklich dabei verletzt. In Kampfsituationen senken Schaden des Trugbilds und realer Gegner zusammen die LP der Zielperson. Sinken ihre LP auf 0 so wird die Person bewusstlos.
+Der Magier ruft im Geist einer Zielperson den Rahmen ein Trugbild hervor. Dieses wird von der Person mit eigenen Erinnerungen, Ängsten, und Eindrücken gefüllt, und wirkt daher auf alle Sinne real. Es kann gemäß Kampfsystem als virtueller Gegner der Zielperson Schaden zufügen, sie wird jedoch nicht wirklich dabei verletzt. In Kampfsituationen senken Schaden des Trugbildes und realer Gegner zusammen die LP der Zielperson. Sinken ihre LP auf 0, so wird die Person bewusstlos.
 
 #### Lähmung
 @level 3
 @check 20
 @casttime 3AP
-@cost 60MP
+@cost 12MP
 @range Sichtweite
-@duration 8rd
+@duration 4 rd
 
 Der Magier spannt ruckartig alle Gliedmaßen an und lähmt damit eine Zielkreatur. Zu Beginn jeder Kampfrunde legt die Kreatur eine Widerstandsprobe ab. Gelingt diese, so erlischt der Spruch am Ende dieser Runde.
 
 #### Straße verzaubern
 @level 3
 @check 20
-@casttime 3AP
-@cost var.
-@range 0
-@duration 5min
+@casttime nicht im Kampf
+@cost 12MP + 3MP pro weitere(n) Reisende(n) + 1MP pro 10 Meilen
+@range Selbst
+@duration 1 Min pro 6 Meilen
 
-Erlaubt es dem Magier nahezu ohne Zeitverlust auf Straßen zu reisen. Er kann dabei Kreaturen/Personen mit sich führen. Die Kosten betragen für jede Kreatur (Magier mit inbegriffen) 1MP pro zwei Meilen.
+Erlaubt es dem Magier, nahezu ohne Zeitverlust auf Straßen zu reisen (100 Schritt pro Sekunde). Er kann dabei Kreaturen/Personen mit sich führen. Die Kosten erhöhen sich für jede(n) Reisende(n) und je weiter die Stecke ist.
 
 #### Sturmgebrüll
 @level 3
 @check 20
 @casttime 3AP
-@cost 65MP
-@range 7m
-@damage speziell
+@cost 12MP
+@range Kegel
+@damage 3W6+WA des Ziels
 
-Der Magier stößt einen Schrei aus, der sich zu einem Schallkegel aus tosendem Gebrüll verstärkt. Dieser geht 7 Schritt weit und hat einen Winkel von 120° (d.h. nach vorne sowie eine Hexfeld-Richtung nach rechts und links).
-Kreaturen mit Gehör, die sich im Schallkegel aufhalten, erleiden Schaden entsprechend ihrer Wahrnehmung 2W6+WA SP.
+Der Magier stößt einen Schrei aus, der sich zu einem Schallkegel aus tosendem Gebrüll verstärkt. Dieser geht 7 Schritt weit und hat einen Winkel von 120° (d.h. nach vorne sowie eine Hexfeld-Richtung nach rechts und links). Kreaturen mit Gehör, die sich im Schallkegel aufhalten, erleiden Schaden entsprechend ihrer Wahrnehmung 3W6+WA SP.
 
-#### Täuschung
+#### Täuschung / Trüben
 @level 3
 @check 20
 @casttime 3AP
-@cost 70MP
-@range 0
-@duration 12rd
+@cost 12MP
+@range Berührung
+@duration 4 rd
 
-Lässt die Gestalt einer Kreatur verschwimmen. Diese Kreatur erhält AT+4/PA+2.
-
-#### Trüben
-@level 3
-@check 20
-@casttime 3AP
-@cost 65MP
-@range 0
-@duration 6rd
-
-Der Spruch lässt eine Kreatur als bizarr verzerrte, flimmernde Gestalt erscheinen. Nahkampf-Angriffe auf diese Kreatur sind mit AT-3 erschwert, und Fernangriffe mit AT-6.
+Lässt die Gestalt einer Kreatur verschwimmen oder bizarr verzerrt und flimmernd erscheinen. Das Ziel erhält AT+4 bei eigenen Nahkampf-Angriffen und Angreifer gegen das Ziel erhalten im Nahkampf einen Malus von AT-2 und im Fernkampf einen Malus von AT-4.
 
 #### Wasser erschaffen
 @level 3
 @check 20
-@casttime 3AP
-@cost 6MP/L
-@range 0
-@duration 2min
+@casttime nicht im Kampf
+@cost 8MP + 4MP pro weiteren Liter
+@range Berührung
+@duration 10 Sekunden pro Liter
 
 Der Magier berührt mit seiner Hand einen beliebigen leblosen Gegenstand. Aus diesem sprudelt trinkbares Wasser hervor. Die Wassermenge ist nur durch die verfügbaren MP begrenzt.
 
@@ -1338,286 +1338,351 @@ Der Magier berührt mit seiner Hand einen beliebigen leblosen Gegenstand. Aus di
 @level 3
 @check 20
 @casttime 3AP
-@cost 45MP
-@range 0
-@duration 4rd
+@cost 12MP
+@range Selbst
+@duration 8 rd
 
 Nachdem der Magier sich mehrfach um seine eigene Achse dreht, entstehen in seiner unmittelbaren Umgebung starke Winde. Diese behindern ihn nicht und lenken nicht-magische Geschosse von ihm ab. Andere Kreaturen können nach Ermessen des Spielleiters in der Nähe des Magiers Schutz suchen.
 
 #### Eile
 @level 4
 @check 20
-@casttime 4AP
-@cost 85MP
-@range 0
-@duration 10rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 8 rd
 
-Eine durch Berührung verzauberte Kreatur erhält AT+2/PA+2/RF+2/HN+2. Nachdem der Zauber erlischt verliert sie bis zum nächsten erholsamen Schlaf HN-1. Der Spruch bis dahin nicht mehr auf sie anwendbar.
+Das Ziel erhält für die Wirkungsdauer pro Runde 2AP und AT+3/PA+3/RF+3. Nachdem der Zauber erlischt, werden die Maximal zur Verfügung stehenden AP des Ziels bis zum nächsten erholsamen Schlaf um 2 gesenkt. Das Ziel ist Erschöpft. Weitere Anwendungen des Spruchs haben bis dahin keine Wirkung mehr auf das Ziel.
 
 #### Fleisch zu Nebel
 @level 4
 @check 20
-@casttime 4AP
-@cost 100MP
-@range 0
-@duration 14rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 6 rd
 
-Der Magier verwandelt eine Kreatur mitsamt ihrer Ausrüstung in gleichgroße, blau schimmernde Nebelgestalt, die weder angreifen noch verteidigen kann, und keinen Kampfschaden nimmt. Starke Winde und Feuer können sie jedoch schädigen. Berührt der Nebel eine Wasserfläche, verbindet er sich mit ihr, und die verzauberte Kreatur ist bis zum Ende der Wirkungsdauer im Wasser gebunden.
+Der Magier verwandelt ein Ziel mitsamt ihrer Ausrüstung in eine gleichgroße, blau schimmernde Nebelgestalt. Diese kann weder angreifen noch sich verteidigen und nimmt keinen Kampfschaden. Starke Winde und Feuer können sie jedoch schädigen. Berührt der Nebel eine Wasserfläche, verbindet er sich mit ihr, und die verzauberte Kreatur ist bis zum Ende der Wirkungsdauer im Wasser gebunden.
 
 #### Kreaturenfesselung
 @level 4
 @check 20
-@casttime 4AP
-@cost 105+ MP
+@casttime nicht im Kampf
+@cost 24MP + Erhaltung
 @range Sichtweite
+@duration Bis MP erschöpft oder freigelassen
 
-Ein anwesendes magisches Wesen wird dem Willen des Magiers unterstellt falls es nicht widersteht. Er kann es jederzeit entlassen und trägt die magischen Unterhaltskosten, die das Wesen in seiner Dimension halten. Die Spruchkosten fallen auch dann an, wenn kein Wesen anwesend ist.
+Ein anwesendes magisches Wesen wird dem Willen des Magiers unterstellt, falls es nicht widersteht. Das Wesen kann jederzeit entlassen werden. So lange es kontrolliert wird, fallen je nach Art des Wesens unterschiedliche magischen Unterhaltskosten an, aufzubringen sind, um das Wesen in der aktuellen Dimension zu halten. Der Zauber ist um 3 erschwert, wenn die Anwesenheit eines Wesens nicht sicher ist. Die Spruchkosten fallen auch dann an, wenn kein Wesen anwesend ist.
 
 #### Luftbrücke
 @level 4
 @check 20
-@casttime 4AP
-@cost 2MP/m
+@casttime nicht im Kampf
+@cost 12MP + 2MP pro Schritt Länge
 @range Sichtweite
+@duration 1 h oder vorzeitig durch Zauberwirker beendet
 
 Mit seinen Händen formt der Magier eine kleine Brücke. Dadurch erscheint eine Brücke aus flimmernder Luft an einer gewünschten Stelle. Sie hat unbegrenzte Tragkraft und ist 1.5 Schritt breit. Die Spruchkosten betragen 2MP pro Schritt Länge (eine 3 Schritt breite Brücke entsprechend 4MP/Schritt).
 
 #### Unsichtbarkeit
 @level 4
 @check 20
-@casttime 4AP
-@cost 95MP
-@range 0
-@duration 12rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 10 rd im Kampf, 1h wenn außerhalb des Kampfes gewirkt
 
-Eine Kreatur wird mitsamt ihrer Ausrüstung unsichtbar. Jeder Gegner, der sie angreifen will, muss bei der Attacke mit einer Zufallsprobe W6>3 feststellen ob er daneben schlägt/schießt/zaubert. Dieselbe Probe gilt beim Verteidigen gegen die verzauberte Kreatur. Die Unsichtbarkeit erlischt frühzeitig, nachdem die Kreatur 3 Mal erfolgreich angegriffen oder gezaubert hat. Magische Sicht enthüllt die Unsichtbarkeit für den Betrachter.
+Ein Ziel wird mitsamt der getragenen Ausrüstung unsichtbar. Ohne Indizien auf den Aufenthaltsort des Ziels (z.B. Fußspuren im Staub, Konturen im Regen usw.) schlagen Angriffe auf es automatisch fehl, ansonsten legt der SL den Malus auf den Angriff fest. Hat keine Auswirkung auf Flächenangriffe. Verteidigen gegen das unsichtbare Ziel wird mit einem Malus von 5 erschwert. Die Unsichtbarkeit erlischt frühzeitig, nachdem das Ziel 2 Mal angegriffen oder gezaubert hat. Magische Sicht enthüllt die Unsichtbarkeit für den Betrachter.
 
 #### Vakuum
 @level 4
 @check 20
-@casttime 4AP
-@cost 110MP
-@damage 3W6/r
-@duration 3rd
+@casttime 3AP
+@cost 24MP
+@range Sichtweite
+@duration 3 rd
+@damage 2W6+5 pro Runde
 
-Der Magier zieht die Luft in einem Raum zu einem kleinen Punkt an beliebiger Zielposition zusammen (max. 200 Kubik-Schritt). Luft atmende Kreaturen im evakuierten Raum erleiden 3W6 SP pro Kampfrunde. Wenn der Zauber erlischt strömt die Luft schlagartig von der Zielposition in den Raum zurück erzeugt eine Druckwelle, Objekte und Kreaturen einen Schritt vom Zielpunkt wegbewegt.
+Der Magier zieht die Luft in einem Raum zu einem kleinen Punkt an beliebiger Zielposition zusammen. Dies erfolgt kreisförmig mit einem Durchmesser von 7 Schritt (Mitte eines Hexfeldes dient als Mittelpunkt). Luft atmende Kreaturen im evakuierten Raum erleiden 2W6+5 SP pro Kampfrunde. Wenn der Zauber erlischt, strömt die Luft schlagartig von der Zielposition in den Raum zurück und erzeugt eine Druckwelle. Diese stößt Objekte und Kreaturen einen Schritt vom Mittelpunktpunkt weg. Der Zauberwirker bleibt von allen Effekten des Zaubers unberührt.
 
 #### Verbannen
 @level 4
-@check 20
-@casttime 4AP
-@cost 105+ MP
+@check 20 + Stufe des Wesens
+@casttime 3AP
+@cost 24MP * Stufe des Wesens
 @range Sichtweite
 
-Mit dem Spruch wird ein anwesendes magisches Wesen in seine Dimension zurückgestoßen. Die Spruchkosten betragen 40MP und fallen auch dann an, wenn das Wesen widersteht oder kein magisches Wesen anwesend ist.
+Mit dem Spruch wird ein anwesendes magisches Wesen in seine Dimension zurückgestoßen. Die Spruchkosten fallen auch dann an, wenn das Wesen widersteht oder das benannte magische Wesen nicht anwesend ist.
 
 #### Windschlag
 @level 4
 @check 20
-@casttime 4AP
-@cost 65+ MP
-@range 0
-@duration 4rd
+@casttime 3AP
+@cost 24MP
+@range Selbst
+@duration 4 rd
 
-Durch Berührung wird der Zauber auf eine Kreatur gelegt, um welche sich stetig große Mengen Luft bilden. Dadurch strömen gewaltige Winde in alle Richtungen von ihr weg. Im Umkreis von 4 Schritt ist die Windkraft maximal, sodass Objekte und Kreaturen kleiner 50kg nach außen geblasen werden. 200kg schwere Objekte bleiben hingegen liegen. Kreaturen mit einer dazwischenliegenden Masse müssen pro Schritt Annäherung eine Kraftprobe und 3HN aufwenden. In weiterer Entfernung schwächt sie sich um 50% pro Schritt ab.
+Der Zauberwirker bildet den Mittelpunkt eines Orkans. Von dort aus strömen gewaltige Winde in alle Richtungen weg. Im Umkreis von 4 Schritt ist die Windkraft maximal, sodass Objekte und Kreaturen kleiner 50kg nach außen geblasen werden. Schwerere Wesen müssen eine KR-Probe pro Schritt ablegen, sonst werden sie ebenfalls nach außen abgedrängt. Jede Aktion kostet im Wirkungsbereich einen AP mehr. Alles, was schwerer als 200 kg ist, wird nicht vom Wind beeinflusst.
 
 #### Zauberfesselung
 @level 4
 @check 20
-@casttime 4AP
-@cost 86+ MP
+@casttime 3AP
+@cost 24MP + ½ Kosten des Zielzaubers
 @range Sichtweite
-@duration speziell
 
-Ein Zauberspruch wird mit maximaler Wirkungsdauer unter die Kontrolle des Magiers gestellt. Der Magier muss die Quelle des Zaubers sehen können. Ist diese ein Objekt, so entfällt die Widerstandsprobe, falls keine weiteren Schutzzauber auf es wirken. Die Kosten betragen 35MP + die halben Kosten dieses Zaubers.
+Ein Zauberspruch wird mit maximaler Wirkungsdauer unter die Kontrolle des Magiers gestellt. Der Magier muss die Quelle des Zaubers sehen können. Ist diese ein Objekt, so entfällt die Widerstandsprobe, falls keine weiteren Schutzzauber auf es wirken. Die Kosten betragen 24MP + die halben Kosten dieses Zaubers.
 
 #### Doppelgänger
 @level 5
 @check 20
-@casttime 5AP
-@cost 150MP + 25 permanente MP
-@range 0
-@duration speziell
+@casttime nicht im Kampf
+@cost 48MP +12MP permanent
+@range Berührung
+@duration bis aufgelöst oder aufgehoben
 
 Der Magier erschafft ein genaues Duplikat einer berührten Person, das er vollständig kontrollieren und dessen Sinne er für sich nutzen kann. Je schlechter die Magieprobe ausfällt, desto ungenauer ist auch das Abbild des Doppelgängers. Alle spieltechnischen Werte des Doppelgängers sind halb so hoch wie die seines Ebenbildes. Die Manifestation des Doppelgängers kann bis zu einem Tag verzögert werden. Es besteht eine magische Verbindung zwischen dem Doppelgänger und dem Magier, die auf magischer Sicht erkennbar ist.
-
-#### Fliegende Festung
-@level 5
-@check 20
-@casttime 5AP
-@cost var.
-@range Sichtweite
-@duration mehrere Tage
-
-Der Magier erschafft je nach Menge eingesetzten einen Turm aus purer Magie, der sich in die Wolken erhebt und mit bloßen Gedanken gelenkt werden kann. Eine bestehende Bausubstanz kann in diesen Spruch eingebunden werden, wodurch sich die Kosten nach Ermessen des Spielleiters verringern. Ein rein magischer Turm kostet im Durchschnitt 2000MP, 50MP davon permanent.
 
 #### Hirnschlag
 @level 5
 @check 20
-@casttime 5AP
-@cost 220MP
+@casttime 3AP
+@cost 48MP
 @range Sichtweite
-@damage speziell
+@damage 5W6+13 (RS ignoriert)
 
-Der Magier versucht mit der Macht seiner Gedanken einer Zielkreatur zu Schaden. Diese muss mindestens tierhaft intelligent sein. Widersteht sie dem Zauber, reduzieren sich ihre verbleibenden LP auf 25% (LP/4). Widersteht sich nicht, so verliert sie alle LP bis auf einen (LP=1).
-
-#### Klimawechsel
-@level 5
-@check 20
-@casttime 5AP
-@cost 500MP
-@range Sichtweite
-
-Der Magier wirkt den Zauber auf ein (totes) Objekt und bestimmt ein Klima. Dieses Objekt verändert binnen drei Tagen das Klima der Umgebung in einem Umkreis von fünf Meilen. Das Objekt ist aus einer Entfernung von fünf Schritt auf magischer Sicht schwach erkennbar. Es sind keine permanenten MP notwendig.
+Der Magier versucht mit der Macht seiner Gedanken einer Zielkreatur zu Schaden. Diese muss mindestens tierhaft intelligent sein. Das Ziel kann für die nächsten 3 Runden keine Zauber wirken. Werden durch den Spruch mehr als 30 SP Schaden zugefügt, so ist das Ziel für jeden SP über 30 eine Runde bewusstlos.
 
 #### Körperlosigkeit
 @level 5
 @check 20
-@casttime 5AP
-@cost 130MP
-@range 0
-@duration 15rd
+@casttime 4AP
+@cost 48MP
+@range Berührung
+@duration 15 rd
 
-Die verzauberte Kreatur wird mitsamt ihrer Ausrüstung transparent und kann durch beliebige nicht-magische Hindernisse hindurchgehen, unterliegt jedoch der Schwerkraft. Sie ist immun gegen nicht-magische Waffen.
+Die verzauberte Kreatur wird mitsamt ihrer Ausrüstung transparent und kann durch beliebige nicht-magische Hindernisse hindurchgehen, unterliegt jedoch der Schwerkraft, bestimmt aber selbst, ob er Hindernisse durchdringen will oder nicht. Sie ist immun gegen nicht-magische Waffen.
 
 #### Laufen mit dem Wind
 @level 5
 @check 20
-@casttime 5AP
-@cost 1MP/Mi
-@range 0
+@casttime nicht im Kampf
+@cost 24MP + 3MP pro weitere(n) Reisende(n) + 1MP pro 10 Meilen
+@range Selbst
 
-Der Magier steigt in die Luft auf und bewegt sich dort mit der Geschwindigkeit des Windes. Er kann dabei Kreaturen/Personen mit sich führen. Die Kosten betragen für jede Kreatur (Magier mit inbegriffen) 1MP pro Meile.
+Der Magier steigt in die Luft auf und bewegt sich dort frei wie der Wind. Er kann dabei Kreaturen/Personen mit sich führen. Seine Geschwindigkeit beträgt maximal 60 Meilen pro Stunde.
 
 #### Massenunsichtbarkeit
 @level 5
 @check 20
-@casttime 5AP
-@cost 240MP
-@range 0
-@duration 20rd
+@casttime 3AP
+@cost 24MP + 12MP je weiteres Ziel
+@range Berührung
+@duration 10 rd im Kampf, 1h wenn außerhalb des Kampfes gewirkt
 
-Der Magier und bis zu G weitere Kreaturen werden mitsamt ihrer Ausrüstung unsichtbar. Jeder Gegner, der sie angreifen will, muss bei der Attacke mit einer Zufallsprobe W6>3 feststellen ob er daneben schlägt/schießt/zaubert. Dieselbe Probe gilt beim Verteidigen gegen die verzauberten Kreaturen. Die Unsichtbarkeit einer Kreatur erlischt frühzeitig, nachdem sie 5 Mal erfolgreich angegriffen oder gezaubert hat. Magische Sicht enthüllt die Unsichtbarkeit für den Betrachter.
+Mehrere Ziele werden mitsamt ihrer Ausrüstung unsichtbar. Ohne Indizien auf den Aufenthaltsort eines Ziels (z.B. Fußspuren im Staub, Konturen im Regen usw.) schlagen Angriffe auf es automatisch fehl, ansonsten legt der SL den Malus auf den Angriff fest. Hat keine Auswirkung auf Flächenangriffe. Verteidigen gegen das unsichtbare Ziel wird mit einem Malus von 5 erschwert. Die Unsichtbarkeit erlischt frühzeitig für ein Ziel, nachdem es 2 Mal angegriffen oder gezaubert hat. Magische Sicht enthüllt die Unsichtbarkeit für den Betrachter.
 
 #### Schwerkraft aufheben
 @level 5
 @check 20
-@casttime 5AP
-@cost 220MP
-@duration 1min
+@casttime 3AP
+@cost 48MP
+@range Umkreis
+@duration 30 rd
 
-Der Magier kann in zehn Schritt Radius um ihn herum die Schwerkraft beliebig aufheben oder wirken lassen. Er kann die auf ihn selbst wirkende Schwerkraft jedoch nicht aufheben.
+Der Magier kann in 10 Schritt Radius um ihn herum die Schwerkraft beliebig aufheben oder wirken lassen. Zu beginn jeder Kampfrunde bestimmt er die Schwerkraft für diese Runde. Er kann die auf ihn selbst wirkende Schwerkraft jedoch nicht aufheben.
 
 #### Überlagerung
 @level 5
 @check 20
-@casttime 5AP
-@cost 70+ MP
-@range 0
-@duration bis zu zwei Wochen
+@casttime nicht im Kampf
+@cost 48MP
+@range Berührung
+@duration bis zu 2 Wochen
 
-Durch Zusammenführung verbirgt der Magier ein oder mehrere Objekte in einem Trägerobjekt. In beiden Fällen kann es sich um Gegenstände oder Lebewesen handeln. Er kann den Zauber jederzeit beenden. Lebewesen entscheiden ob sie widerstehen wollen, und bemerken den Zauber nur, wenn sie den Zaubervorgang durchschauen. Jedes verborgene Objekt ist auf magischer Sicht sichtbar, auch wenn es nicht-magisch ist.
+Durch Zusammenführung verbirgt der Magier ein oder mehrere Objekte in einem Trägerobjekt. In beiden Fällen kann es sich um Gegenstände oder Lebewesen handeln. Er kann den Zauber jederzeit beenden. Lebewesen entscheiden, ob sie widerstehen wollen, und bemerken den Zauber nur, wenn sie den Zaubervorgang durchschauen. Jedes verborgene Objekt ist auf magischer Sicht sichtbar, auch wenn es nicht-magisch ist.
 
 #### Wetter herbeirufen
 @level 5
 @check 20
-@casttime 5AP
-@cost 170MP
+@casttime nicht im Kampf
+@cost 48MP
 @range Sichtweite
+@duration 24 h
 
-Mit mit einem gen Himmel gerichteten Blick ruft der Magier beliebiges Wetter herbei. Auf die weitere Entwicklung des Wetters hat er danach keinen Einfluss mehr.
+Mit mit einem gen Himmel gerichteten Blick ruft der Magier beliebiges Wetter herbei. Dieses hält sich für die nächsten 24 h. Auf die weitere Entwicklung des Wetters hat er danach keinen Einfluss mehr.
 
 #### Zaubersperre
 @level 5
 @check 20
-@casttime 5AP
-@cost 160MP
-@duration 15rd
+@casttime 3AP
+@cost 48MP
+@range Selbst
+@duration 15 rd
 
 Der Magier generiert ein kreisförmiges Feld von 4 Schritt Radius um sich, in dem eine bestimmte Magierichtung nicht mehr gewirkt werden kann. Weiterhin Zauberknoten und Gebietsverzauberungen für die Dauer des Zaubers ihre Wirkung. Das Feld bewegt sich nicht mit dem Magier mit.
 
+#### Fliegende Festung
+@level 6
+@check 30
+@casttime Mehrere Tage (SL), nicht im Kampf
+@cost variabel, im Durchschnitt 1000MP + 250MP permanent
+@range Sichtweite
+@duration permanent
 
+Der Magier erschafft einen Turm aus purer Magie, der sich in die Wolken erhebt und mit bloßen Gedanken gelenkt werden kann. Eine bestehende Bausubstanz kann in diesen Spruch eingebunden werden, wodurch sich die Kosten nach Ermessen des Spielleiters verringern. Ein rein magischer Turm kostet im Durchschnitt 1250MP + 250MP permanent. Dies kann als Ritual mit mehreren Magiern durchgeführt werden, die sich die Kosten teilen. Dabei muss nur ein Magier den Spruch beherrschen können. Sterben Magier, deren permanente MP gebunden sind, so wird die Struktur der Festung geschwächt. Andere Magier können sie mit ihren MP „reparieren“.
+
+#### Klimawechsel
+@level 6
+@check 30
+@casttime 8 h, nicht im Kampf
+@cost 96MP
+@range Berührung
+@duration permanent
+
+Der Magier wirkt den Zauber auf ein (totes) Objekt und bestimmt ein Klima. Dieses Objekt verändert binnen drei Tagen das Klima der Umgebung in einem Umkreis von fünf Meilen. Das Objekt ist aus einer Entfernung von fünf Schritt auf magischer Sicht schwach erkennbar. Es sind keine permanenten MP notwendig.
 
 ## Chaosmagie
 
+#### Adrenalin
+@level 1
+@check 18
+@casttime 1AP
+@cost 3MP
+@range Berührung
+@duration 1W6+4 rd
+
+Das Ziel erhält einen Adrenalinschub. Dieser stärkt den Überlebensinstinkt. Somit werden die Fähigkeiten zum Kampf oder zur Flucht gestärkt, andere treten erst einmal in den Hintergrund.
+Dabei erhält das Ziel AT+2/PA+1/RF+1/MU+5 Sowie bei Proben auf PM mit Basis K,M,B (inkl. IN) einen Bonus von +2 und auf Proben auf PM mit Basis C,I,G (inkl. AU) einen Malus von -2. Zudem kann das Ziel sich während der Wirkungsdauer pro Runde um einen Schritt weiter kostenlos bewegen. Schlägt in der Wirkungszeit eine MU-Probe fehl, so läuft das Ziel um sein Leben. Dieser Zauber zehrt an den Kräften des Ziels und laugt es aus. Je nach Belastung und ggf. häufigerer Anwendung kann dies Folgen an dem Tag oder bei der nächsten Rast haben (SL Entscheidung).
+
 #### Entflammen
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 15MP
-@range 0
-@damage speziell
-@duration 4rd
+@cost 3MP
+@range Berührung
+@damage 1W6 bis 1W6+10
 
-Der Magier setzt einen beliebigen Gegenstand durch Berührung mit der Hand in Brand. Brennbare Gegenstände brennen weiter, nachdem der Zauber erlischt. Die Flammen verursachen 1W6 Feuerschaden.
+Der Magier setzt durch Berührung mit der Hand ein beliebiges Ziel (Wesen oder Gegenstand) in Brand. Brennbare Gegenstände brennen weiter, nachdem der Zauber erlischt. Die Flammen verursachen bei Wesen 1W6 Feuerschaden. Mit jeder weiteren Runde, in dem das Wesen nicht gelöscht wird, erhöht sich der Schaden um +2 bis zu einem Maximum von 1W6+10.
+
+#### Flammenbotschaft
+@level 1
+@check 18
+@casttime nicht im Kampf
+@cost 3MP
+@range Speziell
+
+Der Zaubernde schreibt eine Botschaft auf ein Pergament. Dann wirkt er den Zauber und adressiert in seinem Spruch, an wen die Nachricht gesendet werden soll. Das Pergament entflammt daraufhin und verbrennt rückstandslos, ohne etwas anderes in Brand setzen zu können. Sobald sich die adressierte Zielperson in der nähe einer Flamme oder eines Feuers (Dies kann z.B. eine Fackel, ein Kaminfeuer oder eine Kerze sein) befindet, so ruft das Feuer nur für die Person hörbar ihren Namen mit der Stimme des Zaubernden. Mit einem Blick ins Feuer wird dort die geschriebene Botschaft für die nächsten 15 Minuten (so lange das Feuer brennt) für ihn allein lesbar.
+
+#### Flammenschrift
+@level 1
+@check 18
+@casttime 1AP
+@cost 3MP
+@range Sichtweite
+@duration 1h oder wenn vom Zauberer aufgelöst
+
+Der Zaubernde lässt einen kurzen Text in flammenden Lettern an einer gewünschten Oberfläche erscheinen. Die Schrift setzt nichts in Brand und kann auch gefahrlos berührt werden. Alternativ kann der Zaubernde damit auch ein Bild auf die Oberfläche zeichnen. Je nach Komplexität und gewünschten Detailgrad kann der SL eine KE-Probe für die Darstellung verlangen. Soll das Bild oder der Text ggf. auch noch animiert sein, so bestimmt der SL vorher die Zusatzkosten.
 
 #### Flammenschwert
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 10+ MP
-@range 0
-@damage speziell
-@duration 4rd
+@cost 3MP
+@range Berührung
+@duration 4 rd
+@damage 1W6+3 zusätzlich
 
-Nachdem der Magier mit der flachen Hand über die Klinge bzw. der Kopf einer Waffe streicht beginnt diese zu brennen und verursacht 1W6+1 zusätzlichen Schaden. Das magische Feuer breitet sich nicht aus. Die Waffe wird durch diesen Spruch zu einer magischen Waffe.
+Nachdem der Magier mit der flachen Hand über die Klinge bzw. der Kopf einer Waffe streicht, beginnt diese zu brennen und verursacht 1W6+3 zusätzlichen Schaden. Das magische Feuer breitet sich nicht aus. Die Waffe wird durch diesen Spruch zu einer magischen Waffe.
+
+#### Magma-Safe
+@level 1
+@check 18
+@casttime nicht im Kampf
+@cost 3MP
+@range Berührung
+
+Der Zaubernde webt mit seinen Händen um einen Gegenstand, den er einschließen will, magische Fäden aus flüssigem Gestein und erschafft somit eine Geode. Der Gegenstand wird in einem Hohlraum im Stein eingeschlossen. Dabei wird er sicher fixiert, aber nicht komplett in Stein eingebacken. Während des Wirken webt der Zaubernde ein Losungswort mit in die Struktur ein. Wird dieses Losungswort gesprochen, während man die Geode in der Hand hält, so öffnet sie sich und gibt den Gegenstand unbeschädigt frei. Man kann eine solche Geode auch gewaltsam aufbrechen, jedoch ist die Unversehrtheit des Gegenstandes nicht garantiert (SL Entscheidung).
 
 #### Berserker
 @level 2
 @check 20
 @casttime 2AP
-@cost 45MP
-@range 7m
-@damage speziell
-@duration (Körper) Runden
+@cost 6MP
+@range Umkreis um Zauberer (2 Felder)
+@duration bis gelungene WK-Probe oder Tod
+@damage AT+5/PA+2/RF+5/SP+10
 
-Der Magier ballt beide Hände zur Faust, legt die eine Hand auf seine Brust und richtet die andere auf eine Zielkreatur. Diese wird für den Rest eines Kampfes zum Berserker und ist nicht mehr zu überlegten Handlungen fähig, handelt ausschließlich offensiv im Nahkampf, unterscheidet dabei nicht mehr zwischen Freund und Feind, und greift i. d. R. die ihm am nächsten stehende Kreatur an. Seine Werte erhöhen sich in diesem Zustand um AT+5/PA+2/RF+5/SP+2W6. Da der Berserker keinen Schmerz mehr wahrnimmt, notiert der Spielleiter erlittenen Schaden verdeckt. Nach dem Kampf fällt der Berserker für 3W6 Stunden in eine Koma-artigen Erschöpfung.
-
-#### Fernkampfwaffe zerstören
-@level 2
-@check 20
-@casttime 2AP
-@cost var.
-@range Sichtweite
-
-Der Magier macht eine werfende Bewegung in Richtung einer nicht-magischen Fernkampfwaffe, auf der ein roter Energieball einschlägt und sie zersplittert. Eine Reparatur ist schwer und aufwendig.
+Der Magier ballt beide Hände zur Faust, legt die eine Hand auf seine Brust und richtet die andere auf eine Zielkreatur. Diese wird zum Berserker und ist nicht mehr zu überlegten Handlungen fähig. Sie handelt ausschließlich offensiv im Nahkampf, unterscheidet dabei nicht mehr zwischen Freund und Feind, und greift i. d. R. die ihm am nächsten stehende Kreatur an. Seine Werte erhöhen sich in diesem Zustand um AT+3/PA+3/RF+3/SP+10. Da der Berserker keinen Schmerz mehr wahrnimmt, notiert der Spielleiter erlittenen Schaden verdeckt. Wenn die AP aufgebraucht sind, kämpft der Berserker für LP weiter, statt zu verschnaufen und kämpft weiter bis -15 LP statt 0. Nach 20 Runden kann die Kreatur eine WK-Probe machen, um den Berserker-Rausch wieder zu beenden. Um jede Runde, die früher beendet werden soll, wird die Probe um 1 erschwert, jede Runde später erleichtert sich die Probe um 1. Dieser Zauber zehrt an den Kräften des Ziels und laugt es aus. Dies hat Folgen an dem Tag oder bei der nächsten Rast (SL Entscheidung).
 
 #### Feuerblitz
 @level 2
 @check 20
-@casttime 2AP
-@cost 18MP
+@casttime 1AP
+@cost 6MP
 @range Sichtweite
-@damage speziell
+@damage 1W20
 
 Aus der geballten Faust des Magiers schießt ein rot-gelber Blitz, der 1W20 SP verursacht.
 
-#### Hitze erschaffen
+#### Feurige Vergeltung
 @level 2
 @check 20
 @casttime 2AP
-@cost var.
-@duration 2h
+@cost 6MP
+@range Selbst
+@duration 1W6+4 rd
 
-Erhitzt die unmittelbare Umgebung des Magiers um 4°C/MP. Er selbst, wie seine am Körper getragene Habe sind davon unbeeinflusst. Die Hitze nimmt pro Schritt Entfernung um 25% ab. Temperaturauswirkungen sind zu berücksichtigen, d.h. Wasser beginnt zu kochen, hitzeempfindliche Wesen halten sich fern.
+Der Zauberer hält zur Beschwörung der Verteidigung die Hand mit ausgestrecktem Mittel- und Zeigefinger vor sein Gesicht. Es erscheinen 5 faustgroße Flammen, die den Zauberer umkreisen. Wird der Zauberer von einem physischen Angriff getroffen (auch Fernkampf!) ,so schießt eine der Kugeln auf die Quelle des Schaden zu und greift sie mit dem Zauber Entflammen mit einem Wert von 28 an. Der Zauber endet vorzeitig, wenn keine Kugeln mehr vorhanden sind.
+
+#### Gegenstand schädigen (Ehemals Fernkampfwaffe zerstören)
+@level 2
+@check 20
+@casttime 2AP
+@cost 6MP
+@range Sichtweite
+@duration Bis repariert
+@damage Waffen SP -2 / Rüstung RS -1
+
+Aus der Hand des Magiers sprüht ein Schwall von Funken und Magma-Partikeln dem anvisierten Gegenstand entgegen. Diese beschädigen das Oberflächenmaterial des Gegenstands beim Auftreffen. Waffen (SP-2) oder Rüstungen (RS-1) werden dabei stumpfer, spröder und verkrusten, je nach Material. Der Zauber kann mehrmals auf das selbe Objekt gewirkt werden, und ist auch gegen magische Waffen effektiv. Die Gegenstände werden maximal unbrauchbar, werden aber nicht zerstört. Sie behalten ihren Malus, bis sie wieder repariert sind.
+
+#### Hitze erschaffen
+@level 2
+@check 20 + 1 je 5MP
+@casttime 2AP
+@cost 1MP pro 10°C
+@range Selbst
+@duration 10 rd
+
+Erhitzt die unmittelbare Umgebung des Magiers um 10°C/MP. Er selbst, wie seine am Körper getragene Habe sind davon unbeeinflusst. Die Hitze nimmt pro Schritt Entfernung um 25% ab. Temperaturauswirkungen sind zu berücksichtigen, d.h. Wasser beginnt zu kochen, hitzeempfindliche Wesen halten sich fern. Höhere Temperaturen erfordern eine höhere Konzentration. Außerhalb des Kampfes kann der Spruch mit einem 15 minütigen Ritual auch für die gleichen Kosten mit einer Wirkungsdauer von 1h gesprochen werden.
 
 #### Hitze widerstehen
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
-@range 0
-@duration 12h
+@cost 6MP
+@range Sichtweite
+@duration 1 h
 
-Eine verzauberte Kreatur und ihre am Körper getragene Habe ist gegen Hitze und nicht-magisches Feuer immun.
+Ein verzaubertes Wesen und ihr am Körper getragenes Habe ist gegen Hitze und nicht-magisches Feuer immun.
+
+#### Pyroklast
+@level 2
+@check 20
+@casttime 2AP
+@cost 6MP
+@range Sichtweite
+@damage 2W6+Schritt Entfernung zum Ziel (max. 10)
+
+Der Zauberer zieht tief durch die Nase Luft ein, öffnet den Mund und spuckt eine sich vergrößernde Gesteinskugel im hohen Bogen (ballistischer Auswurf) auf sein Ziel. Dabei nimmt die Wucht des Geschosses, das beim Aufprall in viele Fragmente zerbricht, mit der Entfernung zu. Unter freiem Himmel kann das Geschoss durch eine besonders steile Flugbahn eine weitere Distanz zurücklegen, als auf direktem Wege.
 
 #### Schauerliche Waffe
 @level 2
 @check 20
 @casttime 2AP
-@cost 30MP
-@range 0
-@duration 4rd
+@cost 6MP
+@range Umkreis um Zauberer (1 Feld)
+@duration 10 rd
 
 Der Magier haucht einen Chaos-Geist aus seinen Lungen auf eine Waffe. Dieser Geist züngelt sich die Waffe entlang und verschmilzt mit ihr, so dass sie rot-golden leuchtet. Die Waffe erhöht Verteidigungswerte um PA+4.
 
@@ -1625,106 +1690,118 @@ Der Magier haucht einen Chaos-Geist aus seinen Lungen auf eine Waffe. Dieser Gei
 @level 2
 @check 20
 @casttime 2AP
-@cost variabel
-@range 0
-@duration 1h
+@cost 6MP
+@range Berührung
+@duration 10 rd
 
-Eine beliebige Waffe wird durch den Spruch derart verändert, dass sie beim Angreifen die Waffe oder das Schild des Gegners beschädigt wenn ein Zufallswurf W20<10 eintritt. Die Gegner-Waffe ist dann bis zum Ende des Kampfes unbrauchbar und muss repariert werden. Magische Bestandteile der Waffe sind nicht betroffen. Der Spruch bleibt auf der verzauberten Waffe bis eine andere Waffe damit zertrümmert wurde, danach versiegt er.
+Eine beliebige Nahkampf-Waffe wird durch den Spruch derart verändert, dass sie in eine unnatürliche Schwingung versetzt wird. Die Waffe zählt für die Zauberdauer als magische Waffe. Bei Angriffen kann Waffe, Schild oder Rüstung des Gegners beschädigt werden. Waffe oder Schild sind betroffen, wenn der Gegner den Angriff damit erfolgreich pariert. Die Rüstung ist betroffen, wenn der Gegner getroffen wird. Um festzustellen, ob eine Schädigung erfolgt, wird eine Probe W20>=10 durchgeführt. Ist sie erfolgreich, so ist der betroffene Gegenstand unbrauchbar und muss repariert werden. Pro Treffer ist nur ein Gegenstand (Waffe oder Schild oder ein Rüstungsteil) betroffen. Magische Rüstungszauber werden bei erfolgreichen Treffern um RS-2 dauerhaft geschwächt.
 
 #### Chaoswirbel
 @level 3
 @check 20
-@casttime 3AP
-@cost 70MP
-@range 0
-@duration 8rd
+@casttime 2AP
+@cost 12MP
+@range Berührung
+@duration 8 rd
 
-Verzaubert einen Gegenstand, den der Magier in der Hand halten muss. Der Zauber schwächt die nächste Kreatur, die diesen Gegenstand berührt: AT-3/PA-3/RF-3, und 3 auf alle Proben, in die Bereiche der Merkmale K, M, oder B fallen. Widersteht die Kreatur dem Spruch, so verspürt sie dennoch einen Schock in der Hand. Falls sie eine WK-Probe besteht kann sie den Gegenstand weiterhin halten oder wegwerfen.
+Verzaubert einen Gegenstand, den der Magier in der Hand halten muss. Der Zauber bringt die innere Balance des Ziels, das diesen Gegenstand berührt oder mit ihm berührt wird, durcheinander. Dabei werden für die nächsten 2W6 Runden folgende Werte des Ziels vertauscht: AT mit PA, RF mit MU, LP mit MP. Durch die chaotische Umkehr erhält das Ziel für die Wirkungszeit zusätzlich -3 auf alle Proben. Ein Ziel, das während der Wirkungsdauer keine LP mehr hat, fällt in Ohnmacht und kann gemeuchelt werden. Widersteht das Ziel dem Spruch, so verspürt es extremes Unwohlsein und muss eine erfolgreiche WK-Probe ablegen, um den Gegenstand weiterhin halten zu können. Der Zauber kann auch mit einem Ritual zum Schutz eines Gegenstandes eingesetzt werden. Kosten, Aufwand und ggf. permanente MP werden je nach Dauer durch dem SL bestimmt.
 
 #### Feuerball
 @level 3
 @check 20
 @casttime 3AP
-@cost 60MP
+@cost 12MP
 @range Sichtweite
-@damage speziell
+@damage 1W20+W6 zentral / 2W6 in 1 Schritt Umkreis / 1W6 in 2 Schritt Umkreis bei Probe >15
 
-Der Spruch erzeugt eine kleine Feuerkugel im der Handfläche des Magiers, die er durch eine Wurfbewegung auf sein Ziel schickt. Im Flug bläht sich die Kugel zu einem 40 Finger dicken Feuerball auf, der am Einschlagort explodiert und dort 1W20+2W6 Schaden verursacht. Auf den angrenzenden Feldern wird der 2W6-Anteil des ermittelten Schadens verursacht. Brennbares Material wird entzündet falls Schaden kleiner als 15 ist, ansonsten überwiegt die Druckwelle, wodurch Kreaturen ein Schritt vom Einschlagort weggedrückt werden (Objekte und kleine Kreaturen nach Ermessen des Spielleiters).
+Der Spruch erzeugt eine kleine Feuerkugel im der Handfläche des Magiers, die er durch eine Wurfbewegung auf sein Ziel schickt. Im Flug bläht sich die Kugel zu einem 40 Finger dicken Feuerball auf, der am Einschlagort explodiert und dort 1W20+2W6 Schaden verursacht. Auf den angrenzenden Feldern wird der 2W6-Anteil des ermittelten Schadens verursacht. Bei einem Ergebnis >15 bei der Magieprobe wird der Radius der Explosion um einen Schritt erweitert und Ziele dort erleiden 1W6 Schaden. Falls der zentrale Schaden kleiner als 15 ist, so wird alles brennbare im Wirkungsbereich entzündet (Effekt wie Entflammen). Ansonsten überwiegt die Druckwelle, wodurch Kreaturen ein Schritt vom Einschlagort weggedrückt werden (Objekte und kleine Kreaturen nach Ermessen des Spielleiters).
 
 #### Feuersturm
 @level 3
 @check 20
 @casttime 3AP
-@cost 80MP
+@cost 12MP
 @range Sichtweite
-@damage 60/100/140SP
-@duration 3rd
+@damage 3W6+8
 
-Der Zauberspruch erzeugt einen Feuer-Tornado von 3 Schritt Durchmesser, der 1W20+2W6 Schaden für jede Kreatur, die nicht widersteht, verursacht. Dazu muss der Magier sich unter freiem Himmel oder einer großen Halle befinden. Er richtet die Fingerspitzen seiner hoch erhobenen Hände gen Boden und bestimmt einen Zielort in maximal 50 Schritt Entfernung. Der Feuersturm entsteht in der Nähe von diesem Ort und bewegt sich schnell darauf zu. Brennbares Material oder Vegetation in dieser Schneise wird angesenkt.
+Der Zauberspruch erzeugt einen Feuer-Tornado von 3 Schritt Durchmesser, der vom Zauberer aus in die von Ihm bestimmte Richtung mit 9 Schritt pro Runde davon rast. Dazu muss der Magier sich unter freiem Himmel oder in einer großen Halle befinden. Er richtet die Fingerspitzen seiner hoch erhobenen Hände gen Boden und bestimmt einen Zielort in maximal 50 Schritt Entfernung. Jedes Wesen im Wirkungsbereich erleidet 3W6+8 Schaden, wenn es nicht widersteht. Brennbares Material oder Vegetation in dieser Schneise wird angesenkt, jedoch wird nichts in Brand gesetzt.
 
 #### Flammenring
 @level 3
-@check 20
+@check 20 + 2 je Schritt Radius
 @casttime 3AP
-@cost 30+ MP
-@damage speziell
-@duration 8rd
+@cost 12MP + 8 je Schritt Radius
+@range Umkreis um Zauberer (1-3 Felder)
+@duration 6 rd
+@damage 3W6+2 + Entflammen
 
-In einem Ring von einem Schritt Radius um den Magier schießen zwei Schritt hohe Flammen aus dem Boden. Sie verursachen bei Berührung 1W20+2W6 Schaden und bleiben bestehen bis der Zauber erlischt. Der Magier ist selbst immun gegen die Flammen. Um den Zauber zu wirken richtet der Magier die Finger seiner mit den Handflächen nach oben ausgestreckten Arme gen Himmel.
+Um den Zauber zu wirken vollführt der Magier mit gestrecktem Arm gen Himmel eine kreisende Bewegung. In einem Ring von einem Schritt Radius um den Magier schießen zwei Schritt hohe Flammen aus dem Boden. Sie verursachen bei Berührung pro Runde 3W6+2 Schaden und entflammen das Ziel. Die Flammen bleiben an dem Ort bestehen, bis der Zauber erlischt. Der Magier selbst ist immun gegen die Flammen. Der Spruch kann maximal 2x für jeweils 8MP um einen Schritt Radius erweitert werden. Dabei erschwert sich auch die Probe. Ziele im Wirkbereich können jede Runde mit einer MR Probe den Flammen für die Runde ausweichen.
 
 #### Metall verformen
 @level 3
 @check 20
-@casttime 3AP
-@cost 22+ MP
-@range 0
+@casttime nicht im Kampf
+@cost 12MP pro kg
+@range Berührung
 
-Erlaubt es dem Magier unter Einsatz von 10MP/Kg Masse mit seinen Händen Metall zu verformen. Bei magischen Metallen funktioniert der Spruch nicht.
+Erlaubt es dem Magier unter Einsatz von 12MP/Kg Masse mit seinen Händen Metall zu verformen. Bei magischen Metallen funktioniert der Spruch nicht.
 
 #### Verwirrung
 @level 3
 @check 20
-@casttime 3AP
-@cost (Geist des Opfers) x 6 MP
-@range 0
-@duration ca. 30 Minuten
+@casttime 1AP
+@cost 3MP * G von Ziel
+@range Berührung
+@duration 1 h
 
-Der Magier berührt mit seiner Hand die Stirn einer Kreatur, welche daraufhin völlig verwirrt ist. Sie kann sich nicht konzentrieren, keine Zauber sprechen, und sich trüb oder gar nicht an Ereignisse des vergangenen Tages erinnern. Bei gepatzter Widerstandsprobe ist die Verwirrung bis zu einer passenden Heilung permanent.
+Der Magier berührt mit seiner Hand die Stirn des Ziels, welches daraufhin völlig verwirrt ist. Es kann sich nicht konzentrieren, keine Zauber sprechen, und sich trüb oder gar nicht an Ereignisse des vergangenen Tages erinnern. Bei gepatzter Widerstandsprobe ist die Verwirrung bis zu einer passenden Heilung permanent. Wird der Zauber im Kampf angewandt, muss der Zauberer einen erfolgreichen Waffenlosen Angriff gegen das Ziel durchführen, um es mit der Hand an der Stirn berühren zu können. Ist dieser erfolgreich, kann der Zauberspruch statt des Schadens gewirkt werden.
 
 #### Blitz der Verdammnis
 @level 4
 @check 20
-@casttime 4AP
-@cost 115MP
+@casttime 3AP
+@cost 24MP
 @range Sichtweite
-@damage speziell
+@damage 1W6+1 / 2W6+2 / 3W6+3 / -3AP pro Treffer
 
-Der Spruch lässt drei rot-gelbliche Blitze aus der umgebenden Luft auf ein Ziel niederprasseln, für die unabhängig Widerstandsproben gewürfelt werden. Der erste Blitz verursacht 2W6 SP, der zweite 3W6, der dritte 4W6. Jeder durchgehende Blitz schockt die Zielkreatur mit AP-5. Wenn keine AP mehr übrig reduzieren sich ihre HN bis in den negativen Bereich. Damit ist sie entsprechend ihrer HN die nächsten Kampfrunden handlungsunfähig.
+Der Spruch lässt drei rötliche Blitze aus der umgebenden Luft auf ein Ziel niederprasseln, für die unabhängig Widerstandsproben gewürfelt werden. Der erste Blitz verursacht 1W6+1 SP, der zweite 2W6+2, der dritte 3W6+3. Jeder durchgehende Blitz schockt die Zielkreatur mit AP-3. Sinken die AP dadurch auf 0, wird der Abzug stattdessen als Zusatzschaden gerechnet und das Ziel ist die nächste Kampfrunde handlungsunfähig. Rüstung wird ignoriert.
 
 #### Falsches Wissen
 @level 4
-@check 20
-@casttime 4AP
-@cost var.
-@range Sichtweite
+@check 20 (+X)
+@casttime nicht im Kampf
+@cost 24MP (+Y)
+@range Blickkontakt
+@duration permanent
 
-Der Magier indoktriniert einer Person die künstliche Erinnerung über ein Ereignis. Die Person glaubt fest daran.
+Der Magier indoktriniert einer Person die künstliche Erinnerung über ein Ereignis. Die Person glaubt fest daran. Je größer der Umfang der Anpassungen an die Erinnerung ist, desto schwieriger ist der Spruch und umso mehr Kosten kann der Spruch verursachen. Absprache mit SL.
+
+#### Flammensäule
+@level 4
+@check 22
+@casttime 2AP
+@cost 24MP
+@range Sichtweite
+@duration 1W6+2 rd
+@damage 3W6+2 + Entflammen
+
+Dies ist ein uralter, längst vergessener chaotischer Zauber. Er kann nicht gezielt gelernt werden, sondern der Zauber sucht sich seinen Meister selbst auf den unterschiedlichsten Wegen. Der Zauber selbst wirkt wie folgt: Der Zaubernde erschafft am Ziel eine 10 Schritt hohe Flammensäule, welche 3W6+2 Schaden und Entflammen verursacht. Der Zaubernde kann die Säule pro Kampfrunde für 1AP um bis zu 2 Felder bewegen. Pro Runde greift die Flammensäule jedes Feld auf dem sie startet, und dann jedes weitere, das sie betritt an. Die geschieht in Form eines Zauberangriffes mit dem Wert 25 + Fertigkeit der Chaosmagie des Zaubernden. Wird die Säule in einem engen Gang mit niedriger Decke beschworen, so können die Auswirkungen verheerend sein, da sich die Flammen ihren Weg suchen werden. Dieser Zauber geht immer an, wenn er gesprochen wird. Sollte die Zauberprobe nicht erfolgreich sein, so hat der Zaubernde keine Kontrolle über die Flammensäule und der Startpunkt der Säule ist auf dem Feld des Zaubernden. Er darf mit einer erfolgreichen Reflex-Probe vom Feld springen. Die Säule bewegt sich pro Runde um 2 zufällig bestimmt Felder, die mit einem W6 bestimmt werden. Dabei steht die 1 für das Feld auf 12 Uhr (aus Sicht des SL), die weiteren Zahlen für die Felder fortlaufend im Uhrzeigersinn.
 
 #### Metallfeuer
 @level 4
 @check 20
-@casttime 4AP
-@cost 110MP
-@range 0
-@duration 14rd
+@casttime 3AP
+@cost 24MP
+@range Sichtweite
+@duration 2W6+8 rd
 
-Der Magier öffnet weit seinen Mund, aus dem 2W6 Chaosgeister entweichen und sich in seiner Waffe und in den Waffen von Kampfgefährten niederlassen. Diese Waffen werden damit magisch, und ignorieren zusätzlich den Rüstungsschutz aller magischen Wesen. Für jede Waffe, bei der sich ein Zufallswurf W20>18 ergibt, ist der Effekt permanent. Freie Geister bevorzugen Waffen, in denen noch kein Geist ist, und wählen danach zufällig bereits belegte Waffen aus. D.h. Es wird reihum ein W20 gewürfelt, und bei den Charakteren mit dem höchsten Zufallsergebnis wird jeweils erneut ermittelt ob der Effekt bleibend ist.
+Der Magier öffnet weit seinen Mund, aus dem 2W6+3 Chaosgeister entweichen und sich in seiner Waffe und in den Waffen von Kampfgefährten niederlassen. Diese Waffen verursachen während der Wirkungsdauer zusätzlich +2 Schaden und werden magisch und ignorieren zusätzlich den Rüstungsschutz aller magischen Wesen. Freie Geister bevorzugen Waffen, in denen noch kein Geist ist, und wählen danach zufällig bereits belegte Waffen aus. D.h. Es wird reihum ein W20 gewürfelt, und bei den Charakteren mit dem höchsten Zufallsergebnis wird eine noch nicht mehrfach besetzte Waffe mit einem weiteren Geist besetzt und der Schaden erhöht sich somit weiter. Maximal kann eine Waffe 5 Chaosgeister aufnehmen.
 
 #### Verschmelzung
 @level 4
 @check 20
-@casttime 4AP
-@cost var.
+@casttime 1 h, nicht im Kampf
+@cost 24MP pro Wesen
 @range Sichtweite
 
 Durch das einstündige Ritual verschmilzt der Magier mehrere nicht-magische Kreaturen zu einem Mischwesen. Die Werte und Eigenschaften dieses Wesens werden zuvor mit dem Spielleiter abgestimmt.
@@ -1732,154 +1809,164 @@ Durch das einstündige Ritual verschmilzt der Magier mehrere nicht-magische Krea
 #### Desintegration
 @level 5
 @check 20
-@casttime 5AP
-@cost 180MP
+@casttime 3AP + 1AP pro weitere rd
+@cost 48MP
 @range Sichtweite
-@damage 200/300/400/500/600SP
-@duration speziell
+@duration Bis AP leer oder Ziel tot
+@damage 5W6+13
 
-Der Spruch löst ein Ziel Stück für Stück auf, indem er pro Kampfrunde 2W20+2W6 SP zufügt. Der Magier darf dabei nicht unterbrochen werden. Ein mit diesem Zauber getötetes Wesen kann nicht wiedererweckt werden.
+Der Spruch löst ein Ziel Stück für Stück auf, indem er pro Kampfrunde 5W6+13 SP zufügt. Der Magier darf dabei nicht unterbrochen werden. Ein mit diesem Zauber getötetes Wesen kann nicht wiedererweckt werden. Bei überlebenden Wesen kann der Zauber bleibende sichtbare Schädigungen hinterlassen.
 
 #### Feuerstachel
 @level 5
 @check 20
-@casttime 5AP
-@cost 150MP
-@range 0
-@damage speziell
-@duration speziell
+@casttime 3AP
+@cost 48MP
+@range Selbst
+@duration 1W6+1 rd
+@damage Speziell
 
-Dem Magiern wächst für W6 + 2 Kampfrunden ein sechs Schritt langer Skorpionsschwanz mit einem glühend heißen Stachel, der ihn nicht behindert. Der Magier ist für die Dauer der Verzauberung immun gegen jegliche Art von Feuer. Der Stachel kann zu jeder Kampfphase in der Aktionsbasis des Magiern einen eigenen Angriff auf ein zufällig gewähltes Ziel schlagen. Für den Angriff hat der Feuerstachel drei unterschiedliche Möglichkeiten, die zufällig zur Anwendung kommen: Er kann mit 15 Würfeln einen Feuerregen herbeirufen (wie Zauber Feuersturm mit einem Schritt Breite und Höhe), einen Flammenstrahl auf einen Gegner schießen (wie Zauber Feuerblitz) oder mit dem glühenden Stachel einen Angriff schlagen, der für jeden erzielten Erfolg 12 SP anrichtet, wobei die Rüstung ignoriert wird. Der Feuerstachel kann nicht vom Magiern kontrolliert werden.
+Dem Zaubernden wächst für 1W6+1 Kampfrunden ein vier Schritt langer Skorpionsschwanz mit einem glühend heißen Stachel, der ihn nicht behindert. Der Zaubernde ist für die Dauer der Verzauberung immun gegen jegliche Art von Feuer. Der Stachel agiert jede Kampfphase wie ein eigenständiges Wesen mit der gleichen Initiative wie der Zaubernde und führt einen zufälligen Angriff aus. Die Wirkung wird mit einem Zufallswurf mit einem W6 bestimmt:
+1: Greift einen zufällig bestimmten Gegner im Umkreis von 4 Schritt für 12 Schaden (RS ignoriert) mit AT 25 an
+2: Greift bis zu zwei zufällig bestimmte Gegner im Umkreis von 4 Schritt für 10 Schaden (RS ignoriert) mit AT 26 an und entflammt diesen bei einem Treffer
+3: Greift bis zu drei zufällig bestimmte Gegner im Umkreis von 4 Schritt für 8 Schaden (RS ignoriert) mit AT 27 an und entflammt diesen bei einem Treffer
+4: Es wird der Zauber Entflammen auf jedes Feld in 3 Schritt Umkreis um den Zaubernden gewirkt mit einem Wert von 28.
+5: Es wird der Zauber Feuerblitz auf alle Wesen im Umkreis von 3 Schritt um den Zaubernden mit einem Wert von 29 gewirkt.
+6: Es wird der Zauber Feuerball auf 3 angrenzende, zufällige Felder neben dem Zaubernden mit dem Wert 30 gewirkt (Zaubernder bleibt Schadlos)
+Der Feuerstachel kann vom Zaubernden nicht kontrolliert werden.
 
 #### Flammenangriff
 @level 5
 @check 20
-@casttime 5AP
-@cost 220MP
+@casttime 3AP
+@cost 48MP
 @range Sichtweite
-@damage 140 SP pro Phase
-@duration 11rd
+@duration 1W6+3 rd
+@damage Speziell
 
-5 W6 für den Magier sichtbare Ziel werden von einer wandelnden Flammensäule erfasst. Die Flammensäulen folgen ihren Opfern, wobei sie W6 + 2 Handlungen pro Kampfphase (jede Phase neu würfeln) zeitgleich verwenden können. Die AB der Säulen beträgt immer 20. Der Schaden wird zugefügt sobald ein Ziel von einer Flammensäule erfasst wird.
+In einem Umkreis von 4 Schritt um ein Zielfeld entstehen auf jedem Bodenfeld mehrere Flammengeysire. Diese greifen zu Beginn jeder Runde jedes Ziel, das auf ihnen steht, mit AT 23 an. Bei einem Treffer werden 2W6+3 SP (RS ignoriert) magischer Feuerschaden zugefügt. Jedes Wesen, das sich während der Wirkungsdauer in einer Runde auf ein neues, verzaubertes Feld bewegt, wird von diesem angegriffen. Dies gilt pro Feld (Bsp.: 1 Angriff zu Beginn der Runde, dann bewegt sich das Wesen in seinem Zug über 3 verzauberte Felder und wird somit zusätzlich 3x angegriffen).
 
 #### Flammengeist
 @level 5
 @check 20
-@casttime 5AP
-@cost 80+ MP
-@range 0
-@damage speziell
+@casttime 3AP
+@cost 24MP pro Geist
+@range Selbst
+@duration 2W6+3 rd
+@damage 1W20 bei durchdringen eines Ziels
 
-Vor dem Magier erscheint eine handgroße, flammende humanoide Gestalt, die in einem Radius von 3 bis zu Schritt um ihn herumfliegt. Bis zu drei dieser Geister können nacheinander herbeigerufen werden. Ein Flammengeist ist eine körperlose magische Kreatur mit 10LP, die nur durch Magie oder Wasser verletzt werden kann. Er agiert stets mit dem Magier. Durchdringt der Geist ein Ziel, so erleidet dieses 1W20 SP. Ein- und Austrittsfläche des Geistes können sich evtl. entzünden. Er kann nur ein Ziel pro Kampfrunde durchdringen.
+Vor dem Magier erscheint eine handgroße, flammende humanoide Gestalt, die um ihn herumfliegt. Bis zu drei dieser Geister können gleichzeitig herbeigerufen werden. Ein Flammengeist ist eine körperlose, magische Kreatur mit 15LP, die nur durch Magie oder Wasser verletzt werden kann. Zusätzlich zu seinen anderen Aktionen kann der Magier den Geist pro Runde durch ein Ziel im Radius von 3 Schritt um ihn selbst herum fliegen lassen. Das Ziel kann sich mit MR gegen das durchdringen wehren (gegen den erzielten Wert beim Sprechen des Spruchs). Durchdringt der Geist ein Ziel, so erleidet dieses 1W20 SP (Rüstung ignoriert). Ein- und Austrittsfläche des Geistes werden evtl. entflammt. Jeder Geist kann nur ein Ziel pro Kampfrunde durchdringen.
 
-#### Meteoritenschlag
+#### Meteor
 @level 6
-@check 20
-@casttime 6AP
-@cost 350+ MP
+@check 30
+@casttime 12 h, nicht im Kampf
+@cost 192MP
 @range Sichtweite
-@damage speziell
+@damage Speziell
 
 Der Magier lenkt mit diesem zwölfstündigen Ritual-Spruch einen oder mehrere Meteoriten vom Firmament auf eine gewünschte Stelle um. Dieser verdampft dort alles in einem Radius von 150 Schritt, die Druckwelle reißt in einer halben Meile Entfernung noch jeden Baum um.
 
 #### Vulkan erwecken
 @level 6
-@check 20
-@casttime 6AP
-@cost 550+ MP
+@check 30
+@casttime 24 h, nicht im Kampf
+@cost 96MP
 @range Sichtweite
+@duration permanent
 
-Der Zauber lässt an Ort und Stelle einen etwa 200 Schritt hohen Vulkan ausbrechen, der zu einem permanenten, an den Magier gebundenen Zauberknoten wird und +25RMP verleiht. Stirbt der Besitzer, so wird der Vulkan inaktiv und verliert seine magischen Kräfte. Es dauert ca. einen Tag um den Zauber zu sprechen.
-
-
+Der Zauber lässt an Ort und Stelle einen etwa 200 Schritt hohen Vulkan ausbrechen, der zu einem permanenten, an den Magier gebundenen Zauberknoten wird und permanent +25MP und + 15 RMP verleiht. Stirbt der Besitzer, so wird der Vulkan inaktiv und verliert seine magischen Kräfte. Es dauert ca. einen Tag um den Zauber zu sprechen. Der Zauberer kann sich nur an einen aktiven Vulkan dieser Art binden.
 
 
 ## Lebensmagie
 
 #### Sanftmut
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 12MP
-@range 0
-@duration eine Probe
+@cost 3MP
+@range Berührung
+@duration 15 min
 
-Die bezauberte Person strahlt Ruhe und Selbstsicherheit aus, dadurch erhöhen sich AU+5/MN+5.
+Die bezauberte Person strahlt Ruhe und Selbstsicherheit aus, dadurch erhöhen sich WK+1/MN+2/AU+3.
 
-#### Heilen
+#### Heilende Hände
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 1MP pro 2 LP
-@range 0
+@cost 3MP
+@range Berührung
 
-Mit dem Spruch heilt der Magier Wunden und Organverletzungen der berührten Person. Pro Kampfrunde sind maximal 6LP möglich. Knochen können nur ansatzweise versorgt werden, wenn die gebrochenen Gliedmaßen vorher entsprechend gerichtet werden.
+Mit dem Spruch heilt der Magier Wunden und Organverletzungen der berührten Person. Es werden beim Ziel 6LP wieder hergestellt. Der Zauber kann ohne weitere Proben jede Kampfrunde für seine Spruchkosten aktiv gehalten werden und heilt somit weiter. Gebrochene Knochen können nur ansatzweise versorgt werden, müssen aber entweder geschient und über Zeit heilen, oder mit dem Zauber „Körper Heilen“ geheilt werden.
 
 #### Heilige Waffe
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 25MP
-@range 0
-@duration 4rd
+@cost 3MP
+@range Berührung
+@duration 20 rd
+@damage Speziell
 
-Der Spruch belegt die berührte Waffe mit einer heiligen Aura und verdoppelt damit ihren Schaden gegen gegen Todes- und Chaoskreaturen.
+Der Spruch belegt die berührte Waffe mit einer heiligen Aura. Die Waffe wird in der Wirkungsdauer zu einer magischen Waffe. Ihr Schaden gegen Todes- und Chaoskreaturen wird um 1W6+4 erhöht.
 
 #### Segen
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 20MP
-@range 0
-@duration 4rd
+@cost 3MP
+@range Berührung
+@duration 20 rd
 
-Die bezauberte Kreatur wird gegen Todesmagie gestärkt und widersteht so deren Zauber mit MR+3. Im Kampf gegen Todeskreaturen erhält sie PA+3. Segnung hebt zusätzlich die Wirkung des Zaubers "Furcht" auf.
+Die bezauberte Kreatur wird gegen Todesmagie gestärkt und widersteht so deren Zauber mit MR+3. Im Kampf gegen Todeskreaturen erhält sie AT+2/PA+2/RF+2. Zudem erhalten sie bei einem erfolgreichen Angriff auf eine Todeskreatur 1AP zurück. Segnung hebt zusätzlich die Wirkung des Zaubers "Furcht" auf und schützt davor.
 
 #### Ausdauer
 @level 2
 @check 20
 @casttime 2AP
-@cost 28MP
-@range 0
-@duration 1d
+@cost 6MP
+@range Sichtweite
+@duration 6 rd
 
-Spendet der bezauberten Kreatur körperliche Erfrischung. Sie erhält alle AP zurück. Der Spruch kann im Kampf nur ein Mal auf dieselbe Kreatur angewendet werden. Er funktioniert auch bei Tieren.
+Spendet der bezauberten Kreatur körperliche Erfrischung, bestehende Erschöpfung wird aufgelöst. Sie erhält alle AP zurück. Für die Wirkungsdauer werden zusätzlich 2AP pro Runde regeneriert. Der Spruch kann im Kampf nur ein Mal auf dieselbe Kreatur angewendet werden. Er funktioniert auch bei Tieren.
 
 #### Gebet
 @level 2
 @check 20
 @casttime 2AP
-@cost 38MP
-@duration 4rd
+@cost 6MP
+@range Sichtweite
+@duration 20 rd
 
-Stärkt die Verteidigung gegen Nahkampf angriffe von Todeskreaturen um PA+4. Obgleich der Spruch unter Lebensmagiern als "Gebet" bekannt ist handelt es sich nicht um eine Handlung im religiösen Sinn.
+Stärkt den physischen Angriff des Ziels gegen Todeskreaturen um AT+2 und die Verteidigung gegen physische Angriffe von Todeskreaturen um PA+4. Obgleich der Spruch unter Lebensmagiern als "Gebet" bekannt ist, handelt es sich nicht um eine Handlung im religiösen Sinn.
 
 #### Heilige Rüstung
 @level 2
 @check 20
 @casttime 2AP
-@cost 40MP
-@range 0
-@duration 6rd
+@cost 6MP
+@range Sichtweite
+@duration 6 rd
 
-Der Spruch legt sich als gleißendes Licht über den Bezauberten und erhöht seinen Schutz um RS+6. Zudem schrecken niedere Todeskreaturen von ihrem Angriff zurück, falls ein Zufallswurf W20<5 ergibt.
+Der Spruch legt sich als gleißendes Licht über den Bezauberten und erhöht seinen Schutz um RS+3. Zudem schrecken niedere Todeskreaturen von ihrem Angriff zurück, falls der Wurf bei der Zauberprobe >17 ist.
 
 #### Heldentum
 @level 2
 @check 20
 @casttime 2AP
-@cost 45MP
-@range 0
-@duration 6rd
+@cost 6MP
+@range Berührung
+@duration 10 rd
 
-Die Bezauberte Kreatur erhält AT+5/PA+5 im Kampf, zusätzlich MR+3 gegen Zauber der Todesmagie.
+Die Bezauberte Kreatur erhält AT+2/PA+2/SP+2 im Kampf. Zusätzlich auf Proben MU+2/WK+2 und MR+2 gegen Zauber der Todesmagie.
 
 #### Lebensquellen
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
-@duration wenige Minuten
+@cost 6MP
+@range Umkreis um Magier 12 Schritt
+@duration 5 min
 
 Der Magier spürt die Lebens-Auren aller Wesen im Umkreis von 12 Schritt. Die Intensität ist abhängig von der Entfernung und der Lebenskraft eines Wesens. Je nach Intensität kann der Eindruck nach Ermessen des Spielleiters ausreichen, um einen Zauber auf das Wesen wirken zu können.
 
@@ -1887,19 +1974,19 @@ Der Magier spürt die Lebens-Auren aller Wesen im Umkreis von 12 Schritt. Die In
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
+@cost 6MP
 @range Sichtweite
-@damage 40/60 SP
+@damage 2W6+2 / 3W6+5
 
-Von der Handfläche des Magiers zucken gleißende Lichtblitze auf das Ziel und verursachen 2W6 Schaden. Kreaturen der Todesmagie erleiden 4W6.
+Von der Handfläche des Magiers zucken gleißende Lichtblitze auf das Ziel und verursachen 2W6+2 Schaden. Kreaturen der Todesmagie erleiden 3W6+5. RS wird ignoriert.
 
 #### Wahre Erkenntnis
 @level 2
 @check 20
 @casttime 2AP
-@cost 30MP
-@range 0
-@duration 8rd
+@cost 6MP
+@range Sichtweite
+@duration 10 rd
 
 Der Bezauberte wird immun gegen Täuschungen, damit auch gegen die Zauber "Illusion" "Magische Sicht trüben", "Täuschung", "Trüben", "Unsichtbarkeit", "Massenunsichtbarkeit".
 
@@ -1907,153 +1994,195 @@ Der Bezauberte wird immun gegen Täuschungen, damit auch gegen die Zauber "Illus
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
-@duration 8rd
+@cost 6MP
+@range Umkreis um Magier 10 Schritt
+@duration 10 rd
 
-Erfüllt einen Umkreis von zehn Schritt um den Magier mit hellem Licht. In diesem Bereich werden alle Kreaturen gegen Todeskreaturen gestärkt (AT+3/ PA+3), während diese Kreaturen selbst noch geschwächt werden (AT-3/ PA-3). Der Lichtschein bewegt sich mit dem Magier mit.
+Erfüllt einen Umkreis von zehn Schritt um den Magier mit hellem Licht. In diesem Bereich werden alle Kreaturen gegen Todeskreaturen gestärkt (AT+1/ PA+1/RF+1), während diese Kreaturen selbst noch geschwächt werden (AT-1/ PA-1/RF-1/MR-1). Der Lichtschein bewegt sich mit dem Magier mit.
 
-
-#### Wiederherstellung
+#### Fluch aufheben
 @level 3
 @check 20
-@casttime 3AP
-@cost 85MP
-@range 0
+@casttime 30 Min, nicht im Kampf
+@cost 12MP
+@range Berührung
 
-Der Zauberspruch heilt eine bis zu 10 Schritt entfernte Kreatur. Diese erhält sofort LP+25 und AP+2. Bis zum Ende dieser Kampfrunde haben jegliche Angriffe von Todeskreaturen oder Zauber der Todesmagie keinen Effekt auf sie.
-
-#### Entfluchen
-@level 3
-@check 20
-@casttime 3AP
-@cost 45+ MP
-@range 0
-
-Befreit den Bezauberten von einem beliebigen Fluch befreit. Der Spruch dauert eine halbe Stunde und wirkt auch gegen Flüche von Kobolden, Feen und anderen Wesen.
+Befreit den Bezauberten von einem beliebigen Fluch. Der Spruch dauert eine halbe Stunde und wirkt auch gegen Flüche von Kobolden, Feen und anderen Wesen.
 
 #### Lichtspeer
 @level 3
 @check 20
 @casttime 3AP
-@cost 30MP
+@cost 12MP
 @range Sichtweite
-@damage 80/110/150 SP
+@damage 3W6+7 / 4W6+16
 
-Der Spruch manifestiert sich in der Hand des Magiers als weiß gleißender Speer, der mit einer Wurfbewegung gelöst wird und stets sein Ziel findet. Er erlischt nach Einschlag und verursacht 3W6+3 Schaden, gegen Todeskreaturen 6W6+6.
+Der Spruch manifestiert sich in der Hand des Magiers als weiß gleißender Speer, der mit einer Wurfbewegung gelöst wird und stets sein Ziel findet. Er erlischt nach Einschlag und verursacht 3W6+7 Schaden, gegen Todeskreaturen 4W6+16.
 
 #### Löwenherz
 @level 3
 @check 20
 @casttime 3AP
-@cost 65MP
-@range 0
-@duration 9rd
+@cost 12MP
+@range Berührung
+@duration 10 rd
 
-Um die bezauberte Kreatur entsteht eine Plattenpanzerung aus reinem Licht, die RS+9/AT+5/PA+5 bewirkt. Zudem schrecken niedere Todeskreaturen von ihrem Angriff zurück, falls ein Zufallswurf W20<5 ergibt.
+Um das bezauberte Wesen entsteht eine Rüstung aus reinem Licht, die RS+3 bewirkt. Das Ziel erhält AT+2/ PA+2/RF+2/MU+8 und auf WK Proben +3. Zudem schrecken niedere Todeskreaturen bei ihrem ersten Angriffsversuch gegen das Ziel zurück, falls ein Zufallswurf W20<11 ergibt. Im Dunkeln beleuchtet die Rüstung 5 Schritt um das Ziel.
+
+#### Wiederherstellung
+@level 3
+@check 20
+@casttime 3AP
+@cost 12MP
+@range Sichtweite
+@duration 1W6+4
+
+Der Zauberspruch stellt bei einem Ziel über mehrere Runden schrittweise einen gewissen Teil der verlorenen LP wieder her. Diese erhält sofort +10 LP und +2AP zurück. Jede weitere Wirkungsrunde erhält das Ziel +3 LP. Bis zum Ende der Wirkung erhält das Ziel zusätzlich +2PA/+2RF gegen jegliche Angriffe von Todeskreaturen und +2MR gegen Zauber der Todesmagie.
 
 #### Zwang zur Wahrheit
 @level 3
 @check 20
-@casttime 3AP
-@cost (Geist des Opfers) x 5 MP
-@range 0
+@casttime nicht im Kampf
+@cost 6MP + MR des Ziels in MP
+@range Berührung
 
 Der Magier legt seine Hand auf die Stirn einer Kreatur, welche dann eine mit Ja oder Nein beantwortbare Frage wahrheitsgemäß beantwortet. Die Spruchkosten entstehen auch dann, wenn das Ziel die Frage aufgrund mangelnden Wissens nicht beantworten kann. Widersteht die Kreatur dem Zauber, so kann dieser bis zum nächsten Sonnenaufgang nicht mehr auf sie wirken.
 
 #### Unverwundbarkeit
 @level 4
 @check 20
-@casttime 4AP
-@cost 90MP
-@range 0
-@duration 4rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 3 rd
 
 Der Verzauberte wird unverwundbar gegen nicht-magische Angriffe oder Einflüsse. Zaubersprüche und magische Waffen richten weiterhin normalen Schaden an.
 
 #### Vertreibung des Bösen
 @level 4
 @check 20
-@casttime 4AP
-@cost 105MP
-@damage speziell
+@casttime 3AP
+@cost 24MP
+@range Umkreis um Magier 10 Schritt
+@damage 4W6+10 + Entflammen
 
-Um den Zauberwirker breitet sich ein Ring aus Licht bis in zehn Schritt Entfernung aus. Alle in diesem Umkreis Todeskreaturen erhalten 6W6+20 Schaden und brennen.
+Um den Zauberwirker breitet sich ein Ring aus Licht bis in zehn Schritt Entfernung aus. Alle Kreaturen der Todesmagie in diesem Umkreis erhalten 4W6+10 Schaden und werden entflammt (siehe Zauber Entflammen aus Chaosmagie).
 
 #### Auferstehung
 @level 5
 @check 20
-@casttime 5AP
-@cost 160+ MP
-@range 0
+@casttime 1h, nicht im Kampf
+@cost 48MP
+@range Berührung
 
 Der Spruch erweckt in einem einstündigen Ritual ein erst kürzlich verstorbenes Wesen wieder zum Leben. Es liegt im Ermessen des Spielleiters, wie lange das Wesen schon verstorben sein kann.
 
 #### Heilige Rache
 @level 5
 @check 20
-@casttime 5AP
-@cost 140MP
-@damage speziell
-@duration 12rd
+@casttime 3AP
+@cost 48MP
+@range Selbst
+@duration 20 rd
+@damage Speziell
 
-Jedes Wesen, das den Magier angreift, wird vor dem Angriff von einem weißen Blitz getroffen, welcher aus dem Magier herausfährt. Der Blitz verursacht bei lebenden Wesen 3W6+10SP und Lähmung für 2 Kampfrunden. Todeskreaturen erleiden 6W6+20SP. Bei Fernkampfangriffen verfolgt der Blitz die Flug des Projektils bis zu 20 Schritte zurück. Bei Magieangriffen löst die Heilige Rache nicht aus.
+Jedes Wesen, das den Magier angreift, wird von einem weißen Blitz getroffen, welcher aus dem Magier herausfährt (auch bei nicht erfolgreichen Angriffen). Der Blitz verursacht bei lebenden Wesen 3W6+8 SP und Lähmung für eine Kampfrunde. Todeskreaturen erleiden 5W6+15 SP. Bei Fernkampfangriffen verfolgt der Blitz die Flug des Projektils bis zu 10 Schritte zurück. Bei Magieangriffen löst die Heilige Rache nicht aus.
 
 #### Massenheilung
 @level 5
-@check 20
-@casttime 5AP
-@cost 250MP
+@check 20 +1 für jedes weitere Ziel über das Erste hinaus
+@casttime 6AP
+@cost 24MP + 12MP für jedes weitere Ziel über das Erste hinaus
+@range Umkreis um Magier 10 Schritt
 
-Der zehnstündige Ritual verteilt 10000 LP gleichmäßig unter allen bedürftigen Lebewesen in einem vom Magier bestimmten Radius (maximal 2 Meilen).
+Der Zauberer markiert Ziele in seinem Umfeld und lässt sie in einer Säule aus heiligem Licht erstrahlen. Dieses heilt jedes Ziel um 30 LP.
 
 #### Schutz
 @level 5
 @check 20
-@casttime 5AP
-@cost 120+ MP
-@range 3m
-@duration 8+ Runden
+@casttime 3AP
+@cost 36MP + 6MP pro weitere Phase
+@range Sichtweite
+@duration 10 rd
 
-Der Magier verschränkt die Arme vor der Brust, woraufhin eine hauchdünne, milchig-trübe Mauer einer gewünschten Stelle entsteht. Sie ist maximal 5x4 Schritt lang/hoch und ignoriert jeglichen Schaden. Todeskreaturen, die diese Wand berühren, erleiden 6W6 Schaden und werden zurückgestoßen. Der Magier kann die Wirkungsdauer in jeder Kampfrunde ohne Magie-Probe verlängern.
+Der Magier verschränkt die Arme vor der Brust, woraufhin eine hauchdünne, milchig-trübe, rechteckige Mauer einer gewünschten Stelle entsteht. Sie deckt maximal eine Fläche von 21 Quadrat-Schritt ab (also z.B. 2x10, 3x7, 4x5, ...) und ignoriert jeglichen Schaden. Todeskreaturen, die diese Wand berühren, erleiden 25 Schaden und werden zurückgestoßen. Der Magier kann die Wirkungsdauer nach Ablauf in jeder Kampfrunde ohne Magie-Probe und keine AP-Kosten um je eine Runde verlängern. Ist die abzudeckende Fläche kleiner als 10 Quadrat-Schritt, so sinken die Basis-MP-Kosten um die Hälfte.
 
 #### Heiliges Wort
 @level 6
-@check 20
+@check 25
 @casttime 6AP
-@cost 300MP
-@damage speziell
+@cost 96MP
+@range Umkreis um Magier bis zu 1000 Schritt
+@damage Speziell
 
-Ein anhaltender heller Glockenton breitet sich um den Magier bis in eine Meile Entfernung aus. Alle Todeskreaturen in diesem Bereich werden von einem inneren Leuchten erfasst und erleiden ohne Widerstandsprobe 12W6 SP. Bei misslungener Widerstandsprobe zerfallen sie sofort zu Staub.
+Der Magier muss in der Gunst eines Gottes stehen und in göttlicher Mission als Stimme des Gottes dienen. Ein anhaltender, heller Glockenton breitet sich um den Magier bis in eine Meile Entfernung aus. Alle Todeskreaturen in diesem Bereich werden getroffen. Niedere Todeskreaturen zerfallen ohne Widerstandsprobe zu Staub. Alle anderen werden bei einer nicht bestandenen Probe MR-3 von einem inneren Leuchten erfasst und erleiden 6W6+14 SP (RS ignoriert). Zauberer, die die Todesmagie praktizieren, erleiden bei misslungener Probe MR-3 einen Schaden in Höhe von 3W6+7 (RS ignoriert).
+
+#### Quell des Lebens
+@level 6
+@check 30
+@casttime 10h, nicht im Kampf
+@cost 192MP
+@range Variabel
+
+Das zehnstündige Ritual verteilt 100.000 LP gleichmäßig unter allen bedürftigen Lebewesen in einem vom Magier bestimmten Radius (maximal 2 Meilen). Der Magier wird durch diese immense Kanalisation von Magie ausgelaugt und kann die nächsten 14 Tage keine LP und keine MP regenerieren.
 
 
+@level 6
+@check 30
+@casttime 8 h, nicht im Kampf
+@cost 96MP
+@range Berührung
+@duration permanent
+
+Der Magier wirkt den Zauber auf ein (totes) Objekt und bestimmt ein Klima. Dieses Objekt verändert binnen drei Tagen das Klima der Umgebung in einem Umkreis von fünf Meilen. Das Objekt ist aus einer Entfernung von fünf Schritt auf magischer Sicht schwach erkennbar. Es sind keine permanenten MP notwendig.
 
 ## Todesmagie
 
 #### Furcht
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 18MP
+@cost 3MP
 @range Sichtweite
-@duration 5rd
+@duration 5 rd
 
 Die Zielkreatur wird von Furcht gepackt, und flieht oder erstarrt bis eine Mutprobe gelingt (ein Versuch pro Kampfrunde). Der Einfluss endet sofort wenn die Kreatur angegriffen wird.
 
+#### Kochendes Blut
+@level 1
+@check 18
+@casttime 1AP
+@cost 3MP
+@range Sichtweite
+@damage 1W6+2 +Blutung
+
+Es wird das Blut des Ziels zum kochen gebracht. Dadurch wird am Ziel 1W6+2 Schaden verursacht (Rüstung ignoriert). Es öffnen sich am Ziel mehrere kleine Wunden, aus denen das Ziel anfängt zu bluten. Dadurch verliert das Ziel jede Kampfrunde 1 LP, bis die Blutung behandelt wurde. Blutungen sind kumulativ.
+
+#### Krankheit
+@level 1
+@check 20 + X
+@casttime nicht im Kampf
+@cost 3MP * X
+@range Berührung
+@duration 1 h
+
+Das berührte Ziel wird mit einer Krankheit angesteckt. Der Zaubernde muss die Krankheit ausreichend kennen. Die Wirkung tritt nicht unmittelbar ein. Die Schwere der Krankheit bestimmt die Kosten und die Schwierigkeit des Zauberspruchs (SL bestimmt den Wert X). Es kann auch ein Getränk oder eine Speise mit der Krankheit verseucht werden. Zum Infizieren müssen diese innerhalb der Wirkungsdauer zu sich genommen werden, wobei dann statt einer MR-Probe eine Probe auf K>=20 durchzuführen ist. Zechen kann als Fähigkeit zur Resistenz bei dieser Probe beitragen.
+
 #### Schwäche
 @level 1
-@check 20
+@check 18
 @casttime 1AP
-@cost 25+ MP
-@range 0
-@duration 5rd
+@cost 3MP
+@range Sichtweite
+@duration 5 rd
 
-Schwächt die Zielkreatur, so dass ihre Kampffähigkeit sinkt (AT-3/PA-3) bis eine Magieresistenz-Probe gelingt. Reguläre Proben (mit Ausnahme der benötigten MR-Probe) sind um 3 erschwert.
+Schwächt die Zielkreatur, so dass ihre Kampffähigkeit sinkt: AT-1/PA-1/RF-1, zudem wird die AP Obergrenze für die Wirkungsdauer um 1 gesenkt. Reguläre Proben sind um 1 erschwert.
 
 #### Zauberknoten trennen
 @level 1
 @check 20
-@casttime 1AP
-@cost 20MP
+@casttime 1 Min, nicht im Kampf
+@cost 3MP
 @range Sichtweite
 
 Der Magier unterbricht die Bindung zwischen einem Zauberknoten und seinem Besitzer, welcher sich mit einer Magieresistenz-Probe dagegen wehren kann. Der Vorgang dauert ca. eine Minute. Gelingt die Trennung, so verliert der Besitzer die aus dem Knoten stammenden MP sofort. Bei größeren Entfernungen ist die Abwehr nach ermessen des Spielleiters erschwert.
@@ -2062,252 +2191,276 @@ Der Magier unterbricht die Bindung zwischen einem Zauberknoten und seinem Besitz
 @level 2
 @check 20
 @casttime 2AP
-@cost (Geist des Opfers) x 6 MP
-@range 0
-@duration speziell
+@cost 3xG des Ziels in MP
+@range Berührung
+@duration Speziell
 
-Die verzauberte Kreatur wird einen einfachen Befehl des Magiers ausführen. Die Machtkosten betragen 6x(G des Opfers) MP. Der Befehl darf den Verzauberten nicht in den offensichtlichen Tod führen. Die Wirkungsdauer liegt im Ermessen des Spielleiters.
+Die verzauberte Kreatur wird einen einfachen Befehl des Magiers ausführen. Die Machtkosten betragen 3x(G des Opfers) MP. Der Befehl darf den Verzauberten nicht in den offensichtlichen Tod führen. Die Wirkungsdauer liegt im Ermessen des Spielleiters.
 
 #### Dämmerung
 @level 2
 @check 20
 @casttime 2AP
-@cost 35MP
-@duration 12rd
+@cost 6MP
+@range Selbst
+@duration 10 rd
 
-Um den Magier erzeugt der Spruch einen schwarzen Schleier im Umkreis von fünf Schritt. Der Schleier bewegt sich mit dem Magier mit und bewirkt eine Stärkung von Kreaturen der Todesmagie (AT+3/PA+3) sowie eine Schwächung von Kreaturen der Lebensmagie (AT-3/PA-3). Er behindert auch die Sicht nach Ermessen des Spielleiters.
+Um den Magier erzeugt der Spruch einen schwarzen Schleier im Umkreis von fünf Schritt. Der Schleier bewegt sich mit dem Magier mit und bewirkt eine Stärkung von Kreaturen der Todesmagie (AT+1/PA+1/RF+1) sowie eine Schwächung von Kreaturen der Lebensmagie und Lebewesen im allgemeinen (AT-1/PA-1/RF-1). Er behindert auch die Sicht nach Ermessen des Spielleiters.
 
 #### Fluch
 @level 2
 @check 20
 @casttime 2AP
-@cost 30+ MP
+@cost 6MP
 @range Sichtweite
 
 Die Zielkreatur verspürt eine Verringerung seiner Fähigkeiten und erleidet eine Verringerung von -1 auf alle Würfelergebnisse (Meisterliche Würfe und Patzer ausgeschlossen). Der Fluch kann nur durch den Zauber "Entfluchen" aufgehoben werden. Kreaturen können nur ein Mal verflucht werden.
 
-#### Lebender Schatten
+#### Lebensentzug
 @level 2
 @check 20
 @casttime 2AP
-@cost 30+ MP
-@duration 1+ Runde
+@cost 6MP
+@range Sichtweite
+@damage 2W6+2
 
-Der Schatten des Magiers nimmt eine eigene Gestalt an, richtet sich auf die Größe seines Beschwörers auf, und wird zu einer magischen Schattenkreatur nach dessen Werte-Abbild (d.h. alle PM/ES/AT sind identisch). Als LP und AP werden die Maximalwerte des Magiers übernommen und separat geführt. Der Schatten ist waffenlos und kann nicht zaubern. Er kostet pro Kampfrunde 5MP Erhaltung oder vergeht.
+Der Zauber greift das Vitalsystem des Ziels an. Dazu muss das Ziel ein Lebewesen sein. Das Ziel erleidet 2W6+2 Schaden (Rüstung ignoriert). Die Hälfte des zugefügten Schadens (abgerundet) erhält der Zauberwirker als Lebenspunkte hinzu. Die maximalen LP können dabei nicht überschritten werden. Bei tödlichem Schaden wird auch nur die Hälfte des Schadens als LP zurückgeführt, die benötigt worden sind, um das Ziel auf 0 LP zu bringen. Bei häufiger Anwendung kann sich bei der wirkenden Person eine Form von Vampirismus entwickeln.
 
 #### Mutation
 @level 2
 @check 20
 @casttime 2AP
-@cost 35+ MP
-@range 0
-@duration 12rd
+@cost 6MP pro Eigenschaft
+@range Berührung
+@duration 10 rd
 
-Der Verzauberte bekommt teilweise ein dämonisches Äußeres. Der Magier bestimmt durch die Menge investierter MP wie stark die Ausprägungen und Effekte sind:
-	(20MP) Klauenwuchs: Waffenlos AT+3/PA+3, Schaden+1W6.
-	(30MP) Dämonische Haut: RS+4 am ganzen Körper.
-	(40MP) Dämonische Flügel: Flugfähigkeit.
+Der Verzauberte bekommt teilweise ein dämonisches Äußeres. Der Magier bestimmt durch die Menge investierter MP wie stark die Ausprägungen und Effekte sind. 1. Stufe Klauenwuchs: Waffenlos AT+3/PA+3, Schaden: 1W6+6. 2. Stufe Dämonische Haut: RS+4 am ganzen Körper. 3.Stufe Dämonische Flügel: Flugfähigkeit.
 
 #### Nachtsicht
 @level 2
 @check 20
 @casttime 2AP
-@cost 30MP
-@range 0
-@duration bis zum nächsten Sonnenaufgang
+@cost 6MP
+@range Berührung
+@duration 2 h
 
-Der Verzauberte erhält bis zum nächsten Sonnenaufgang die Fähigkeit, auch bei absoluter Dunkelheit ohne Einschränkung zu sehen.
+GGF. VERSCHIEBEN NACH NEUTRALMAGIE? Das Ziel erhält die Fähigkeit, auch bei absoluter Dunkelheit ohne Einschränkung zu sehen. Starkes Licht blendet es allerdings besonders stark.
 
 #### Schwarzer Schlaf
 @level 2
 @check 20
 @casttime 2AP
-@cost 30+ MP
+@cost 6MP
 @range Sichtweite
+@duration 10 rd
 
-Eine kleine schwarze Kugel löst sich von der Fingerspitze des Magiers und fliegt wie ein Projektil zur Zielkreatur. Diese fällt in einen Schlaf bis ihr eine Widerstandsprobe gelingt oder sie durch äußere Einflüsse geweckt wird. Die Widerstandsprobe kann pro Kampfrunde ein Mal wiederholt werden.
+Eine kleine schwarze Kugel löst sich von der Fingerspitze des Magiers und fliegt wie ein Projektil zur Zielkreatur. Diese fällt in einen ruhelosen Schlaf. Sie erwacht vorzeitig, wenn sie durch äußere Einflüsse geweckt wird.
 
 #### Totenstille
 @level 2
 @check 20
 @casttime 2AP
-@cost 25MP
-@duration 7rd
+@cost 6MP
+@range Berührung
+@duration 10 rd
 
-Der Spruch absorbiert für 7 Kampfrunden jedes Geräusch im Umkreis von fünf Schritt um den Magier selbst oder einen Gegenstand, den der Magier mit dem Zauber belegt.
+Der Spruch absorbiert für 10 Kampfrunden jedes Geräusch im Umkreis von fünf Schritt um den Magier selbst oder einen Gegenstand, den der Magier mit dem Zauber belegt.
 
 #### Alptraum
 @level 3
 @check 20
 @casttime 3AP
-@cost 45+ MP
-@range 0
-@duration speziell
+@cost 12MP
+@range Blickkontakt
+@duration Speziell
 
-Der Magier blickt der Zielperson in die Augen, welche beim Schlafen eine Serie von Alpträumen durchlebt wird und nicht zur Ruhe kommt. Dadurch regeneriert sie nicht (LP/MP/AP). Vor dem Schlafen wird entscheidet eine Widerstandsprobe ob die Alpträume enden. Diese Probe wird pro Nacht um 2 leichter.
+Der Magier blickt der Zielperson in die Augen, welche im Unterbewusstsein Alpträume eingepflanzt bekommt. Beim Schlafen werden diese durchlebt und das Ziel kommt nicht zur Ruhe. Dadurch regeneriert sie nicht (LP/MP) und die max. AP werden am Folgetag um 1 gesenkt. Nach jeder durchlebten Nacht kann eine MR-Probe abgelegt werden, um die Alpträume enden. Diese Probe wird pro Nacht um 2 leichter.
 
 #### Dunkles Ritual
 @level 3
 @check 20
-@casttime 3AP
-@cost 4MP
-@range 0
-@duration speziell
-Der Magier schneidet oder ritzt Runen der Todesmagie in ein Lebewesen, deren Wunden augenblicklich vernarben. Er gewinnt dadurch MP in Höhe der erlittenen LP des Opfers. Das Ritual funktioniert auch am eigenen Körper.
+@casttime 2AP + Angriff
+@cost 0MP
+@range Berührung
 
-#### Erinnerung auslöschen
+Der Magier schneidet oder ritzt Runen der Todesmagie in ein Lebewesen, deren Wunden augenblicklich vernarben. Der Einsatz einer leichten Klingen-Waffe oder ähnliches (z.B. Klaue) ist notwendig, um die Verletzung hinzuzufügen. Er gewinnt doppelte MP der erlittenen LP des Opfers hinzu. Das Ritual funktioniert auch am eigenen Körper.
+
+#### Erinnerung löschen
 @level 3
 @check 20
-@casttime 3AP
-@cost 25+ MP
-@range 0
+@casttime nicht im Kampf
+@cost 12MP pro zurückliegender Tag
+@range Blickkontakt
+@duration Permanent
 
-Die Zielkreatur kann sich im Nachhinein nicht an Ereignisse seit Wirken des Spruchs erinnern und bemerkt diese Lücke nicht ohne fremde Hilfe. Pro Tag Erinnerungsverlust muss der Magier beim Sprechen des Zaubers 10MP investieren.
+Die Zielkreatur kann sich nicht an die letzten Ereignisse seit Wirken des Spruchs erinnern und bemerkt diese Lücke nicht ohne fremde Hilfe. Pro Tag Erinnerungsverlust muss der Magier beim Sprechen des Zaubers 12MP investieren.
 
 #### Fäulnis
 @level 3
 @check 20
 @casttime 3AP
-@cost 40MP
-@range 0
-@duration 12h
+@cost 12MP
+@range Berührung
+@duration 24 h
 
 Die Zielperson haftet der Geruch von faulendem Fleisch an, was bei den meisten Rassen zu Problemen im sozialen Umfeld führt. Die genauen Auswirkungen bestimmt der Spielleiter situationsabhängig.
+
+#### Lebender Schatten
+@level 3
+@check 20
+@casttime 3AP
+@cost 12MP
+@range Selbst
+@duration 15 rd
+
+Der Schatten des Magiers nimmt eine eigene Gestalt an, richtet sich auf die Größe seines Beschwörers auf, und wird zu einer magischen Schattenkreatur nach dessen Werte-Abbild (d.h. alle PM/ES/AT sind identisch). Als LP und AP werden die Maximalwerte des Magiers übernommen und separat geführt. Der Schatten ist waffenlos und kann nicht zaubern. Er kostet pro Kampfrunde 2MP Erhaltung oder vergeht.
 
 #### Lebensverzehrung
 @level 3
 @check 20
 @casttime 3AP
-@cost 37+ MP
-@range 3m
-@damage speziell
+@cost 12MP
+@range Sichtweite
+@damage 3x 1W6+3
 
-Der Magier entzieht seinem Ziel Lebensenergie in der Höhe 2W6. Stirbt die Zielkreatur dabei, so steht es fortan als Zombie unter seiner Kontrolle.
+Der Magier entzieht bis zu 3 Zielen Lebensenergie in der Höhe von jeweils 1W6+3 (Rüstung wird ignoriert). Stirbt eine Zielkreatur dabei, so steht bei einem erfolgreichen Zufallswurf W20>17 das Ziel fortan als Zombie unter der Kontrolle. Spieler-Charakteren ist ein Rettungswurf W20<=MR dagegen erlaubt, um nicht als Zombie wiedererweckt zu werden. Zombifizierte Charaktere können nicht mehr wiederbelebt werden!
 
 #### Schwarze Kanäle
 @level 3
 @check 20
-@casttime 3AP
-@cost 60MP
-@range 0
+@casttime 1 h, nicht im Kampf
+@cost 12MP
+@range Berührung
+@duration Permanent
 
-Während eines Zauberrituals, das eine halbe Stunde andauert, transformiert der Magier eine Zielkreatur in eine untote Kreatur der Todesmagie. Diese Kreatur ist ist immun gegen Gifte, Krankheiten und Versteinerung, aber unheilbar und regeneriert nicht. Ihre Werte ändern sich um AT+2, PA-1, MR+1, RS+1.
+Während eines Zauberrituals, das eine Stunde andauert, transformiert der Magier eine Zielkreatur in eine untote Kreatur der Todesmagie. Diese Kreatur ist ist immun gegen Gifte, Krankheiten, Furcht oder Versteinerung. Sie regeneriert LP nicht mehr auf natürlichem Wege. Ihre Werte werden um AT+1, PA+1, MR+1, RS+1.
 
 #### Dunkle Pforte
 @level 4
 @check 20
-@casttime 4AP
-@cost 70MP
+@casttime 3AP
+@cost 24MP
 @range Sichtweite
-@damage speziell
-@duration 20 Runden
+@duration 6 rd
+@damage 2W6+3 (RS ign.) pro Blitz
 
-Eine Pforte in das Dämonenreich, aus der Energieblitze schießen, öffnet sich zu Beginn der nächsten Kampfrunde. Für 5 Runden wird jede Kreatur in einem Radius von 5 Schritt von einem Blitz getroffen, wenn ein Zufallswurf 1W6>3 ergibt. Der daraus folgende Schaden ist 2W6 ohne Rüstung oder Resistenz-Probe. Hohe Probewürfe beim Sprechen des Zaubers vergrößern die Pforte nach Ermessen des Spielleiters.
+Eine Pforte in das Dämonenreich, aus der Energieblitze schießen, öffnet sich zu Beginn der nächsten Kampfrunde. Für 5 Runden wird jede Kreatur in Sichtlinie in einem Radius von 5 Schritt von einem Blitz getroffen, wenn ein Zufallswurf 1W6>3 ergibt. Der daraus folgende Schaden ist 2W6+3 (Rüstung ignoriert), wenn eine MR-Probe fehlschlägt. Es besteht die Gefahr, durch das Portal zu fallen und in der Dämonenwelt verschollen zu gehen.
 
 #### Geister befragen
 @level 4
 @check 20
-@casttime 4AP
-@cost 110MP
-@range Hörweite
-@duration 5min
+@casttime nicht im Kampf
+@cost 24MP
+@range Sichtweite
+@duration 15 Min
 
-Der Spruch beschwört einen ein Geist, für Kampfhandlungen oder Tätigkeiten nicht dient, jedoch für Informationen befragt werden kann. Da normalerweise ein zufälliger Geist beschworen wird können Kenntnisse in Fremdsprachen relevant sein.
+Der Spruch beschwört einen ein Geist, der für Kampfhandlungen oder Tätigkeiten nicht dient, jedoch für Informationen befragt werden kann. Da normalerweise ein zufälliger Geist beschworen wird (Örtlichkeit, an dem der Spruch gewirkt wird spielt eine Rolle), können ggf. Kenntnisse in Fremdsprachen relevant sein.
 
 #### Lebensdiebstahl
 @level 4
 @check 20
-@casttime 4AP
-@cost 90MP
-@range 0
-@duration 8rd
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 5 rd
+@damage 1W6+4 pro rd
 
-Verzaubert eine Waffe, die dann beim Angreifen dem Gegner die Hälfte des angerichteten Schadens stiehlt. Wenn der Schaden für den Gegner wird beim Angriff normal berechnet (mit Rüstungsabzug) wird zu -SP, so erhält der Angreifer abgerundet +SP/2 hinzu. Der Spruch wirkt für 8 Kampfrunden, und die Waffe kann weitergereicht werden.
+Der Zauberer wählt zwei Ziele. Dabei ist das eine Ziel der Lebensspender und das andere der Lebensempfänger. Beide können, wenn von ihnen gewollt, eine MR-Probe ablegen. Jede Runde erleidet der Spender 1W6+4 Schaden, während der Empfänger diese dazu erhält (RS ignoriert). Stirbt eins der Ziele, endet der Zauber vorzeitig.
 
 #### Lykanthropie
 @level 4
 @check 20
-@casttime 4AP
-@cost 100MP
-@range 0
+@casttime 3AP
+@cost 24MP
+@range Berührung
 
-Eine Zielkreatur wird während des einminütigen Rituals in ein Wer-Phänomen gewandelt gilt fortan als Wer-Wesen.
+Das Ziel wird in ein Wer-Phänomen gewandelt und gilt fortan als Wer-Wesen.
+
+#### Schwarzes Feuer
+@level 4
+@check 20
+@casttime 3AP
+@cost 24MP
+@range Berührung
+@duration 20 rd
+@damage 2W6+3 (RS ign.) pro rd
+
+Die Hand des Zauberers oder eine beliebige Nahkampf-Waffe wird durch den Spruch von einer schwarzen Flamme überzogen. Diese strahlen eine unnatürliche Kälte aus. Angriffe damit zählen für die Zauberdauer als Angriffe mit einer magische Waffe, Rüstung wird ignoriert. Bei Treffern (auch an Waffen oder Schilden beim Parieren) schlagen die schwarzen Flammen über. Alles, was getroffen wird, bekommt seine Ur-Substanz entzogen und altert unter den Flammen binnen Sekunden. Die schwarzen Flammen breiten sich auf getroffenen Stellen aus und verzehren das getroffene Gewebe nach und nach. Diese Flammen können nur mit einem Heilzauber (Probe muss größer als Erfolgswert von Schwarzes Feuer sein) oder geweihtem Wasser gelöscht werden. Nach Ende der Wirkungsdauer versiegen die Flammen. Sobald Körperteile getroffen werden, verursachen die Flammen übernatürliche Schmerzen und zusätzlich 2W6+3 Schaden jede Runde. Sie zersetzen das getroffene Körperteil innerhalb von 3 Runden und breiten sich auf dem Körper weiter aus. Es wird immer von einem Treffer an den Gliedmaßen ausgegangen. Dabei wird bei einem Armtreffer wie folgt vorgegangen: Hand, Unterarm, Oberarm. Beintreffer analog. Eine rechtzeitige Amputation kann die Ausbreitung über den restlichen Körper verhindern. Die Schmerzen erfordern jede Runde eine MU+2 Probe, um gezielte, andere Handlungen als das Löschen des Feuers durchführen zu können. Schlägt das Feuer auf den Torso über, so stirbt das Ziel nach 6 weiteren Runden.
 
 #### Tote befragen
 @level 4
 @check 20
-@casttime 4AP
-@cost 60+ MP
-@range 0
-@duration 5min
+@casttime nicht im Kampf
+@cost 24MP
+@range Sichtweite
 
-Der Spruch ermöglicht die magische Verständigung zwischen dem Magier und der Seele vorliegenden Leiche. Die Kommunikation ist rein gedanklich, vertraulich, und unabhängig von Sprachkenntnissen. Nach Ermessen des Spielleiters kann es bei größeren Unterschieden im Intellekt jedoch zu Verständnisschwierigkeiten kommen.
+Der Spruch ermöglicht die magische Verständigung zwischen dem Magier und der Seele vorliegenden Leiche. Die Kommunikation ist rein gedanklich, vertraulich, und unabhängig von Sprachkenntnissen. Nach Ermessen des Spielleiters kann es bei größeren Unterschieden im Intellekt jedoch zu Verständnisschwierigkeiten kommen. Auch wenn der Austausch wie eine längere Diskussion vorkommt, so benötigt sie in der Realität nur einen kurzen Augenblick.
 
-#### Erweckung der Toten
+#### Erweckung von Toten
 @level 4
 @check 20
-@casttime 4AP
-@cost 80MP
-@range 3m
+@casttime 5 Min, nicht im Kampf
+@cost 24MP
+@range Berührung
 
 Erweckt in einem fünfminütigen Ritual eine vorliegende Leiche zu einer Zombie-Kreatur. Ihre Werte richten sich nach den Werten zu Lebzeiten.
 
 #### Entschaffen
 @level 5
 @check 20
-@casttime 5AP
-@cost speziell
-@range Berührung
-@damage speziell
-@duration speziell
+@casttime 3AP + 1AP pro weitere rd, bis AP leer oder Ziel verschwunden
+@cost 48MP
+@range Sichtweite
+@damage 30
 
-Schadet der Zielkreatur für 5 Kampfrunden 2W6 und lässt sie währenddessen irreal verblassen. Sinken die LP des Ziels auf 0, so verschwindet es unwiederbringlich. Der Zauber muss ohne Unterbrechung aufrecht erhalten werden.
+Fügt dem Ziel je Kampfrunde 30 SP (RS ignoriert) zu und lässt es währenddessen irreal verblassen. Sinken die LP des Ziels auf 0, so verschwindet es unwiederbringlich. Der Zauber muss ohne Unterbrechung aufrecht erhalten werden.
 
 #### Schwarzer Wind
 @level 5
 @check 20
-@casttime 5AP
-@cost 160MP
-@range Sichtweite
-@damage speziell
+@casttime 3AP
+@cost 48MP
+@range Sichtfeld
+@damage Speziell
 
-Das Sichtfeld des Magiers wird von einem schwarzen Windstoß überzogen. Alle Lebewesen, die dieser Wind erfasst, werden von dämonischen Fratzen durchströmt und verlieren die Hälfte ihrer LP falls ihnen keine Widerstandsprobe gelingt. Überlebende verlieren ein Zehntel ihrer momentanen LP.
+Das Sichtfeld (ca. 120°) des Magiers wird von einem schwarzen Windstoß überzogen. Alle Lebewesen, die dieser Wind erfasst, werden von dämonischen Fratzen durchströmt und verlieren die Hälfte ihrer maximalen LP, falls ihnen keine Widerstandsprobe gelingt. Überlebende verlieren - bis sie magisch geheilt werden - ein Zehntel ihrer maximalen LP.
 
 #### Seelentausch
 @level 5
-@check 20
-@casttime 5AP
-@cost 100+ MP
-@range 0
-@duration 1d
+@check 25
+@casttime 8 h, nicht im Kampf
+@cost 48MP
+@range Berührung
+@duration 7 Tage
 
-In einem langen Ritual fährt der Magier mit seiner Seele in den Körper der berührten Kreatur, und deren Seele in seinen Körper. Dabei werden die Persönlichkeitsmerkmale C, I, G, B, sowie die Eigenschaften WK, MN, KE, WI, MA, IN und WA vertauscht.
+In einem langen Ritual fährt der Magier mit seiner Seele in den Körper der berührten Kreatur, und deren Seele in seinen Körper. Jede Stunde kann des Ziel eine MR-Probe ablegen, um das Ritual um 1 h zu verlängern, wenn erfolgreich. Dauert das Ritual länger als 24 h, so scheitert es und kann mit diesem Ziel nicht mehr durchgeführt werden. Findet der Seelentausch statt, werden die Persönlichkeitsmerkmale C, I, G, B, sowie die Eigenschaften WK, MN, WI, KE, WI, IN und WA vertauscht. Stirbt einer der Körper nach dem Seelentausch, bevor die Zauberwirkung abgeklungen ist und die Seelen zurückwandern konnten, so kann die Seele nicht mehr zurück und bleibt fortan in dem neuen Körper.
 
 #### Alterung
 @level 6
-@check 20
-@casttime 6AP
-@cost 200+ MP
+@check 25
+@casttime 4AP
+@cost 48MP pro 10%
 @range Sichtweite
+@duration Permanent bis geheilt
 
-Die Zielkreatur altert schlagartig, wobei jedes Jahr den Magier 8MP kostet. Diese Alterung ist auf magischem Wege umkehrbar.
+Die Zielkreatur altert schlagartig um 10% der Lebenserwartung seine Rasse. Jede weitere 10% kosten den Magier weitere 48MP. Diese Alterung ist auf magischem Wege umkehrbar (Lebensmagie-Zauber „Wiederherstellung“ angewandt pro 10% verlorener Lebenszeit oder im Wirkungsbereich des Zaubers „Quell des Lebens“ sein).
 
 #### Tod
 @level 6
-@check 20
+@check 30
 @casttime 6AP
-@cost 180+ MP
+@cost 96MP
 @range Sichtweite
-@damage speziell
 
-Die Zielkreatur stirbt sofort, falls ihm von zwei Widerstandsproben keine gelingt.
+Die Zielkreatur stirbt sofort, falls ihm von zwei Widerstandsproben +2 keine gelingt. Die Anwendung dieses Zauberspruchs hat auch gravierende Auswirkungen auf den Zaubernden selbst. Dieser hat eine große Chance, sich in einen Lich zu verwandeln.
 
 #### Zeit anhalten
 @level 6
-@check 20
-@casttime 6AP
-@cost 250MP
-@duration speziell
+@check 30
+@casttime 1AP
+@cost 96MP
+@range Selbst
+@duration 10 rd
 
 Der einzige, der sich während des Wirkungszeitraums im gesamten Universum bewegt, ist der Zauberer selbst. Weitere Auswirkungen dieses Eingriffs in den Zeitfluss liegen im Ermessen des Spielleiters. Götter sehen das nicht gerne, so viel sei bereits gesagt.
 
