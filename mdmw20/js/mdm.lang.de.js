@@ -67,7 +67,7 @@
     "human": [ "Mensch", "Menschliche Person ohne spezielle kulturelle oder körperliche Ausprägung." ],
     "dwarf": [ "Zwerg", "Zwergische Person ohne spezielle kulturelle oder körperliche Ausprägung." ],
     "elf": [ "Elf", "Elvische Person ohne spezielle kulturelle oder körperliche Ausprägung." ],
-    "orc": [ "Orc", "Orcische Person ohne spezielle kulturelle oder körperliche Ausprägung." ],
+    "orc": [ "Ork", "Orkische Person ohne spezielle kulturelle oder körperliche Ausprägung." ],
     "goblin": [ "Goblin", "Normaler Goblin ohne spezielle kulturelle oder körperliche Ausprägung." ],
     "human-midland" : [ "Mittelländer", "Mensch aus dem Mittelreich." ],
     "human-northland": [ "Nordländer", "Mensch aus den Nordlanden." ],
@@ -84,7 +84,7 @@
     "half-elf" : [ "Halbelf", "Mensch-Elf Mischling" ],
     "half-goblin" : [ "Halbgoblin", "Mensch-Goblin Mischling" ],
     "half-ogre" : [ "Halboger", "Mensch-Oger Mischling. Ja das geht auch." ],
-    "half-orc" : [ "Halborc", "Mensch-Orc Mischling" ],
+    "half-orc" : [ "Halbork", "Mensch-Ork Mischling" ],
     // Weapon skills / AT-listed weapon skills
     "melee-heavy": [ "Schwere Nahkampfwaffen", "Führung großer und schwerer Waffen, die zum Führen in erster Linie Kraft benötigen: Langschwerter, Breitäxte, Langäxte, Kriegshämmer, Morgensterne, oder Lanzen." ],
     "melee-medium": [ "Mittlere Nahkampfwaffen", "Führung von Waffen, für die sowohl Kraft als auch Wendigkeit benötigt wird: Kurzschwerter, Beile, Speere, Klingen-Stäbe, Sensen, usw." ],

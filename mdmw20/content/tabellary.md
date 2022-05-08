@@ -3520,7 +3520,7 @@ Diese seltsamen Wesen sehen aus wie sehr große Gottesanbeterin. Ihr ovaler Kopf
 
 Diese ca. 4 Schritt hohen eleganten Segler der Lüfte besitzen eine Spannweite von bis zu 15 Schritt. Die wenigen Riesenadler werden seit Generationen von Tiermeistern aufgezogen und dem hohen Jedek-Orden des Mittelreiches als Reittier zur Verfügung gestellt. Diese haben den Adler in ihr Kultsymbol einfließen lassen und wachen ähnlich wie die Adler eben über Recht und Ordnung. Durch jahrelanges Trainieren mit einem persönlichen Tier ist sogar der Lanzenkampf auf diesen Wesen möglich. Ein Riesenadler benötigt die starken Aufwinde der Hänge des großen Rückens um mit einem Reiter sich in die Lüfte zu erheben. Anders geht es zwar auch, sieht aber eher auch wie ein tollpatschiger Schwan und kostet das Tier unglaublich viel Kraft.
 
-Die Rocs sind eine Adlersorte, die ohne Schwierigkeiten in größeren Gruppen zusammen angreifen können. Diese "Himmelswölfe" sind eine echte Bedrohung für die Orcs der Ebene. glücklicherweise halten sie sich aufgrund der günstigen Winde ebenfalls hauptsächlich am Sichelgebirge aus. Goblins sind für diese Wesen keine lohnende Beute, daher gibt es hier neben den Rocs zahlreiche Goblins
+Die Rocs sind eine Adlersorte, die ohne Schwierigkeiten in größeren Gruppen zusammen angreifen können. Diese "Himmelswölfe" sind eine echte Bedrohung für die Orks der Ebene. glücklicherweise halten sie sich aufgrund der günstigen Winde ebenfalls hauptsächlich am Sichelgebirge aus. Goblins sind für diese Wesen keine lohnende Beute, daher gibt es hier neben den Rocs zahlreiche Goblins
 
 #### Tarnoks
 @presence Einige - Ge/Tu
@@ -3529,7 +3529,7 @@ Die Rocs sind eine Adlersorte, die ohne Schwierigkeiten in größeren Gruppen zu
 @w6attack Hufe: BS:2-2 ZS:24 STAB:5
 @w6capabilities Tierhafte Intelligenz.
 
-Tarnoks stammen ursprünglich von den normalen Stieren ab haben sich aber im laufe der Zeit durch das leben in den Bergen sehr verändert. Ihr Fell ist wesentlich zotteliger und die Hufe breiter geworden außerdem haben sie um auch an steilen Berghängen noch schnell voran zu kommen einen wesentlich agileren Körperbau und stark ausgeprägte Vorderbeine. Sie werden mit vorliebe von den Orcs und Halborcs als Reittier benutzt, in schlachten werden ihre Hörner mit Metallmanschetten verstärkt und der Körper durch einen Lederpanzer geschützt. Wenn erst mal das innere Feuer des Tarnok entfacht ist sollte man sich schnellstens in Sicherheit bringen um nicht mit dem Temperament seiner Hörner Bekanntschaft zu machen.
+Tarnoks stammen ursprünglich von den normalen Stieren ab haben sich aber im laufe der Zeit durch das leben in den Bergen sehr verändert. Ihr Fell ist wesentlich zotteliger und die Hufe breiter geworden außerdem haben sie um auch an steilen Berghängen noch schnell voran zu kommen einen wesentlich agileren Körperbau und stark ausgeprägte Vorderbeine. Sie werden mit vorliebe von den Orks und Halborks als Reittier benutzt, in schlachten werden ihre Hörner mit Metallmanschetten verstärkt und der Körper durch einen Lederpanzer geschützt. Wenn erst mal das innere Feuer des Tarnok entfacht ist sollte man sich schnellstens in Sicherheit bringen um nicht mit dem Temperament seiner Hörner Bekanntschaft zu machen.
 
 #### Worrag
 @presence Einzeln - Tu/Ar
@@ -3539,7 +3539,7 @@ Tarnoks stammen ursprünglich von den normalen Stieren ab haben sich aber im lau
 @w6attack Pranken: BS:5-5 ZS:20
 @w6capabilities Durchschnittliche Intelligenz.
 
-Der selten gewordene Worrag ist ein riesiger Wolf, mit den ausmaßen eines Stieres. Das äußerst intelligente Tier ist, wenn es einwilligt, zuzureiten. Worrags sind im Gegensatz zu ihren kleineren Artgenossen, den Wölfen, Einzelgänger. Lediglich die abgeschiedensten Anhänger der Nordländer haben es überhaupt geschafft diese stolzen Tiere zu bändigen. Ähnlich wie bei den Nordländern hassen die Worrags alle Orc, oder Orc-ähnliche Wesen und zögern nicht diese ohne Vorwarnung anzugreifen. Allgemein gilt der Worrag als derart gefährlich, dass einem Reiter der Zugang in ein Dorf schlicht verweigert wird; zusätzlich meiden die Worrag wenn immer möglich von Menschen besiedeltes Gebiet.
+Der selten gewordene Worrag ist ein riesiger Wolf, mit den ausmaßen eines Stieres. Das äußerst intelligente Tier ist, wenn es einwilligt, zuzureiten. Worrags sind im Gegensatz zu ihren kleineren Artgenossen, den Wölfen, Einzelgänger. Lediglich die abgeschiedensten Anhänger der Nordländer haben es überhaupt geschafft diese stolzen Tiere zu bändigen. Ähnlich wie bei den Nordländern hassen die Worrags alle Ork, oder Ork-ähnliche Wesen und zögern nicht diese ohne Vorwarnung anzugreifen. Allgemein gilt der Worrag als derart gefährlich, dass einem Reiter der Zugang in ein Dorf schlicht verweigert wird; zusätzlich meiden die Worrag wenn immer möglich von Menschen besiedeltes Gebiet.
 
 #### Wollnashorn
 @presence Einige - Ge/Tu/Ar
@@ -3816,7 +3816,7 @@ Der Raggji ist ein 2.6 Schritt hoher und träge flugfähiger Stelzvogel. Er komm
 @w6attack Krallen: BS:2-2 ZS:24 STAB:5
 @w6attack Biss: BS:2-2 ZS:24 STAB:5
 
-Diese Hunds-ähnlichen Wesen besitzen eine ledrige Flügelspannweite von bis zu 3 Schritt, ein unglaublich hässliches Aussehen und neben scharfen Krallen, ebenso scharfen Zähnen auch noch ein Stimmorgan, dass ohrenbetäubend ist. Der "Kreischer" bewohnt einzeln stehende Bäume in dem weiten Hügelland und geht von dort aus auf Beutefang. In großen Rudeln steigert sich das kreischen bis es wie ein Zauber Sturmgebrüll bei einem Opfer Schaden verursacht. Dies ist dem "Kreischer" allerdings wegen seiner niedrigen Intelligenz gar nicht bewusst, sodass er sich auf seine Krallen und Zähne verlässt. Sinkt die Zahl der Kreischer auf unter 10, so verursacht der Lärm keine SP mehr, sinkt die Anzahl auf unter 6 fliehen sie für gewöhnlich. Wegen ihres Nervösen Gemütes werden sie von den Orcs gerne als Tempelwachen oder vorgezogene (angekettete) Wachposten genutzt.
+Diese Hunds-ähnlichen Wesen besitzen eine ledrige Flügelspannweite von bis zu 3 Schritt, ein unglaublich hässliches Aussehen und neben scharfen Krallen, ebenso scharfen Zähnen auch noch ein Stimmorgan, dass ohrenbetäubend ist. Der "Kreischer" bewohnt einzeln stehende Bäume in dem weiten Hügelland und geht von dort aus auf Beutefang. In großen Rudeln steigert sich das kreischen bis es wie ein Zauber Sturmgebrüll bei einem Opfer Schaden verursacht. Dies ist dem "Kreischer" allerdings wegen seiner niedrigen Intelligenz gar nicht bewusst, sodass er sich auf seine Krallen und Zähne verlässt. Sinkt die Zahl der Kreischer auf unter 10, so verursacht der Lärm keine SP mehr, sinkt die Anzahl auf unter 6 fliehen sie für gewöhnlich. Wegen ihres Nervösen Gemütes werden sie von den Orks gerne als Tempelwachen oder vorgezogene (angekettete) Wachposten genutzt.
 
 #### Premmelquast
 @w6attributes LP:8 KW:10 RF:3 HN:1 AB:6 MR:3
